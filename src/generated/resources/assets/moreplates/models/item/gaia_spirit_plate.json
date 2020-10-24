@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moreplates:item/botania/gaia_spirit_plate"
+  }
+}

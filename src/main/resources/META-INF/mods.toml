@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+
+issueTrackerURL="http://my.issue.tracker/" #TODO
+
+[[mods]]
+    modId="moreplates"
+    version="${file.jarVersion}"
+    displayName="More Plates"
+    # updateJSONURL="http://myurl.me/"
+    # displayURL="http://example.com/"
+    logoFile="moreplates.png"
+    credits="Huge thanks to PanSzelescik for making this mod"
+    authors="MostafaSabry55"
+    description='''
+    This mod adds more plates, gears and rods to many materials!
+    '''
+
+[[dependencies.moreplates]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.moreplates]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
