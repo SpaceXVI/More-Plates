@@ -21,5 +21,13 @@ build
 eclipse
 run
 
+#minecraft
+.mixin.out/
+config/
+crash-reports/
+logs/
+saves/
+.txt
+
 # Files from Forge MDK
 forge*changelog.txt
