@@ -22,11 +22,11 @@ eclipse
 run
 
 #minecraft
-.mixin.out/
-config/
-crash-reports/
-logs/
-saves/
+.mixin.out
+config
+crash-reports
+logs
+saves
 .txt
 
 # Files from Forge MDK
