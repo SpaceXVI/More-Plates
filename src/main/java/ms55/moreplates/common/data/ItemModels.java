@@ -6,7 +6,10 @@ import ms55.moreplates.common.plugin.PluginAllTheModium;
 import ms55.moreplates.common.plugin.PluginAppliedEnergistics2;
 import ms55.moreplates.common.plugin.PluginBotania;
 import ms55.moreplates.common.plugin.PluginExtendedCrafting;
+import ms55.moreplates.common.plugin.PluginMekanism;
 import ms55.moreplates.common.plugin.PluginMinecraft;
+import ms55.moreplates.common.plugin.PluginMysticalAgradditions;
+import ms55.moreplates.common.plugin.PluginMysticalAgriculture;
 import ms55.moreplates.common.plugin.PluginRefinedStorage;
 import ms55.moreplates.common.util.Groups;
 import net.minecraft.data.DataGenerator;
@@ -55,6 +58,26 @@ public class ItemModels extends ItemModelProvider {
 						break;
 					}
 				}
+				
+				if (i < Groups.mekanism.length) {
+					if (Groups.mekanism[i] == material) {
+						registry(material, PluginMekanism.modid);
+						break;
+					}
+				}
+				
+				if (EnumMaterials.INSANIUM == material) {
+					registry(material, PluginMysticalAgradditions.modid);
+					break;
+				}
+				
+				if (i < Groups.mysticalagriculture.length) {
+					if (Groups.mysticalagriculture[i] == material) {
+						registry(material, PluginMysticalAgriculture.modid);
+						break;
+					}
+				}
+				
 				if (EnumMaterials.QUARTZ_ENRICHED_IRON == material) {
 					registry(material, PluginRefinedStorage.modid);
 					break;

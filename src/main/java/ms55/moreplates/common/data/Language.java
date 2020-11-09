@@ -12,6 +12,14 @@ public class Language extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+    	add("itemGroup.moreplates", "More Plates");
+    	add("moreplates.hammer_durability", "Hammer Durability");
+    	add("moreplates.enable_gear", "Enable Gear");
+    	add("moreplates.enable_plate", "Enable Plate");
+    	add("moreplates.enable_rod", "Enable Rod");
+    	add("item.moreplates.hammer", "Hammer");
+    	add("item.moreplates.iron_stick", "Iron Rod");
+    	add("item.moreplates.gold_stick", "Gold Rod");
     	for (EnumMaterials material : EnumMaterials.values()) {
 			for (int i = 0; i < 2; i++) {
 				if (i == 0) {

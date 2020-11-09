@@ -5,6 +5,7 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.CHARCOAL;
 import static ms55.moreplates.common.enumeration.EnumMaterials.COAL;
 import static ms55.moreplates.common.enumeration.EnumMaterials.DIAMOND;
 import static ms55.moreplates.common.enumeration.EnumMaterials.EMERALD;
+import static ms55.moreplates.common.enumeration.EnumMaterials.FLINT;
 import static ms55.moreplates.common.enumeration.EnumMaterials.GLOWSTONE;
 import static ms55.moreplates.common.enumeration.EnumMaterials.GOLD;
 import static ms55.moreplates.common.enumeration.EnumMaterials.IRON;
@@ -29,6 +30,7 @@ public class PluginMinecraft extends PluginHelper {
 		reg(COAL);
 		reg(DIAMOND);
 		reg(EMERALD);
+		reg(FLINT);
 		reg(GLOWSTONE);
 		reg(GOLD);
         regStick(GOLD);

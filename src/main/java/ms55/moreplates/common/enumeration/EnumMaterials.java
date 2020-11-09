@@ -12,6 +12,7 @@ public enum EnumMaterials {
     COAL("Coal", new ResourceLocation("coal")),
     DIAMOND("Diamond", new ResourceLocation("forge:gems/diamond"), Type.GEM),
     EMERALD("Emerald", new ResourceLocation("forge:gems/emerald"), Type.GEM),
+    FLINT("Flint", new ResourceLocation("flint")),
     GLOWSTONE("Glowstone", new ResourceLocation("forge:dusts/glowstone"), Type.DUST),
     GOLD("Gold", new ResourceLocation("forge:ingots/gold")),
 	IRON("Iron", new ResourceLocation("forge:ingots/iron")),
@@ -31,7 +32,7 @@ public enum EnumMaterials {
     VIBRANIUM_UNOBTAINIUM_ALLOY("Vibranium Unobtainium Alloy", new ResourceLocation("forge:ingots/vibranium_unobtainium_alloy")),
 
     CERTUS_QUARTZ("Certus Quartz", new ResourceLocation("forge:gems/certus_quartz"), Type.CRYSTAL),
-    FLUIX("Fluix", new ResourceLocation("appliedenergistics2", "crystals/fluix"), Type.CRYSTAL),
+    FLUIX("Fluix", new ResourceLocation("appliedenergistics2:crystals/fluix"), Type.CRYSTAL),
 
     ELEMENTIUM("Elementium", new ResourceLocation("forge:ingots/elementium")),
     GAIA_SPIRIT("Gaia Spirit", new ResourceLocation(Mods.BOTANIA.modid, "gaia_ingot")),
@@ -44,6 +45,20 @@ public enum EnumMaterials {
     ENHANCED_ENDER("Enhanced Ender", new ResourceLocation("extendedcrafting", "enhanced_ender_ingot")),
     REDSTONE_INGOT("Redstone Ingot", new ResourceLocation("extendedcrafting", "redstone_ingot")),
     THE_ULTIMATE("The Ultimate", new ResourceLocation("extendedcrafting", "the_ultimate_ingot")),
+
+    OSMIUM("Osmium", new ResourceLocation("forge:ingots/osmium")),
+    REFINED_GLOWSTONE("Refined Glowstone", new ResourceLocation("forge:ingots/refined_glowstone")),
+    REFINED_OBSIDIAN("Refined Obsidian", new ResourceLocation("forge:ingots/refined_obsidian")),
+
+    INSANIUM("Insanium", new ResourceLocation("mysticalagradditions", "insanium_ingot")),
+
+    IMPERIUM("Imperium", new ResourceLocation("mysticalagriculture", "imperium_ingot")),
+    INFERIUM("Inferium", new ResourceLocation("mysticalagriculture", "inferium_ingot")),
+    PROSPERITY("Prosperity", new ResourceLocation("mysticalagriculture", "prosperity_ingot")),
+    PRUDENTIUM("Prudentium", new ResourceLocation("mysticalagriculture", "prudentium_ingot")),
+    SOULIUM("Soulium", new ResourceLocation("mysticalagriculture", "soulium_ingot")),
+    SUPREMIUM("Supremium", new ResourceLocation("mysticalagriculture", "supremium_ingot")),
+    TERTIUM("Tertium", new ResourceLocation("mysticalagriculture", "tertium_ingot")),
 
     QUARTZ_ENRICHED_IRON("Quartz Enriched Iron", new ResourceLocation("refinedstorage", "quartz_enriched_iron"));
 

@@ -6,7 +6,5 @@ public class ModItems {
 	public static void registry() {
 		RegistryHandler.ITEMS.register("hammer",
                 () -> new HammerItem());
-
-		
 	}
 }

@@ -8,8 +8,6 @@ public enum Mods {
 	APPLIED_ENERGISTICS2("appliedenergistics2"),
 	BOTANIA("botania"),
 	EXTENDED_CRAFTING("extendedcrafting"),
-	IMMERSIVE_ENGINEERING("immersiveengineering"),
-	INDUSTRIAL_FOREGOING("industrialforegoing"),
 	MEKANISM("mekanism"),
 	MYSTICAL_AGRADDITIONS("mysticalagradditions"),
 	MYSTICAL_AGRICULTURE("mysticalagriculture"),

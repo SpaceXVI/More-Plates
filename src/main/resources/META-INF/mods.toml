@@ -13,9 +13,7 @@ issueTrackerURL="http://my.issue.tracker/" #TODO
     logoFile="moreplates.png"
     credits="Huge thanks to PanSzelescik for making this mod"
     authors="MostafaSabry55"
-    description='''
-    This mod adds more plates, gears and rods to many materials!
-    '''
+    description='''This mod adds more plates, gears and rods to many materials!'''
 
 [[dependencies.moreplates]]
     modId="forge"
@@ -27,6 +25,6 @@ issueTrackerURL="http://my.issue.tracker/" #TODO
 [[dependencies.moreplates]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3]"
+    versionRange="[1.16.3,)"
     ordering="NONE"
     side="BOTH"

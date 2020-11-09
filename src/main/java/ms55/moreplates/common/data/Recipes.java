@@ -6,13 +6,6 @@ import ms55.moreplates.MorePlates;
 import ms55.moreplates.client.config.Config;
 import ms55.moreplates.common.advancements.BooleanCondition;
 import ms55.moreplates.common.enumeration.EnumMaterials;
-import ms55.moreplates.common.plugin.PluginAllTheModium;
-import ms55.moreplates.common.plugin.PluginAppliedEnergistics2;
-import ms55.moreplates.common.plugin.PluginBotania;
-import ms55.moreplates.common.plugin.PluginExtendedCrafting;
-import ms55.moreplates.common.plugin.PluginMinecraft;
-import ms55.moreplates.common.plugin.PluginRefinedStorage;
-import ms55.moreplates.common.util.Groups;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.data.RecipeProvider;
@@ -86,39 +79,5 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     			}
     		}
 		}
-    }
-
-    public static String checkModId(EnumMaterials material) {
-    	for (int i = 0; i < Groups.minecraft.length; i++) {
-        	if (material == Groups.minecraft[i]) {
-        		return PluginMinecraft.modid;
-        	}
-        }
-    	for (int i = 0; i < Groups.allthemodium.length; i++) {
-    		if (material == Groups.allthemodium[i]) {
-				return PluginAllTheModium.modid;
-			}
-        }
-    	for (int i = 0; i < Groups.appliedenergistics2.length; i++) {
-    		if (material == Groups.appliedenergistics2[i]) {
-				return PluginAppliedEnergistics2.modid;
-			}
-        }
-    	for (int i = 0; i < Groups.botania.length; i++) {
-    		if (material == Groups.botania[i]) {
-				return PluginBotania.modid;
-			}
-        }
-    	for (int i = 0; i < Groups.extendedcrafting.length; i++) {
-    		if (material == Groups.extendedcrafting[i]) {
-				return PluginExtendedCrafting.modid;
-			}
-        }
-    	if (material == EnumMaterials.QUARTZ_ENRICHED_IRON) {
-			return PluginRefinedStorage.modid;
-		}
-
-		System.err.println("Material " + material.getName() + " isn't bound to a modid");
-    	return null;
     }
 }
