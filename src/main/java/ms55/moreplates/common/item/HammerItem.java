@@ -19,35 +19,35 @@ public class HammerItem extends Item {
 		super(new Item.Properties()
 				.group(MorePlates.ITEMGROUP)
                 .maxStackSize(1)
+                .maxDamage(Config.GENERAL.DURABILITY_HAMMER.get())
                 .setNoRepair());
 	}
 
-	@Override
-    public boolean hasContainerItem(ItemStack stack) {
-        return true;
-    }
-
-    @Override
+    /*@Override
     public int getMaxDamage(ItemStack stack) {
         return Config.GENERAL.DURABILITY_HAMMER.get();
-    }
+    }*/
 
     @Override
     public int getDamage(ItemStack stack) {
         return !stack.hasTag() ? getMaxDamage(stack) : stack.getOrCreateTag().getInt("Damage");
     }
 
-    @Nonnull
     @Override
-    public ItemStack getContainerItem(@Nonnull ItemStack stack) {
+    public boolean hasContainerItem(ItemStack stack) {
+        return true;
+    }
+
+    @Override
+    public ItemStack getContainerItem(ItemStack stack) {
     	ItemStack container = stack.copy();
-		if(container.attemptDamageItem(1, RAND, null)) {
+		if (container.attemptDamageItem(1, RAND, null)) {
 			return ItemStack.EMPTY;
 		} else {
 			return container;
 		}
     }
-    
+
     @Override
 	public boolean isEnchantable(@Nonnull ItemStack stack) {
 		return true;
