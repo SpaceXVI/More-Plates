@@ -1,0 +1,16 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "moreplates:manasteel_gear"
+    },
+	{
+      "item": "moreplates:manasteel_gear"
+	}
+  ],
+  "output": [
+    {
+      "item": "moreplates:elementium_gear"
+    }
+  ]
+}

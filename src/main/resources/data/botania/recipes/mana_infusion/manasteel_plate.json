@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "moreplates:iron_plate"
+  },
+  "output": {
+    "item": "moreplates:manasteel_plate"
+  },
+  "mana": 3000
+}

@@ -2,10 +2,14 @@ package ms55.moreplates.common.data;
 
 import java.util.function.Consumer;
 
+import blusunrize.immersiveengineering.api.crafting.IngredientWithSize;
+import blusunrize.immersiveengineering.api.crafting.builders.MetalPressRecipeBuilder;
+import blusunrize.immersiveengineering.common.items.IEItems;
 import ms55.moreplates.MorePlates;
 import ms55.moreplates.client.config.Config;
 import ms55.moreplates.common.advancements.BooleanCondition;
 import ms55.moreplates.common.enumeration.EnumMaterials;
+import ms55.moreplates.common.util.Mods;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.data.RecipeProvider;
@@ -13,6 +17,7 @@ import net.minecraft.data.ShapedRecipeBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.tags.ITag;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.Tags;
@@ -32,7 +37,8 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     		for (int i = 0; i < 2; i++) {
     			if (i == 0) {
     				Item PLATE = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));
-    				Ingredient INGOT = Ingredient.fromTag(ItemTags.createOptional(material.getTag()));
+    				ITag<Item> TAG = ItemTags.createOptional(material.getTag());
+    				Ingredient INGOT = Ingredient.fromTag(TAG);
 
     				ConditionalRecipe.builder()
                     .addCondition(
@@ -53,9 +59,23 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
                             ::build
                     )
                     .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));
+
+    				if (Mods.IMMERSIVE_ENGINEERING.isModPresent()) {
+    					MetalPressRecipeBuilder.builder(IEItems.Molds.moldPlate, PLATE)
+    						.addCondition(
+    	                    	and(
+    	                            new BooleanCondition(() -> Config.GENERAL.PLATE_RECIPES.get(), BooleanCondition.Type.ENABLE_PLATE.get()),
+    	                            itemExists(MorePlates.MODID, material.toString() + "_plate")
+    	                        )
+    	                    )
+    						.addInput(INGOT)
+    						.setEnergy(2400)
+    					    .build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press_" + material.toString() + "_plate"));
+    				}
     			} else {
     				Item GEAR = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
-    				Ingredient INGOT = Ingredient.fromTag(ItemTags.createOptional(material.getTag()));
+    				ITag<Item> TAG = ItemTags.createOptional(material.getTag());
+    				Ingredient INGOT = Ingredient.fromTag(TAG);
 
     				ConditionalRecipe.builder()
                     .addCondition(
@@ -76,6 +96,19 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
         	                ::build
                     )
                     .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
+
+    				if (Mods.IMMERSIVE_ENGINEERING.isModPresent()) {
+    					MetalPressRecipeBuilder.builder(IEItems.Molds.moldGear, GEAR)
+    						.addCondition(
+    	                    	and(
+    	                    		new BooleanCondition(() -> Config.GENERAL.GEAR_RECIPES.get(), BooleanCondition.Type.ENABLE_GEAR.get()),
+    	                            itemExists(MorePlates.MODID, material.toString() + "_gear")
+    	                    	)
+    	                    )
+							.addInput(new IngredientWithSize(TAG, 4))
+							.setEnergy(2400)
+							.build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press_" + material.toString() + "_gear"));
+    				}
     			}
     		}
 		}

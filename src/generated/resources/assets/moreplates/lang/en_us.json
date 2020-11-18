@@ -1,12 +1,4 @@
 {
-  "itemGroup.moreplates": "More Plates",
-  "moreplates.hammer_durability": "Hammer Durability",
-  "moreplates.enable_gear": "Enable Gear",
-  "moreplates.enable_plate": "Enable Plate",
-  "moreplates.enable_rod": "Enable Rod",
-  "item.moreplates.hammer": "Hammer",
-  "item.moreplates.iron_stick": "Iron Rod",
-  "item.moreplates.gold_stick": "Gold Rod",
   "item.moreplates.allthemodium_gear": "All The Modium Gear",
   "item.moreplates.allthemodium_plate": "All The Modium Plate",
   "item.moreplates.black_iron_gear": "Black Iron Gear",
@@ -41,6 +33,8 @@
   "item.moreplates.glowstone_plate": "Glowstone Plate",
   "item.moreplates.gold_gear": "Gold Gear",
   "item.moreplates.gold_plate": "Gold Plate",
+  "item.moreplates.gold_stick": "Gold Rod",
+  "item.moreplates.hammer": "Hammer",
   "item.moreplates.imperium_gear": "Imperium Gear",
   "item.moreplates.imperium_plate": "Imperium Plate",
   "item.moreplates.inferium_gear": "Inferium Gear",
@@ -49,6 +43,7 @@
   "item.moreplates.insanium_plate": "Insanium Plate",
   "item.moreplates.iron_gear": "Iron Gear",
   "item.moreplates.iron_plate": "Iron Plate",
+  "item.moreplates.iron_stick": "Iron Rod",
   "item.moreplates.lapis_lazuli_gear": "Lapis Gear",
   "item.moreplates.lapis_lazuli_plate": "Lapis Plate",
   "item.moreplates.manasteel_gear": "Manasteel Gear",
@@ -98,5 +93,10 @@
   "item.moreplates.vibranium_gear": "Vibranium Gear",
   "item.moreplates.vibranium_plate": "Vibranium Plate",
   "item.moreplates.vibranium_unobtainium_alloy_gear": "Vibranium Unobtainium Alloy Gear",
-  "item.moreplates.vibranium_unobtainium_alloy_plate": "Vibranium Unobtainium Alloy Plate"
+  "item.moreplates.vibranium_unobtainium_alloy_plate": "Vibranium Unobtainium Alloy Plate",
+  "itemGroup.moreplates": "More Plates",
+  "moreplates.enable_gear": "Enable Gear",
+  "moreplates.enable_plate": "Enable Plate",
+  "moreplates.enable_rod": "Enable Rod",
+  "moreplates.hammer_durability": "Hammer Durability"
 }

@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "moreplates:netherite_plate"
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "type": "moreplates:isconfigenabled",
+          "config_setting": "enable_plate"
+        },
+        {
+          "item": "moreplates:netherite_plate",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "input": {
+    "tag": "forge:ingots/netherite"
+  },
+  "energy": 2400
+}
