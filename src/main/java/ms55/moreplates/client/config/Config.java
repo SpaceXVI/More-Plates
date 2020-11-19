@@ -36,23 +36,23 @@ public class Config {
 
 			DURABILITY_HAMMER = builder
 					.comment("Hammer Durability")
-	                .defineInRange("moreplates.hammer_durability", 150, 1, Integer.MAX_VALUE);
+	                .defineInRange("hammer_durability", 150, 1, Integer.MAX_VALUE);
 			GEAR_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Gears")
-	                .define("moreplates.enable_gear", true);
+	                .define("enable_gear", true);
 	        PLATE_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Plates")
-	                .define("moreplates.enable_plate", true);
+	                .define("enable_plate", true);
 	        ROD_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Rods")
-	                .define("moreplates.enable_rod", true);
+	                .define("enable_rod", true);
 	        CENTER_ITEM = builder
 	        	.comment("DOESNT WORK YET, Set this to any OreDict you need, and it will be the center item of your gear "
 	        			+ "assuming you didn't disable them or their crafting recipes. Also, you can set more than 1")
-	        	.defineList("moreplates.center_item", DEFAULT_LIST, o -> o != null && DEFAULT_LIST.getClass().isAssignableFrom(o.getClass()));
+	        	.defineList("center_item", DEFAULT_LIST, o -> o != null && DEFAULT_LIST.getClass().isAssignableFrom(o.getClass()));
 	        ENERGY_IE = builder
 	                .comment("Energy used to make Gears and Plates in Metal Press")
-	                .defineInRange("moreplates.energy_ie", 2400, 0, Integer.MAX_VALUE);
+	                .defineInRange("energy_ie", 2400, 0, Integer.MAX_VALUE);
 
 	        builder.pop();
 		}
@@ -73,7 +73,7 @@ public class Config {
 		public static BooleanValue loadItem(ForgeConfigSpec.Builder builder, EnumMaterials item) {
 			String name = item.getName().toLowerCase().contains(" ") ? item.getName().toLowerCase().replaceAll(" ", "_") : item.getName().toLowerCase();
 	        return builder.comment("Enable" + item.getName())
-	        			  .define("moreplates.register_" + name, true);
+	        			  .define("register_" + name, true);
 	    }
 	}
 
