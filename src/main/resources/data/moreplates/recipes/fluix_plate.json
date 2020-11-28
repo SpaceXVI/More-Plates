@@ -29,7 +29,7 @@
             "item": "moreplates:hammer"
           },
           "I": {
-            "item": "appliedenergistics2:crystals/fluix"
+            "tag": "appliedenergistics2:crystals/fluix"
           }
         },
         "result": {

@@ -32,7 +32,7 @@ public enum EnumMaterials {
     VIBRANIUM_UNOBTAINIUM_ALLOY("Vibranium Unobtainium Alloy", new ResourceLocation("forge:ingots/vibranium_unobtainium_alloy")),
 
     CERTUS_QUARTZ("Certus Quartz", new ResourceLocation("forge:gems/certus_quartz"), Type.CRYSTAL),
-    FLUIX("Fluix", new ResourceLocation("appliedenergistics2:crystals/fluix"), Type.CRYSTAL),
+    FLUIX("Fluix", new ResourceLocation("appliedenergistics2", "crystals/fluix"), Type.CRYSTAL),
 
     AQUAMARINE("Aquamarine", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "aquamarine")),
     RESONATING_GEM("Resonating Gem", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "resonating_gem")),
@@ -43,7 +43,7 @@ public enum EnumMaterials {
     PURPLE_ALLOY("Purple Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "purple_alloy_ingot")),
     RED_ALLOY("Red Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "red_alloy_ingot")),
     TUNGSTEN("Tungsten", new ResourceLocation("forge:ingots/tungsten")),
-    TUNGSTEN_CARBIDE("Tungsten Carbide", new ResourceLocation(Mods.BLUE_POWER.modid, "tungsten_carbide_ingot")),
+    TUNGSTEN_CARBIDE("Tungsten Carbide", new ResourceLocation(Mods.BLUE_POWER.modid, "tungsten_carbide")),
     ZINC("Zinc", new ResourceLocation("forge:ingots/zinc")),
 
     ELEMENTIUM("Elementium", new ResourceLocation("forge:ingots/elementium")),

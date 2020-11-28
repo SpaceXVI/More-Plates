@@ -22,7 +22,7 @@
     }
   ],
   "input": {
-    "item": "appliedenergistics2:crystals/fluix"
+    "tag": "appliedenergistics2:crystals/fluix"
   },
   "energy": 2400
 }
