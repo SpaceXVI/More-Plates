@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "moreplates:purple_alloy_plate"
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "type": "moreplates:isconfigenabled",
+          "config_setting": "enable_plate"
+        },
+        {
+          "item": "moreplates:purple_alloy_plate",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "input": {
+    "item": "bluepower:purple_alloy_ingot"
+  },
+  "energy": 2400
+}

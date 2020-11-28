@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_gear"
+            },
+            {
+              "item": "moreplates:brass_gear",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " x ",
+          "x#x",
+          " x "
+        ],
+        "key": {
+          "x": {
+            "tag": "forge:ingots/brass"
+          },
+          "#": {
+            "tag": "forge:ingots/iron"
+          }
+        },
+        "result": {
+          "item": "moreplates:brass_gear"
+        }
+      }
+    }
+  ]
+}

@@ -34,10 +34,36 @@ public enum EnumMaterials {
     CERTUS_QUARTZ("Certus Quartz", new ResourceLocation("forge:gems/certus_quartz"), Type.CRYSTAL),
     FLUIX("Fluix", new ResourceLocation("appliedenergistics2:crystals/fluix"), Type.CRYSTAL),
 
+    AQUAMARINE("Aquamarine", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "aquamarine")),
+    RESONATING_GEM("Resonating Gem", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "resonating_gem")),
+    STARMETAL("Starmetal", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "starmetal_ingot")),
+
+    BRASS("Brass", new ResourceLocation("forge:ingots/brass")),
+    BLUE_ALLOY("Blue Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "blue_alloy_ingot")),
+    PURPLE_ALLOY("Purple Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "purple_alloy_ingot")),
+    RED_ALLOY("Red Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "red_alloy_ingot")),
+    TUNGSTEN("Tungsten", new ResourceLocation("forge:ingots/tungsten")),
+    TUNGSTEN_CARBIDE("Tungsten Carbide", new ResourceLocation(Mods.BLUE_POWER.modid, "tungsten_carbide_ingot")),
+    ZINC("Zinc", new ResourceLocation("forge:ingots/zinc")),
+
     ELEMENTIUM("Elementium", new ResourceLocation("forge:ingots/elementium")),
     GAIA_SPIRIT("Gaia Spirit", new ResourceLocation(Mods.BOTANIA.modid, "gaia_ingot")),
     MANASTEEL("Manasteel", new ResourceLocation("forge:ingots/manasteel")),
     TERRASTEEL("Terrasteel", new ResourceLocation("forge:ingots/terrasteel")),
+
+    BRONZE("Bronze", new ResourceLocation("forge:ingots/bronze")),
+    CONSTANTAN("Constantan", new ResourceLocation("forge:ingots/constantan")),
+    COPPER("Copper", new ResourceLocation("forge:ingots/copper")),
+    ELECTRUM("Electrum", new ResourceLocation("forge:ingots/electrum")),
+    ENDERIUM("Enderium", new ResourceLocation("forge:ingots/enderium")),
+    INVAR("Invar", new ResourceLocation("forge:ingots/invar")),
+    LEAD("Lead", new ResourceLocation("forge:ingots/lead")),
+    LUMIUM("Lumium", new ResourceLocation("forge:ingots/lumium")),
+    NICKEL("Nickel", new ResourceLocation("forge:ingots/nickel")),
+    PLATINUM("Platinum", new ResourceLocation("forge:ingots/platinum")),
+    SIGNALUM("Signalum", new ResourceLocation("forge:ingots/signalum")),
+    SILVER("Silver", new ResourceLocation("forge:ingots/silver")),
+    TIN("Tin", new ResourceLocation("forge:ingots/tin")),
 
     BLACK_IRON("Black Iron", new ResourceLocation("extendedcrafting", "black_iron_ingot")),
     CRYSTALTINE("Crystaltine", new ResourceLocation("extendedcrafting", "crystaltine_ingot")),
@@ -51,6 +77,8 @@ public enum EnumMaterials {
     REFINED_OBSIDIAN("Refined Obsidian", new ResourceLocation("forge:ingots/refined_obsidian")),
 
     INSANIUM("Insanium", new ResourceLocation("mysticalagradditions", "insanium_ingot")),
+
+    ENERGIZED_STEEL("Energized Steel", new ResourceLocation("powah", "steel_energized")),
 
     IMPERIUM("Imperium", new ResourceLocation("mysticalagriculture", "imperium_ingot")),
     INFERIUM("Inferium", new ResourceLocation("mysticalagriculture", "inferium_ingot")),

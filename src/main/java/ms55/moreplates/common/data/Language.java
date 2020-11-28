@@ -2,6 +2,7 @@ package ms55.moreplates.common.data;
 
 import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.enumeration.EnumMaterials;
+import ms55.moreplates.common.util.Groups;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
@@ -18,14 +19,24 @@ public class Language extends LanguageProvider {
     	add("moreplates.enable_plate", "Enable Plate");
     	add("moreplates.enable_rod", "Enable Rod");
     	add("item.moreplates.hammer", "Hammer");
-    	add("item.moreplates.iron_stick", "Iron Rod");
-    	add("item.moreplates.gold_stick", "Gold Rod");
     	for (EnumMaterials material : EnumMaterials.values()) {
-			for (int i = 0; i < 2; i++) {
+    		int limit = 3;
+
+    		for (int i = 0; i < Groups.cofh.length; i++) {
+    			if (material == Groups.cofh[i]) {
+    				limit = 3;
+    				break;
+    			} else {
+    				limit = 2;
+    			}
+    		}
+			for (int i = 0; i < limit; i++) {
 				if (i == 0) {
 					add("item.moreplates." + material.toString() + "_plate", material.getName() + " Plate");
-				} else {
+				} else if (i == 1) {
 					add("item.moreplates." + material.toString() + "_gear", material.getName() + " Gear");
+				} else {
+					add("item.moreplates." + material.toString() + "_stick", material.getName() + " Rod");
 				}
 			}
 		}

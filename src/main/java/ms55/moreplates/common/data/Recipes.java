@@ -9,6 +9,7 @@ import ms55.moreplates.MorePlates;
 import ms55.moreplates.client.config.Config;
 import ms55.moreplates.common.advancements.BooleanCondition;
 import ms55.moreplates.common.enumeration.EnumMaterials;
+import ms55.moreplates.common.util.Groups;
 import ms55.moreplates.common.util.Mods;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
@@ -34,7 +35,18 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     @Override
     protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
     	for (EnumMaterials material : EnumMaterials.values()) {
-    		for (int i = 0; i < 2; i++) {
+    		int limit = 3;
+
+    		for (int i = 0; i < Groups.cofh.length; i++) {
+    			if (material == Groups.cofh[i]) {
+    				limit = 3;
+    				break;
+    			} else {
+    				limit = 2;
+    			}
+    		}
+
+    		for (int i = 0; i < limit; i++) {
     			if (i == 0) {
     				Item PLATE = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));
     				ITag<Item> TAG = ItemTags.createOptional(material.getTag());
@@ -70,9 +82,9 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     	                    )
     						.addInput(INGOT)
     						.setEnergy(2400)
-    					    .build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press_" + material.toString() + "_plate"));
+    					    .build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press/" + material.toString() + "_plate"));
     				}
-    			} else {
+    			} else if (i == 1) {
     				Item GEAR = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
     				ITag<Item> TAG = ItemTags.createOptional(material.getTag());
     				Ingredient INGOT = Ingredient.fromTag(TAG);
@@ -107,7 +119,42 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     	                    )
 							.addInput(new IngredientWithSize(TAG, 4))
 							.setEnergy(2400)
-							.build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press_" + material.toString() + "_gear"));
+							.build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press/" + material.toString() + "_gear"));
+    				}
+    			} else {
+    				Item STICK = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_stick"));
+    				ITag<Item> TAG = ItemTags.createOptional(material.getTag());
+    				Ingredient INGOT = Ingredient.fromTag(TAG);
+
+    				ConditionalRecipe.builder()
+                    .addCondition(
+                    	and(
+                    		new BooleanCondition(() -> Config.GENERAL.ROD_RECIPES.get(), BooleanCondition.Type.ENABLE_STICK.get()),
+                            itemExists(MorePlates.MODID, material.toString() + "_stick")
+                    	)
+                    )
+                    .addRecipe(
+                    	ShapedRecipeBuilder.shapedRecipe(STICK, 2)
+                        	.patternLine("x")
+                        	.patternLine("x")
+                        	.key('x', INGOT)
+        	                .setGroup("")
+        	                .addCriterion("has_item", hasItem(Items.GOLD_INGOT))
+        	                ::build
+                    )
+                    .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_stick"));
+
+    				if (Mods.IMMERSIVE_ENGINEERING.isModPresent()) {
+    					MetalPressRecipeBuilder.builder(IEItems.Molds.moldRod, STICK)
+    						.addCondition(
+    	                    	and(
+    	                    		new BooleanCondition(() -> Config.GENERAL.ROD_RECIPES.get(), BooleanCondition.Type.ENABLE_STICK.get()),
+    	                            itemExists(MorePlates.MODID, material.toString() + "_stick")
+    	                    	)
+    	                    )
+							.addInput(new IngredientWithSize(TAG, 2))
+							.setEnergy(2400)
+						.build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press/" + material.toString() + "_stick"));
     				}
     			}
     		}

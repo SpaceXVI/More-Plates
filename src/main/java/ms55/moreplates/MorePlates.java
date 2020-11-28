@@ -14,10 +14,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig.Type;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(MorePlates.MODID)
@@ -27,12 +23,9 @@ public class MorePlates {
 	
 	public static final ItemGroup ITEMGROUP = new MorePlatesItemGroup();
 
-    public MorePlates() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+	public static final boolean DEBUG = false;
 
+    public MorePlates() {
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(Config.class);
 
@@ -49,21 +42,5 @@ public class MorePlates {
     @SubscribeEvent
     public void registerRecipeSerialziers(RegistryEvent.Register<IRecipeSerializer<?>> event) {
         CraftingHelper.register(BooleanCondition.Serializer.INSTANCE);
-    }
-
-    private void setup(final FMLCommonSetupEvent event) {
-
-    }
-
-    private void doClientStuff(final FMLClientSetupEvent event) {
-
-    }
-
-    private void enqueueIMC(final InterModEnqueueEvent event) {
-
-    }
-
-    private void processIMC(final InterModProcessEvent event) {
-
     }
 }

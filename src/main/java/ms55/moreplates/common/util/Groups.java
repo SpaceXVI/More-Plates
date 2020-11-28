@@ -37,11 +37,43 @@ public class Groups {
 			EnumMaterials.FLUIX
 	};
 
+	public static EnumMaterials[] astralsorcery = {
+			EnumMaterials.AQUAMARINE,
+			EnumMaterials.RESONATING_GEM,
+			EnumMaterials.STARMETAL
+	};
+
+	public static EnumMaterials[] blue_power = {
+			EnumMaterials.BRASS,
+			EnumMaterials.BLUE_ALLOY,
+			EnumMaterials.PURPLE_ALLOY,
+			EnumMaterials.RED_ALLOY,
+			EnumMaterials.TUNGSTEN,
+			EnumMaterials.TUNGSTEN_CARBIDE,
+			EnumMaterials.ZINC
+	};
+
 	public static EnumMaterials[] botania = {
 			EnumMaterials.ELEMENTIUM,
 			EnumMaterials.GAIA_SPIRIT,
 			EnumMaterials.MANASTEEL,
 			EnumMaterials.TERRASTEEL
+	};
+
+	public static EnumMaterials[] cofh = {
+			EnumMaterials.BRONZE,
+			EnumMaterials.CONSTANTAN,
+			EnumMaterials.COPPER,
+			EnumMaterials.ELECTRUM,
+			EnumMaterials.ENDERIUM,
+			EnumMaterials.INVAR,
+			EnumMaterials.LEAD,
+			EnumMaterials.LUMIUM,
+			EnumMaterials.NICKEL,
+			EnumMaterials.PLATINUM,
+			EnumMaterials.SIGNALUM,
+			EnumMaterials.SILVER,
+			EnumMaterials.TIN
 	};
 
 	public static EnumMaterials[] extendedcrafting = {
