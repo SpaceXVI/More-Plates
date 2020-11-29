@@ -23,6 +23,10 @@ public class DataGenerators {
     	
     	if (event.includeServer()) {
     		generator.addProvider(new Recipes(generator));
+
+    		BlockTags blockTags = new BlockTags(generator, helper);
+    		generator.addProvider(blockTags);
+    		generator.addProvider(new ItemTags(generator, blockTags, helper));
         }
     }
 }

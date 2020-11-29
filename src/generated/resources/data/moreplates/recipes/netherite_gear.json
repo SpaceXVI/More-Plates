@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_gear"
+            },
+            {
+              "item": "moreplates:netherite_gear",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " x ",
+          "x#x",
+          " x "
+        ],
+        "key": {
+          "x": {
+            "tag": "forge:ingots/netherite"
+          },
+          "#": {
+            "tag": "forge:ingots/iron"
+          }
+        },
+        "result": {
+          "item": "moreplates:netherite_gear"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "moreplates:redstone_plate"
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "type": "moreplates:isconfigenabled",
+          "config_setting": "enable_plate"
+        },
+        {
+          "item": "moreplates:redstone_plate",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "input": {
+    "tag": "forge:dusts/redstone"
+  },
+  "energy": 2400
+}

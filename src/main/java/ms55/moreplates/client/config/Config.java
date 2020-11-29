@@ -7,7 +7,6 @@ import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.enumeration.EnumMaterials;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.ForgeConfigSpec.BooleanValue;
-import net.minecraftforge.common.ForgeConfigSpec.ConfigValue;
 import net.minecraftforge.common.ForgeConfigSpec.IntValue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -21,12 +20,8 @@ public class Config {
 	    public final IntValue DURABILITY_HAMMER;
 
 		public final BooleanValue GEAR_RECIPES;
-
-		public final ConfigValue<List<? extends String>> CENTER_ITEM;
 	    public final BooleanValue PLATE_RECIPES;
 	    public final BooleanValue ROD_RECIPES;
-
-	    public final IntValue ENERGY_IE;
 
 	    public final List<String> DEFAULT_LIST = Arrays.asList(new String[] {"forge:ingots/iron", "forge:ingots/copper", "forge:ingots/tin", "forge:ingots/bronze", "forge:ingots/constructionalloy"});
 
@@ -46,13 +41,6 @@ public class Config {
 	        ROD_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Rods")
 	                .define("enable_rod", true);
-	        CENTER_ITEM = builder
-	        	.comment("DOESNT WORK YET, Set this to any OreDict you need, and it will be the center item of your gear "
-	        			+ "assuming you didn't disable them or their crafting recipes. Also, you can set more than 1")
-	        	.defineList("center_item", DEFAULT_LIST, o -> o != null && DEFAULT_LIST.getClass().isAssignableFrom(o.getClass()));
-	        ENERGY_IE = builder
-	                .comment("Energy used to make Gears and Plates in Metal Press")
-	                .defineInRange("energy_ie", 2400, 0, Integer.MAX_VALUE);
 
 	        builder.pop();
 		}

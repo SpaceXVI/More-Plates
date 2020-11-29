@@ -20,7 +20,7 @@ public class Language extends LanguageProvider {
     	add("moreplates.enable_rod", "Enable Rod");
     	add("item.moreplates.hammer", "Hammer");
     	for (EnumMaterials material : EnumMaterials.values()) {
-    		int limit = 3;
+    		int limit = 0;
 
     		for (int i = 0; i < Groups.cofh.length; i++) {
     			if (material == Groups.cofh[i]) {
@@ -30,13 +30,22 @@ public class Language extends LanguageProvider {
     				limit = 2;
     			}
     		}
+
+    		if (limit != 3) {
+    			if (material == EnumMaterials.GOLD || material == EnumMaterials.IRON) {
+    				limit = 3;
+    			} else {
+    				limit = 2;
+    			}
+    		}
+
 			for (int i = 0; i < limit; i++) {
 				if (i == 0) {
 					add("item.moreplates." + material.toString() + "_plate", material.getName() + " Plate");
 				} else if (i == 1) {
-					add("item.moreplates." + material.toString() + "_gear", material.getName() + " Gear");
+					add("item.moreplates." + material.toString() + "_gear" , material.getName() + " Gear" );
 				} else {
-					add("item.moreplates." + material.toString() + "_stick", material.getName() + " Rod");
+					add("item.moreplates." + material.toString() + "_stick", material.getName() + " Rod"  );
 				}
 			}
 		}
