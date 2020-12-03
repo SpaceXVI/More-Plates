@@ -32,10 +32,8 @@ public class PluginMinecraft extends PluginHelper {
 		reg(EMERALD);
 		reg(FLINT);
 		reg(GLOWSTONE);
-		reg(GOLD);
-        regStick(GOLD);
-        reg(IRON);
-        regStick(IRON);
+		reg2(GOLD);
+        reg2(IRON);
         reg(LAPIS_LAZULI);
         reg(NETHER_BRICK);
         reg(NETHERITE);

@@ -25,11 +25,9 @@
           "I"
         ],
         "key": {
-          "H": {
-            "item": "moreplates:hammer"
-          },
+          "H": [],
           "I": {
-            "item": "minecraft:flint"
+            "tag": "minecraft:flint"
           }
         },
         "result": {

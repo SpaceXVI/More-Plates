@@ -25,9 +25,7 @@
           "I"
         ],
         "key": {
-          "H": {
-            "item": "moreplates:hammer"
-          },
+          "H": [],
           "I": {
             "tag": "forge:ingots/nether_brick"
           }

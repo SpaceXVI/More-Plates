@@ -2,7 +2,9 @@ package ms55.moreplates.common.plugin;
 
 import static ms55.moreplates.common.enumeration.EnumMaterials.INSANIUM;
 
+import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
+import ms55.moreplates.common.util.Mods;
 
 public class PluginMysticalAgradditions extends PluginHelper {
 
@@ -10,6 +12,8 @@ public class PluginMysticalAgradditions extends PluginHelper {
 	public static final String modname = "Mystical Agradditions";
 
 	public static void registry() {
-		reg(INSANIUM);
+		if (Mods.MYSTICAL_AGRADDITIONS.isModPresent() || MorePlates.DEBUG) {
+			reg(INSANIUM);
+		}
     }
 }

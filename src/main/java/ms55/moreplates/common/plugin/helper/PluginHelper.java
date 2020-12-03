@@ -5,7 +5,7 @@ import ms55.moreplates.common.enumeration.EnumMaterials;
 
 public class PluginHelper {
 
-	protected static void reg(EnumMaterials info) {
+	public static void reg(EnumMaterials info) {
         regGear(info);
         regPlate(info);
     }

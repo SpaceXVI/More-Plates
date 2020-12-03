@@ -8,7 +8,9 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.TUNGSTEN;
 import static ms55.moreplates.common.enumeration.EnumMaterials.TUNGSTEN_CARBIDE;
 import static ms55.moreplates.common.enumeration.EnumMaterials.ZINC;
 
+import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
+import ms55.moreplates.common.util.Mods;
 
 public class PluginBluePower extends PluginHelper {
 
@@ -16,12 +18,14 @@ public class PluginBluePower extends PluginHelper {
 	public static final String modname = "Blue Power";
 
 	public static void registry() {
-		reg(BRASS);
-		reg(BLUE_ALLOY);
-		reg(PURPLE_ALLOY);
-		reg(RED_ALLOY);
-		reg(TUNGSTEN);
-		reg(TUNGSTEN_CARBIDE);
-		reg(ZINC);
+		if (Mods.BLUE_POWER.isModPresent() || MorePlates.DEBUG) {
+			reg(BRASS);
+			reg(BLUE_ALLOY);
+			reg(PURPLE_ALLOY);
+			reg(RED_ALLOY);
+			reg(TUNGSTEN);
+			reg(TUNGSTEN_CARBIDE);
+			reg(ZINC);
+		}
 	}
 }

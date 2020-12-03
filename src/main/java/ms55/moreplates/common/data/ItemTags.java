@@ -9,6 +9,7 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.ItemTagsProvider;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.common.Tags.IOptionalNamedTag;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -23,8 +24,8 @@ public class ItemTags extends ItemTagsProvider {
 		for (EnumMaterials material : EnumMaterials.values()) {
 			int limit = 0;
 
-    		for (int i = 0; i < Groups.cofh.length; i++) {
-    			if (material == Groups.cofh[i]) {
+    		for (int i = 0; i < Groups.metals.length; i++) {
+    			if (material == Groups.metals[i]) {
     				limit = 3;
     				break;
     			} else {
@@ -43,16 +44,22 @@ public class ItemTags extends ItemTagsProvider {
     		for (int i = 0; i < limit; i++) {
     			if (i == 0) {
     				Item PLATE = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));
-        	        getOrCreateBuilder(Items.PLATES).add(PLATE).replace();
-        	        getOrCreateBuilder(Items.createTag("plates", material.toString())).add(PLATE).replace();
+        	        IOptionalNamedTag<Item> tag = Items.createTag("plates", material.toString());
+        	        //getOrCreateBuilder(Items.PLATES).add(PLATE).replace();
+        	        getOrCreateBuilder(tag).add(PLATE).replace();
+        	        getOrCreateBuilder(Items.PLATES).addTag(tag).replace();
     			} else if (i == 1) {
     				Item GEAR = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
-        	        getOrCreateBuilder(Items.GEARS).add(GEAR).replace();
-        	        getOrCreateBuilder(Items.createTag("gears", material.toString())).add(GEAR).replace();
+        	        IOptionalNamedTag<Item> tag = Items.createTag("gears", material.toString());
+        	        //getOrCreateBuilder(Items.GEARS).add(GEAR).replace();
+        	        getOrCreateBuilder(tag).add(GEAR).replace();
+        	        getOrCreateBuilder(Items.GEARS).addTag(tag).replace();
     			} else {
     				Item STICK = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_stick"));
-        	        getOrCreateBuilder(Items.RODS).add(STICK).replace();
-        	        getOrCreateBuilder(Items.createTag("rods", material.toString())).add(STICK).replace();
+        	        IOptionalNamedTag<Item> tag = Items.createTag("rods", material.toString());
+        	        //getOrCreateBuilder(Items.RODS).add(STICK).replace();
+        	        getOrCreateBuilder(tag).add(STICK).replace();
+        	        getOrCreateBuilder(Items.RODS).addTag(tag).replace();
     			}
     		}
 		}

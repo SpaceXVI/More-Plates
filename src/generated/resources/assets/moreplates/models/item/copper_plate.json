@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "moreplates:item/cofh_core/copper_plate"
+    "layer0": "moreplates:item/metals/copper_plate"
   }
 }

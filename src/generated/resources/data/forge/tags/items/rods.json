@@ -1,20 +1,20 @@
 {
   "replace": true,
   "values": [
-    "moreplates:gold_stick",
-    "moreplates:iron_stick",
-    "moreplates:bronze_stick",
-    "moreplates:constantan_stick",
-    "moreplates:copper_stick",
-    "moreplates:electrum_stick",
-    "moreplates:enderium_stick",
-    "moreplates:invar_stick",
-    "moreplates:lead_stick",
-    "moreplates:lumium_stick",
-    "moreplates:nickel_stick",
-    "moreplates:platinum_stick",
-    "moreplates:signalum_stick",
-    "moreplates:silver_stick",
-    "moreplates:tin_stick"
+    "#forge:rods/gold",
+    "#forge:rods/iron",
+    "#forge:rods/bronze",
+    "#forge:rods/constantan",
+    "#forge:rods/copper",
+    "#forge:rods/electrum",
+    "#forge:rods/enderium",
+    "#forge:rods/invar",
+    "#forge:rods/lead",
+    "#forge:rods/lumium",
+    "#forge:rods/nickel",
+    "#forge:rods/platinum",
+    "#forge:rods/signalum",
+    "#forge:rods/silver",
+    "#forge:rods/tin"
   ]
 }

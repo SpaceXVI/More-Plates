@@ -2,21 +2,8 @@ package ms55.moreplates.common.data;
 
 import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.enumeration.EnumMaterials;
-import ms55.moreplates.common.plugin.PluginAllTheModium;
-import ms55.moreplates.common.plugin.PluginAppliedEnergistics2;
-import ms55.moreplates.common.plugin.PluginAstralSorcery;
-import ms55.moreplates.common.plugin.PluginBluePower;
-import ms55.moreplates.common.plugin.PluginBotania;
-import ms55.moreplates.common.plugin.PluginExtendedCrafting;
-import ms55.moreplates.common.plugin.PluginMekanism;
-import ms55.moreplates.common.plugin.PluginMinecraft;
-import ms55.moreplates.common.plugin.PluginMysticalAgradditions;
-import ms55.moreplates.common.plugin.PluginMysticalAgriculture;
-import ms55.moreplates.common.plugin.PluginPowah;
-import ms55.moreplates.common.plugin.PluginRefinedStorage;
-import ms55.moreplates.common.plugin.PluginThermal;
 import ms55.moreplates.common.util.Groups;
-import ms55.moreplates.common.util.Mods;
+import ms55.moreplates.common.util.Utils;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -32,14 +19,16 @@ public class ItemModels extends ItemModelProvider {
 	@Override
 	public void registerModels() {
 		for (EnumMaterials material : EnumMaterials.values()) {
-			for (int i = 0; i < EnumMaterials.values().length; i++) {
-				if (i < Groups.minecraft.length) {
-					if (Groups.minecraft[i] == material) {
-						registry(material, PluginMinecraft.modid);
+			for (EnumMaterials[] group : Groups.materials) {
+				String name = Utils.getFieldName(group, new Groups());
+				for (int x = 0; x < group.length; x++) {
+					if (group[x] == material) {
+						registry(material, name);
 						break;
 					}
 				}
-				if (i < Groups.allthemodium.length) {
+			}
+				/*if (i < Groups.allthemodium.length) {
 					if (Groups.allthemodium[i] == material) {
 						registry(material, PluginAllTheModium.modid);
 						break;
@@ -69,9 +58,9 @@ public class ItemModels extends ItemModelProvider {
 						break;
 					}
 				}
-				if (i < Groups.cofh.length) {
-					if (Groups.cofh[i] == material) {
-						registry(material, PluginThermal.modid);
+				if (i < Groups.metals.length) {
+					if (Groups.metals[i] == material) {
+						registry(material, PluginMetals.modid);
 						break;
 					}
 				}
@@ -104,13 +93,12 @@ public class ItemModels extends ItemModelProvider {
 				if (EnumMaterials.QUARTZ_ENRICHED_IRON == material) {
 					registry(material, PluginRefinedStorage.modid);
 					break;
-				}
-			}
+				}*/
 		}
 	}
 
 	public void registry(EnumMaterials material, String mod) {
-		for (int i = 0 ; i < (mod == Mods.COFH.modid ? 3 : 2); i++) {
+		for (int i = 0 ; i < (mod.equals("metals") ? 3 : 2); i++) {
 			if (i == 0) {
 				getBuilder(material.toString() + "_plate")
 	              .parent(new UncheckedModelFile(new ResourceLocation("item/generated")))

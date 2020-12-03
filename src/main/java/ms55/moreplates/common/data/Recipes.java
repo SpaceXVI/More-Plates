@@ -37,8 +37,8 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     	for (EnumMaterials material : EnumMaterials.values()) {
     		int limit = 3;
 
-    		for (int i = 0; i < Groups.cofh.length; i++) {
-    			if (material == Groups.cofh[i]) {
+    		for (int i = 0; i < Groups.metals.length; i++) {
+    			if (material == Groups.metals[i]) {
     				limit = 3;
     				break;
     			} else {

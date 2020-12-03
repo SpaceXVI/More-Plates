@@ -4,7 +4,7 @@ import ms55.moreplates.client.config.Config;
 import ms55.moreplates.common.RegistryHandler;
 import ms55.moreplates.common.advancements.BooleanCondition;
 import ms55.moreplates.common.data.DataGenerators;
-import ms55.moreplates.common.plugin.PluginHolder;
+import ms55.moreplates.common.plugin.core.PluginLoader;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,7 +33,14 @@ public class MorePlates {
 
         ModLoadingContext.get().registerConfig(Type.COMMON, Config.COMMON_SPEC, "moreplates.toml");
 
-        PluginHolder.registry();
+        //PluginHolder.registry();
+        try {
+			PluginLoader.initializePlugins();
+		} catch (NoSuchMethodException e) {
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			e.printStackTrace();
+		}
         RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(DataGenerators.class);

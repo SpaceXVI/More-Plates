@@ -32,7 +32,7 @@ public enum EnumMaterials {
     VIBRANIUM_UNOBTAINIUM_ALLOY("Vibranium Unobtainium Alloy", new ResourceLocation("forge:ingots/vibranium_unobtainium_alloy")),
 
     CERTUS_QUARTZ("Certus Quartz", new ResourceLocation("forge:gems/certus_quartz"), Type.CRYSTAL),
-    FLUIX("Fluix", new ResourceLocation("appliedenergistics2", "crystals/fluix"), Type.CRYSTAL),
+    FLUIX("Fluix", new ResourceLocation(Mods.APPLIED_ENERGISTICS2.modid, "crystals/fluix"), Type.CRYSTAL),
 
     AQUAMARINE("Aquamarine", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "aquamarine")),
     RESONATING_GEM("Resonating Gem", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "resonating_gem")),
@@ -65,30 +65,32 @@ public enum EnumMaterials {
     SILVER("Silver", new ResourceLocation("forge:ingots/silver")),
     TIN("Tin", new ResourceLocation("forge:ingots/tin")),
 
-    BLACK_IRON("Black Iron", new ResourceLocation("extendedcrafting", "black_iron_ingot")),
-    CRYSTALTINE("Crystaltine", new ResourceLocation("extendedcrafting", "crystaltine_ingot")),
-    ENDER("Ender", new ResourceLocation("extendedcrafting", "ender_ingot")),
-    ENHANCED_ENDER("Enhanced Ender", new ResourceLocation("extendedcrafting", "enhanced_ender_ingot")),
-    REDSTONE_INGOT("Redstone Ingot", new ResourceLocation("extendedcrafting", "redstone_ingot")),
-    THE_ULTIMATE("The Ultimate", new ResourceLocation("extendedcrafting", "the_ultimate_ingot")),
+    BLACK_IRON("Black Iron", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "black_iron_ingot")),
+    CRYSTALTINE("Crystaltine", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "crystaltine_ingot")),
+    ENDER("Ender", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "ender_ingot")),
+    ENHANCED_ENDER("Enhanced Ender", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "enhanced_ender_ingot")),
+    REDSTONE_INGOT("Redstone Ingot", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "redstone_ingot")),
+    THE_ULTIMATE("The Ultimate", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "the_ultimate_ingot")),
 
     OSMIUM("Osmium", new ResourceLocation("forge:ingots/osmium")),
     REFINED_GLOWSTONE("Refined Glowstone", new ResourceLocation("forge:ingots/refined_glowstone")),
     REFINED_OBSIDIAN("Refined Obsidian", new ResourceLocation("forge:ingots/refined_obsidian")),
 
-    INSANIUM("Insanium", new ResourceLocation("mysticalagradditions", "insanium_ingot")),
+    INSANIUM("Insanium", new ResourceLocation(Mods.MYSTICAL_AGRADDITIONS.modid, "insanium_ingot")),
 
-    ENERGIZED_STEEL("Energized Steel", new ResourceLocation("powah", "steel_energized")),
+    COMPRESSED_IRON("Compressed Iron", new ResourceLocation(Mods.PNEUMATIC_CRAFT_REPRESSURIZED.modid, "steel_energized")),
 
-    IMPERIUM("Imperium", new ResourceLocation("mysticalagriculture", "imperium_ingot")),
-    INFERIUM("Inferium", new ResourceLocation("mysticalagriculture", "inferium_ingot")),
-    PROSPERITY("Prosperity", new ResourceLocation("mysticalagriculture", "prosperity_ingot")),
-    PRUDENTIUM("Prudentium", new ResourceLocation("mysticalagriculture", "prudentium_ingot")),
-    SOULIUM("Soulium", new ResourceLocation("mysticalagriculture", "soulium_ingot")),
-    SUPREMIUM("Supremium", new ResourceLocation("mysticalagriculture", "supremium_ingot")),
-    TERTIUM("Tertium", new ResourceLocation("mysticalagriculture", "tertium_ingot")),
+    ENERGIZED_STEEL("Energized Steel", new ResourceLocation(Mods.POWAH.modid, "steel_energized")),
 
-    QUARTZ_ENRICHED_IRON("Quartz Enriched Iron", new ResourceLocation("refinedstorage", "quartz_enriched_iron"));
+    IMPERIUM("Imperium", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "imperium_ingot")),
+    INFERIUM("Inferium", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "inferium_ingot")),
+    PROSPERITY("Prosperity", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "prosperity_ingot")),
+    PRUDENTIUM("Prudentium", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "prudentium_ingot")),
+    SOULIUM("Soulium", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "soulium_ingot")),
+    SUPREMIUM("Supremium", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "supremium_ingot")),
+    TERTIUM("Tertium", new ResourceLocation(Mods.MYSTICAL_AGRICULTURE.modid, "tertium_ingot")),
+
+    QUARTZ_ENRICHED_IRON("Quartz Enriched Iron", new ResourceLocation(Mods.REFINED_STORAGE.modid, "quartz_enriched_iron"));
 
     ResourceLocation tag;
     String name;

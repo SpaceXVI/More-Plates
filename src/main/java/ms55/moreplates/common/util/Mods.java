@@ -10,6 +10,7 @@ public enum Mods {
 	BOTANIA("botania"),
 	COFH("cofh_core"),
 	EXTENDED_CRAFTING("extendedcrafting"),
+	ICE_AND_FIRE("iceandfire"),
 	IMMERSIVE_ENGINEERING("immersiveengineering"),
 	MEKANISM("mekanism"),
 	MYSTICAL_AGRADDITIONS("mysticalagradditions"),

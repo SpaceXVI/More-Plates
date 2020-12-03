@@ -11,6 +11,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MorePlates.MODID);
 
+	public static final RegistryObject<HammerItem> HAMMER = RegistryHandler.ITEMS.register("hammer", () -> new HammerItem());
+
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
