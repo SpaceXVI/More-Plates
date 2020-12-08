@@ -11,7 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.Tags.IOptionalNamedTag;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemTags extends ItemTagsProvider {
 
@@ -43,23 +42,23 @@ public class ItemTags extends ItemTagsProvider {
 
     		for (int i = 0; i < limit; i++) {
     			if (i == 0) {
-    				Item PLATE = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));
+    				ResourceLocation PLATE = new ResourceLocation(MorePlates.MODID, material.toString() + "_plate");
         	        IOptionalNamedTag<Item> tag = Items.createTag("plates", material.toString());
-        	        //getOrCreateBuilder(Items.PLATES).add(PLATE).replace();
-        	        getOrCreateBuilder(tag).add(PLATE).replace();
-        	        getOrCreateBuilder(Items.PLATES).addTag(tag).replace();
+        	        getOrCreateBuilder(tag).addOptional(PLATE).replace();
+        	        getOrCreateBuilder(Items.PLATES).addOptional(PLATE).replace();
+        	        //getOrCreateBuilder(Items.PLATES).addTag(tag).replace();
     			} else if (i == 1) {
-    				Item GEAR = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
+    				ResourceLocation GEAR = new ResourceLocation(MorePlates.MODID, material.toString() + "_gear");
         	        IOptionalNamedTag<Item> tag = Items.createTag("gears", material.toString());
-        	        //getOrCreateBuilder(Items.GEARS).add(GEAR).replace();
-        	        getOrCreateBuilder(tag).add(GEAR).replace();
-        	        getOrCreateBuilder(Items.GEARS).addTag(tag).replace();
+        	        getOrCreateBuilder(tag).addOptional(GEAR).replace();
+        	        getOrCreateBuilder(Items.GEARS).addOptional(GEAR).replace();
+        	        //getOrCreateBuilder(Items.GEARS).addTag(tag).replace();
     			} else {
-    				Item STICK = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_stick"));
+    				ResourceLocation STICK = new ResourceLocation(MorePlates.MODID, material.toString() + "_stick");
         	        IOptionalNamedTag<Item> tag = Items.createTag("rods", material.toString());
-        	        //getOrCreateBuilder(Items.RODS).add(STICK).replace();
-        	        getOrCreateBuilder(tag).add(STICK).replace();
-        	        getOrCreateBuilder(Items.RODS).addTag(tag).replace();
+        	        getOrCreateBuilder(tag).addOptional(STICK).replace();
+        	        getOrCreateBuilder(Items.RODS).addOptional(STICK).replace();
+        	        //getOrCreateBuilder(Items.RODS).addTag(tag).replace();
     			}
     		}
 		}

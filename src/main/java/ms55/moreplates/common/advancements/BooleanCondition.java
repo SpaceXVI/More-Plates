@@ -38,7 +38,8 @@ public final class BooleanCondition implements ICondition {
     }
 
     public static enum Type {
-    	ENABLE_GEAR("enable_gear"),
+    	ENABLE_METAL("register_"   ),
+    	ENABLE_GEAR ("enable_gear" ),
     	ENABLE_PLATE("enable_plate"),
     	ENABLE_STICK("enable_stick");
 
@@ -51,6 +52,10 @@ public final class BooleanCondition implements ICondition {
     	public String get() {
     		return this.name;
     	}
+
+    	/*public Type add(String name) {
+    		return this.new(this.name + name);
+    	}*/
     }
 
     public static class Serializer implements IConditionSerializer<BooleanCondition> {
@@ -66,6 +71,11 @@ public final class BooleanCondition implements ICondition {
         @Override
         public BooleanCondition read(JsonObject json)  {
         	String configSetting = JSONUtils.getString(json, "config_setting");
+        	boolean isregister = configSetting.contains("register_");
+
+        	if (isregister) {
+        		return new BooleanCondition(() -> Config.GENERAL.GEAR_RECIPES.get(), configSetting);
+        	}
 
             switch (configSetting) {
                 //Not now!

@@ -1,5 +1,6 @@
 package ms55.moreplates.common.plugin;
 
+import static ms55.moreplates.common.enumeration.EnumMaterials.ALUMINUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.BRONZE;
 import static ms55.moreplates.common.enumeration.EnumMaterials.CONSTANTAN;
 import static ms55.moreplates.common.enumeration.EnumMaterials.COPPER;
@@ -12,7 +13,9 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.NICKEL;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PLATINUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.SIGNALUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.SILVER;
+import static ms55.moreplates.common.enumeration.EnumMaterials.STEEL;
 import static ms55.moreplates.common.enumeration.EnumMaterials.TIN;
+import static ms55.moreplates.common.enumeration.EnumMaterials.URANIUM;
 
 import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
@@ -28,7 +31,12 @@ public class PluginMetals extends PluginHelper {
 		boolean MEKANISM = Mods.MEKANISM.isModPresent();
 		boolean BLUE_POWER = Mods.BLUE_POWER.isModPresent();
 		boolean IMMERSIVE_ENGINEERING = Mods.IMMERSIVE_ENGINEERING.isModPresent();
+		boolean SILENT = Mods.SILENTS_MECHANISMS.isModPresent();
 		boolean ICE_AND_FIRE = Mods.ICE_AND_FIRE.isModPresent();
+
+		if (IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+			reg2(ALUMINUM);
+		}
 
 		if (COFH || MEKANISM || BLUE_POWER || IMMERSIVE_ENGINEERING || ICE_AND_FIRE || MorePlates.DEBUG) {
 			reg2(COPPER);
@@ -46,6 +54,10 @@ public class PluginMetals extends PluginHelper {
 			reg2(SILVER);
 		}
 
+		if (MEKANISM || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+			reg2(STEEL);
+		}
+
 		if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(NICKEL);
 		}
@@ -60,6 +72,10 @@ public class PluginMetals extends PluginHelper {
 
 		if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(CONSTANTAN);
+		}
+
+		if (SILENT || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+			reg2(URANIUM);
 		}
 
 		if (COFH || MorePlates.DEBUG) {

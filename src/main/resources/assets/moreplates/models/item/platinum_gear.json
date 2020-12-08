@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "moreplates:item/cofh_core/platinum_gear"
+    "layer0": "moreplates:item/metals/platinum_gear"
   }
 }

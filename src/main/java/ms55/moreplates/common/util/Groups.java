@@ -18,6 +18,10 @@ public class Groups {
 		EnumMaterials.FLUIX
 	};
 
+	public static EnumMaterials[] aquaculture = {
+		EnumMaterials.NEPTUNIUM
+	};
+
 	public static EnumMaterials[] astralsorcery = {
 		EnumMaterials.AQUAMARINE,
 		EnumMaterials.RESONATING_GEM,
@@ -31,7 +35,11 @@ public class Groups {
 		EnumMaterials.RED_ALLOY,
 		EnumMaterials.TUNGSTEN,
 		EnumMaterials.TUNGSTEN_CARBIDE,
-		EnumMaterials.ZINC
+		EnumMaterials.ZINC,
+		EnumMaterials.AMETHYST,
+		EnumMaterials.MALACHITE,
+		EnumMaterials.RUBY,
+		EnumMaterials.SAPPHIRE
 	};
 
 	public static EnumMaterials[] botania = {
@@ -57,6 +65,7 @@ public class Groups {
 	};
 
 	public static EnumMaterials[] metals = {
+		EnumMaterials.ALUMINUM,
 		EnumMaterials.BRONZE,
 		EnumMaterials.CONSTANTAN,
 		EnumMaterials.COPPER,
@@ -69,7 +78,9 @@ public class Groups {
 		EnumMaterials.PLATINUM,
 		EnumMaterials.SIGNALUM,
 		EnumMaterials.SILVER,
-		EnumMaterials.TIN
+		EnumMaterials.STEEL,
+		EnumMaterials.TIN,
+		EnumMaterials.URANIUM
 	};
 
 	public static EnumMaterials[] minecraft = {
@@ -105,17 +116,32 @@ public class Groups {
 		EnumMaterials.TERTIUM
 	};
 
+	public static EnumMaterials[] pneumaticcraft = {
+		EnumMaterials.COMPRESSED_IRON
+	};
+
 	public static EnumMaterials[] powah = {
 		EnumMaterials.ENERGIZED_STEEL
+	};
+
+	public static EnumMaterials[] psi = {
+		EnumMaterials.EBONY_PSIMETAL,
+		EnumMaterials.IVORY_PSIMETAL,
+		EnumMaterials.PSIMETAL
 	};
 
 	public static EnumMaterials[] refinedstorage = {
 		EnumMaterials.QUARTZ_ENRICHED_IRON
 	};
 
+	public static EnumMaterials[] silents_mechanisms = {
+		EnumMaterials.BISMUTH
+	};
+
 	public static EnumMaterials[][] materials = {
 		allthemodium,
 		appliedenergistics2,
+		aquaculture,
 		astralsorcery,
 		bluepower,
 		botania,
@@ -125,7 +151,10 @@ public class Groups {
 		minecraft,
 		mysticalagradditions,
 		mysticalagriculture,
+		pneumaticcraft,
 		powah,
-		refinedstorage
+		psi,
+		refinedstorage,
+		silents_mechanisms
 	};
 }

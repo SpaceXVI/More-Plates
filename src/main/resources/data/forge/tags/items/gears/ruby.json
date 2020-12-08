@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:ruby_gear",
+      "required": false
+    }
+  ]
+}

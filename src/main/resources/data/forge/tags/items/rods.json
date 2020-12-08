@@ -1,0 +1,65 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:gold_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:bronze_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:constantan_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:copper_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:electrum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:enderium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:invar_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:lead_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:lumium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:nickel_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:platinum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:signalum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:silver_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:tin_stick",
+      "required": false
+    }
+  ]
+}

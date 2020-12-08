@@ -5,6 +5,7 @@ import net.minecraftforge.fml.ModList;
 public enum Mods {
 	ALL_THE_MODIUM("allthemodium"),
 	APPLIED_ENERGISTICS2("appliedenergistics2"),
+	AQUACULTURE("aquaculture"),
 	ASTRAL_SORCERY("astralsorcery"),
 	BLUE_POWER("bluepower"),
 	BOTANIA("botania"),
@@ -16,8 +17,10 @@ public enum Mods {
 	MYSTICAL_AGRADDITIONS("mysticalagradditions"),
 	MYSTICAL_AGRICULTURE("mysticalagriculture"),
 	POWAH("powah"),
+	PSI("psi"),
 	PNEUMATIC_CRAFT_REPRESSURIZED("pneumaticcraftrepressurized"),
-	REFINED_STORAGE("refinedstorage");
+	REFINED_STORAGE("refinedstorage"),
+	SILENTS_MECHANISMS("silents_mechanisms");
 
 	public String modid;
 

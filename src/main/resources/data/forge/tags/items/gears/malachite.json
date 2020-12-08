@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:malachite_gear",
+      "required": false
+    }
+  ]
+}

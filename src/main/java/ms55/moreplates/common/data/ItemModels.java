@@ -98,7 +98,7 @@ public class ItemModels extends ItemModelProvider {
 	}
 
 	public void registry(EnumMaterials material, String mod) {
-		for (int i = 0 ; i < (mod.equals("metals") ? 3 : 2); i++) {
+		for (int i = 0 ; i < (mod.equals("metals") || material.equals(EnumMaterials.GOLD) || material.equals(EnumMaterials.IRON) ? 3 : 2); i++) {
 			if (i == 0) {
 				getBuilder(material.toString() + "_plate")
 	              .parent(new UncheckedModelFile(new ResourceLocation("item/generated")))

@@ -1,8 +1,5 @@
 package ms55.moreplates.client.config;
 
-import java.util.Arrays;
-import java.util.List;
-
 import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.enumeration.EnumMaterials;
 import net.minecraftforge.common.ForgeConfigSpec;
@@ -22,8 +19,6 @@ public class Config {
 		public final BooleanValue GEAR_RECIPES;
 	    public final BooleanValue PLATE_RECIPES;
 	    public final BooleanValue ROD_RECIPES;
-
-	    public final List<String> DEFAULT_LIST = Arrays.asList(new String[] {"forge:ingots/iron", "forge:ingots/copper", "forge:ingots/tin", "forge:ingots/bronze", "forge:ingots/constructionalloy"});
 
 		public General(ForgeConfigSpec.Builder builder) {
 			builder.comment("General configurations for More Plates")
@@ -52,17 +47,14 @@ public class Config {
 			       .push("Items");
 
 			for (EnumMaterials material : EnumMaterials.values()) {
-				material.isEnabled = loadItem(builder, material);
+				String name = material.getName().toLowerCase().contains(" ") ? material.getName().toLowerCase().replaceAll(" ", "_") : material.getName().toLowerCase();
+				material.isEnabled = builder
+						.comment("Enable" + material.getName())
+						.define("register_" + name, true);
 			}
 
 	        builder.pop();
 		}
-
-		public static BooleanValue loadItem(ForgeConfigSpec.Builder builder, EnumMaterials item) {
-			String name = item.getName().toLowerCase().contains(" ") ? item.getName().toLowerCase().replaceAll(" ", "_") : item.getName().toLowerCase();
-	        return builder.comment("Enable" + item.getName())
-	        			  .define("register_" + name, true);
-	    }
 	}
 
 	public static final ForgeConfigSpec COMMON_SPEC;

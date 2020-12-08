@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:sapphire_gear",
+      "required": false
+    }
+  ]
+}

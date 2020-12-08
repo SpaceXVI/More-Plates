@@ -1,20 +1,77 @@
 {
   "replace": true,
   "values": [
-    "#forge:rods/gold",
-    "#forge:rods/iron",
-    "#forge:rods/bronze",
-    "#forge:rods/constantan",
-    "#forge:rods/copper",
-    "#forge:rods/electrum",
-    "#forge:rods/enderium",
-    "#forge:rods/invar",
-    "#forge:rods/lead",
-    "#forge:rods/lumium",
-    "#forge:rods/nickel",
-    "#forge:rods/platinum",
-    "#forge:rods/signalum",
-    "#forge:rods/silver",
-    "#forge:rods/tin"
+    {
+      "id": "moreplates:gold_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:aluminum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:bronze_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:constantan_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:copper_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:electrum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:enderium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:invar_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:lead_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:lumium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:nickel_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:platinum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:signalum_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:silver_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:steel_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:tin_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:uranium_stick",
+      "required": false
+    }
   ]
 }

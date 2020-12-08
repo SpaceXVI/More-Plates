@@ -1,0 +1,325 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:brick_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:charcoal_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:coal_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:diamond_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:emerald_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:flint_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:glowstone_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:gold_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:iron_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:lapis_lazuli_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:nether_brick_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:netherite_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:nether_quartz_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:paper_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:prismarine_crystals_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:redstone_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:allthemodium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:unobtainium_allthemodium_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:unobtainium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:vibranium_allthemodium_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:vibranium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:vibranium_unobtainium_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:certus_quartz_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:fluix_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:neptunium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:aquamarine_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:resonating_gem_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:starmetal_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:brass_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:blue_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:purple_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:red_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:tungsten_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:tungsten_carbide_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:zinc_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:amethyst_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:malachite_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:ruby_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:sapphire_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:elementium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:gaia_spirit_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:manasteel_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:terrasteel_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:bronze_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:constantan_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:copper_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:electrum_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:enderium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:invar_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:lead_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:lumium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:nickel_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:platinum_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:signalum_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:silver_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:tin_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:black_iron_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:crystaltine_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:ender_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:enhanced_ender_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:redstone_ingot_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:the_ultimate_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:osmium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:refined_glowstone_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:refined_obsidian_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:insanium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:compressed_iron_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:energized_steel_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:ebony_psimetal_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:ivory_psimetal_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:psimetal_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:imperium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:inferium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:prosperity_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:prudentium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:soulium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:supremium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:tertium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:quartz_enriched_iron_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:bismuth_gear",
+      "required": false
+    }
+  ]
+}

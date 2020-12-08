@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:ebony_psimetal_plate",
+      "required": false
+    }
+  ]
+}

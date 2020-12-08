@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:psimetal_gear",
+      "required": false
+    }
+  ]
+}

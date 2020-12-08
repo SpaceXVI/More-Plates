@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '4.0'
+version = '5.0.0.0'
 group = 'ms55.moreplates'
 archivesBaseName = 'moreplates-1.16.4'
 
@@ -81,8 +81,7 @@ sourceSets {
     main {
         resources {
             srcDirs = [
-                    "$rootDir/src/main/resources",
-                    "$rootDir/src/generated/resources"
+                    "$rootDir/src/main/resources"
             ]
         }
     }

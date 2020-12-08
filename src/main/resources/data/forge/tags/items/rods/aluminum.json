@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:aluminum_stick",
+      "required": false
+    }
+  ]
+}
