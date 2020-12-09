@@ -47,10 +47,9 @@ public class Config {
 			       .push("Items");
 
 			for (EnumMaterials material : EnumMaterials.values()) {
-				String name = material.getName().toLowerCase().contains(" ") ? material.getName().toLowerCase().replaceAll(" ", "_") : material.getName().toLowerCase();
 				material.isEnabled = builder
-						.comment("Enable" + material.getName())
-						.define("register_" + name, true);
+					.comment("Enable " + material.getName().toLowerCase() + " integration")
+					.define("register_" + material.toString(), true);
 			}
 
 	        builder.pop();

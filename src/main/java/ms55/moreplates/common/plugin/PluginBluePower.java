@@ -12,29 +12,28 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.TUNGSTEN;
 import static ms55.moreplates.common.enumeration.EnumMaterials.TUNGSTEN_CARBIDE;
 import static ms55.moreplates.common.enumeration.EnumMaterials.ZINC;
 
-import ms55.moreplates.MorePlates;
+import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
-import ms55.moreplates.common.util.Mods;
 
+@Plugin(modid = PluginBluePower.modid, modname = PluginBluePower.modname)
 public class PluginBluePower extends PluginHelper {
 
 	public static final String modid   = "bluepower";
 	public static final String modname = "Blue Power";
 
+	@Plugin.registry
 	public static void registry() {
-		if (Mods.BLUE_POWER.isModPresent() || MorePlates.DEBUG) {
-			reg(BRASS);
-			reg(BLUE_ALLOY);
-			reg(PURPLE_ALLOY);
-			reg(RED_ALLOY);
-			reg(TUNGSTEN);
-			reg(TUNGSTEN_CARBIDE);
-			reg(ZINC);
+		reg(BRASS);
+		reg(BLUE_ALLOY);
+		reg(PURPLE_ALLOY);
+		reg(RED_ALLOY);
+		reg(TUNGSTEN);
+		reg(TUNGSTEN_CARBIDE);
+		reg(ZINC);
 
-			reg(AMETHYST);
-			reg(MALACHITE);
-			reg(RUBY);
-			reg(SAPPHIRE);
-		}
+		reg(AMETHYST);
+		reg(MALACHITE);
+		reg(RUBY);
+		reg(SAPPHIRE);
 	}
 }

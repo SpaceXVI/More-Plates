@@ -25,9 +25,11 @@
           "I"
         ],
         "key": {
-          "H": [],
+          "H": {
+            "item": "moreplates:hammer"
+          },
           "I": {
-            "tag": "minecraft:brick"
+            "item": "minecraft:brick"
           }
         },
         "result": {

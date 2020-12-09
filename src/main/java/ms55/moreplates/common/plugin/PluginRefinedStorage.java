@@ -2,18 +2,17 @@ package ms55.moreplates.common.plugin;
 
 import static ms55.moreplates.common.enumeration.EnumMaterials.QUARTZ_ENRICHED_IRON;
 
-import ms55.moreplates.MorePlates;
+import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
-import ms55.moreplates.common.util.Mods;
 
+@Plugin(modid = PluginRefinedStorage.modid, modname = PluginRefinedStorage.modname)
 public class PluginRefinedStorage extends PluginHelper {
 
 	public static final String modid   = "refinedstorage";
 	public static final String modname = "Refined Storage";
 
+	@Plugin.registry
 	public static void registry() {
-		if (Mods.REFINED_STORAGE.isModPresent() || MorePlates.DEBUG) {
-			reg(QUARTZ_ENRICHED_IRON);
-		}
+		reg(QUARTZ_ENRICHED_IRON);
     }
 }

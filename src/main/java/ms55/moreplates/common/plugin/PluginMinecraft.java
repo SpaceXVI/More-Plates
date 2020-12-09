@@ -17,13 +17,16 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.PAPER;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PRISMARINE_CRYSTALS;
 import static ms55.moreplates.common.enumeration.EnumMaterials.REDSTONE;
 
+import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
 
+@Plugin(modid = PluginMinecraft.modid, modname = PluginMinecraft.modname, checkModid = false)
 public class PluginMinecraft extends PluginHelper {
 
 	public static final String modid   = "minecraft";
 	public static final String modname = "Minecraft";
 
+	@Plugin.registry
 	public static void registry() {
 		reg(BRICK);
 		reg(CHARCOAL);

@@ -1,7 +1,5 @@
 package ms55.moreplates.common.util;
 
-import net.minecraftforge.fml.ModList;
-
 public enum Mods {
 	ALL_THE_MODIUM("allthemodium"),
 	APPLIED_ENERGISTICS2("appliedenergistics2"),
@@ -29,6 +27,6 @@ public enum Mods {
 	}
 
 	public boolean isModPresent() {
-		return ModList.get().isLoaded(modid);
+		return Utils.isModPresent(modid);
 	}
 }

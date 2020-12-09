@@ -185,6 +185,18 @@
       "id": "moreplates:copper_plate",
       "required": false
     },
+	{
+      "id": "moreplates:steel_plate",
+      "required": false
+    },
+	{
+      "id": "moreplates:uranium_plate",
+      "required": false
+    },
+	{
+      "id": "moreplates:aluminum_plate",
+      "required": false
+    },
     {
       "id": "moreplates:electrum_plate",
       "required": false

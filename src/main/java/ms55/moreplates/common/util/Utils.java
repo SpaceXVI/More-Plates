@@ -1,15 +1,12 @@
 package ms55.moreplates.common.util;
 
-import java.io.File;
-import java.io.FilenameFilter;
-import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
-import java.net.URL;
-import java.net.URLDecoder;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Set;
+
+import org.reflections.Reflections;
 
 import ms55.moreplates.common.plugin.helper.PluginHelper;
+import net.minecraftforge.fml.ModList;
 
 //A class that is just copy-pasta
 public class Utils {
@@ -33,8 +30,18 @@ public class Utils {
 	    System.out.println("Couldn't get field name 2");
 	    return null;
 	}
+	
+	public static boolean isModPresent(String modid) {
+		return ModList.get().isLoaded(modid);
+	}
+	
+	public static Set<Class<? extends PluginHelper>> getAllPlugins() {
+		Reflections reflections = new Reflections("ms55.moreplates.common.plugin");
 
-	@SuppressWarnings("unchecked")
+		return reflections.getSubTypesOf(PluginHelper.class);
+	}
+
+	/*@SuppressWarnings("unchecked")
 	public static List<Class<PluginHelper>> getAllPlugins() throws UnsupportedEncodingException, ClassNotFoundException {
 		String packageName = "ms55.moreplates.common.plugin";
 
@@ -57,5 +64,5 @@ public class Utils {
 		}
 
 		return plugins;
-	}
+	}*/
 }

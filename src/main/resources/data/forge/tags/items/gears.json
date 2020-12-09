@@ -182,6 +182,18 @@
       "required": false
     },
     {
+      "id": "moreplates:steel_gear",
+      "required": false
+    },
+	{
+      "id": "moreplates:uranium_gear",
+      "required": false
+    },
+	{
+      "id": "moreplates:aluminum_gear",
+      "required": false
+    },
+	{
       "id": "moreplates:copper_gear",
       "required": false
     },

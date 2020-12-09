@@ -25,7 +25,9 @@
           "I"
         ],
         "key": {
-          "H": [],
+          "H": {
+            "item": "moreplates:hammer"
+          },
           "I": {
             "tag": "forge:gems/prismarine"
           }

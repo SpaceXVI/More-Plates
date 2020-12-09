@@ -10,10 +10,6 @@
       "required": false
     },
     {
-      "id": "moreplates:aluminum_stick",
-      "required": false
-    },
-    {
       "id": "moreplates:bronze_stick",
       "required": false
     },
@@ -62,15 +58,7 @@
       "required": false
     },
     {
-      "id": "moreplates:steel_stick",
-      "required": false
-    },
-    {
       "id": "moreplates:tin_stick",
-      "required": false
-    },
-    {
-      "id": "moreplates:uranium_stick",
       "required": false
     }
   ]

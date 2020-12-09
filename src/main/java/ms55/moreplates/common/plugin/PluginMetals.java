@@ -18,14 +18,16 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.TIN;
 import static ms55.moreplates.common.enumeration.EnumMaterials.URANIUM;
 
 import ms55.moreplates.MorePlates;
+import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
 import ms55.moreplates.common.util.Mods;
 
+@Plugin(modid = "", modname = PluginMetals.modname, checkModid = false)
 public class PluginMetals extends PluginHelper {
 
-	public static final String modid   = "metals";
 	public static final String modname = "Metals";
 
+	@Plugin.registry
 	public static void registry() {
 		boolean COFH = Mods.COFH.isModPresent();
 		boolean MEKANISM = Mods.MEKANISM.isModPresent();

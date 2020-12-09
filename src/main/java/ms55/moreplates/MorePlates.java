@@ -1,5 +1,8 @@
 package ms55.moreplates;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import ms55.moreplates.client.config.Config;
 import ms55.moreplates.common.RegistryHandler;
 import ms55.moreplates.common.advancements.BooleanCondition;
@@ -20,7 +23,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class MorePlates {
     public static final String MODID = "moreplates";
 	public static final String NAME = "More Plates";
-	
+
+    public static final Logger LOGGER = LogManager.getLogger();
+
 	public static final ItemGroup ITEMGROUP = new MorePlatesItemGroup();
 
 	public static final boolean DEBUG = false;
@@ -33,14 +38,12 @@ public class MorePlates {
 
         ModLoadingContext.get().registerConfig(Type.COMMON, Config.COMMON_SPEC, "moreplates.toml");
 
-        //PluginHolder.registry();
-        try {
+		try {
 			PluginLoader.initializePlugins();
-		} catch (NoSuchMethodException e) {
-			e.printStackTrace();
-		} catch (SecurityException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
         RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(DataGenerators.class);

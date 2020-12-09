@@ -2,18 +2,17 @@ package ms55.moreplates.common.plugin;
 
 import static ms55.moreplates.common.enumeration.EnumMaterials.ENERGIZED_STEEL;
 
-import ms55.moreplates.MorePlates;
+import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
-import ms55.moreplates.common.util.Mods;
 
+@Plugin(modid = PluginPowah.modid, modname = PluginPowah.modname)
 public class PluginPowah extends PluginHelper {
 
 	public static final String modid   = "powah";
 	public static final String modname = "Powah";
 
+	@Plugin.registry
 	public static void registry() {
-		if (Mods.POWAH.isModPresent() || MorePlates.DEBUG) {
-			reg(ENERGIZED_STEEL);
-		}
+		reg(ENERGIZED_STEEL);
 	}
 }

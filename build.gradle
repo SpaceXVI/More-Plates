@@ -81,7 +81,8 @@ sourceSets {
     main {
         resources {
             srcDirs = [
-                    "$rootDir/src/main/resources"
+                    "$rootDir/src/main/resources",
+                    "$rootDir/src/generated/resources"
             ]
         }
     }
@@ -94,8 +95,18 @@ repositories {
     }
 }
 
+configurations {
+    // configuration that holds jars to include in the jar
+    moreLibs
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.4-35.0.3'
+
+    //moreLibs group: 'net.oneandone.reflections8', name: 'reflections8', version: '0.11.5'
+    moreLibs group: 'org.reflections', name: 'reflections', version: '0.9.11'
+
+    configurations.compile.extendsFrom(configurations.moreLibs)
 
     compileOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:1.16.4-4.1.1-128")
     runtimeOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:1.16.4-4.1.1-128")
@@ -112,6 +123,9 @@ jar {
             "Implementation-Vendor" :"MostafaSabry55",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
+    }
+    from {
+    	configurations.moreLibs.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 
