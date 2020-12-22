@@ -7,10 +7,10 @@
           "values": [
             {
               "type": "moreplates:isconfigenabled",
-              "config_setting": "enable_plate"
+              "config_setting": "enable_gear"
             },
             {
-              "item": "moreplates:tungsten_carbide_plate",
+              "item": "moreplates:dragonsteel_ice_gear",
               "type": "forge:item_exists"
             }
           ],
@@ -20,20 +20,20 @@
       "recipe": {
         "type": "minecraft:crafting_shaped",
         "pattern": [
-          "H",
-          "I",
-          "I"
+          " x ",
+          "x#x",
+          " x "
         ],
         "key": {
-          "H": {
-            "item": "moreplates:hammer"
+          "x": {
+            "tag": "forge:ingots/dragonsteel_ice"
           },
-          "I": {
-            "item": "bluepower:tungsten_carbide"
+          "#": {
+            "tag": "forge:ingots/iron"
           }
         },
         "result": {
-          "item": "moreplates:tungsten_carbide_plate"
+          "item": "moreplates:dragonsteel_ice_gear"
         }
       }
     }

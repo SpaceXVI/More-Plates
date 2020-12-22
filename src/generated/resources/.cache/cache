@@ -1,4 +1,4 @@
-f61322681c34a25e7cff18a8e21439b3185caf1d assets/moreplates/lang/en_us.json
+189f219f2b5b7e20d5531b7649fb5e3a087a2e7b assets/moreplates/lang/en_us.json
 9578a6480bd1aea3df069f3ce80cca140062f05d assets/moreplates/models/item/allthemodium_gear.json
 765f184d8e65833b719c30ed7babe68d324b4fde assets/moreplates/models/item/allthemodium_plate.json
 cacd6545f82c68bb1fab97207170686c91c6ffb3 assets/moreplates/models/item/aluminum_gear.json
@@ -39,6 +39,12 @@ c7d3eb90b1f58064112455e754b11dd5934c0222 assets/moreplates/models/item/crystalti
 4dd00819159728a926939514c5c708f0a3318fbb assets/moreplates/models/item/crystaltine_plate.json
 73c3f232bbeaafae6e2c88abb7056f966bd5a401 assets/moreplates/models/item/diamond_gear.json
 687503f4921859f6749b350ba190731e18d18f6f assets/moreplates/models/item/diamond_plate.json
+00318b0588071c404a3e728a76c11a47af897c71 assets/moreplates/models/item/dragonsteel_fire_gear.json
+40fc89dc6792017d674f693089061cf9e30bed2c assets/moreplates/models/item/dragonsteel_fire_plate.json
+86d68418df89ebe48d57d23e84cb215e057263a0 assets/moreplates/models/item/dragonsteel_ice_gear.json
+c3cf1adc56051a6ae562573c05f3cd6bfbdea252 assets/moreplates/models/item/dragonsteel_ice_plate.json
+4edc9fef6f5c35e96b716a9fbc624e0cc4734192 assets/moreplates/models/item/dragonsteel_lightning_gear.json
+e15a4dbfdfb3fe600fe5ecabce55ece3a8aafdc9 assets/moreplates/models/item/dragonsteel_lightning_plate.json
 04827f6d9886e79811f69de1615b818db2afc6dd assets/moreplates/models/item/ebony_psimetal_gear.json
 5164f3a22c4845520c05ce814ad4c316da212c82 assets/moreplates/models/item/ebony_psimetal_plate.json
 437c5a63545ab795a5a4f77eafa734b8ad41679a assets/moreplates/models/item/electrum_gear.json
@@ -63,6 +69,8 @@ d5532dbed4ba588bfcf80f8abcfe7796531b1c87 assets/moreplates/models/item/fluix_gea
 0513c3d556f760379631145a2cc6f5343922c02f assets/moreplates/models/item/fluix_plate.json
 0d5b9c52f40ebede83291b515840df51fc89ac98 assets/moreplates/models/item/gaia_spirit_gear.json
 d7efe041efa111cc5607ae56a849d6b8276cd8f4 assets/moreplates/models/item/gaia_spirit_plate.json
+d88667d0786fb13f161d0e5961ac916fbb0fb05f assets/moreplates/models/item/ghost_gear.json
+d999319b0fbd7b7812d86f659c2b99454fbf3d74 assets/moreplates/models/item/ghost_plate.json
 edb4abe2a05d9f1267425d77b4e9ea221ada8625 assets/moreplates/models/item/glowstone_gear.json
 06f6a59bb84152909015524955dfad090cee21ad assets/moreplates/models/item/glowstone_plate.json
 e1accf6265a88c1abfaca8cf8b0561c355e75fb7 assets/moreplates/models/item/gold_gear.json
@@ -183,7 +191,7 @@ f6be3076b182090c1942597d3c89d60f81d66613 assets/moreplates/models/item/vibranium
 3aadac5bec808ff10af9526d3926324745c6aa97 assets/moreplates/models/item/vibranium_unobtainium_alloy_plate.json
 f28be8b23f8251f78da4c04c5029669d58195df0 assets/moreplates/models/item/zinc_gear.json
 3c82e6682bac3d188d51b6fafa530fb20371afc1 assets/moreplates/models/item/zinc_plate.json
-74d08464da61eec7f9d76b5f128b6acd0e01c7e7 data/forge/tags/items/gears.json
+96e27007b546e23f0ecbf01c136810ab129a9b4d data/forge/tags/items/gears.json
 972af5d55a62f5fa361da9aeb18be31c1cb330c4 data/forge/tags/items/gears/allthemodium.json
 c358fb9f2da754d9da21eb8e02f32d6afec3abd9 data/forge/tags/items/gears/aluminum.json
 14a2d06adc8438b1bc9410d17e1e791d3c91bbf8 data/forge/tags/items/gears/amethyst.json
@@ -202,6 +210,9 @@ c6f512d07cf406e2f0808bd0e6c222d7fb9c1de0 data/forge/tags/items/gears/charcoal.js
 39012dfea7f6081fd499056ea23d990c23d9ff87 data/forge/tags/items/gears/copper.json
 c5dc770a01b1e710717b6b1b3725fcd4ddbcb9bd data/forge/tags/items/gears/crystaltine.json
 43e8c899e84e521301a9dad90b57c831fd6584b7 data/forge/tags/items/gears/diamond.json
+9d4773a49c587eeae3eb77e86e91522afdacac2d data/forge/tags/items/gears/dragonsteel_fire.json
+83f9b08ba0692079bca5343ad8eb3f2d9f671605 data/forge/tags/items/gears/dragonsteel_ice.json
+23a172f7610fbd045fe7ad9297aabf059dd5333f data/forge/tags/items/gears/dragonsteel_lightning.json
 5844ef0434c6695365c9f08e030ce71cb0a6fe7c data/forge/tags/items/gears/ebony_psimetal.json
 f01b9b9793b184f271c72cbb95fcfef3fc9ffa62 data/forge/tags/items/gears/electrum.json
 40b2ab3038e9c6caab8492a2b4ec8e94e8fa7fda data/forge/tags/items/gears/elementium.json
@@ -213,6 +224,7 @@ e1b4717c9eb78222982e5cb691d7ff5a0560bbba data/forge/tags/items/gears/enhanced_en
 806ba6a736c481175f81f6a1a9d5db5ee581df86 data/forge/tags/items/gears/flint.json
 1ce2ca4fb3fa9a745235736f99e35b32f8a492d2 data/forge/tags/items/gears/fluix.json
 48a9044356ab2a4b7cf206f6404d3fe579ccc365 data/forge/tags/items/gears/gaia_spirit.json
+9224f4451a88001479b1f2c919317745458caa67 data/forge/tags/items/gears/ghost.json
 d30b6273f24f37e08490dc3868504fe6608ecb9e data/forge/tags/items/gears/glowstone.json
 e7a503ccd3fd3c844aa3559b978f3d76c1cf2198 data/forge/tags/items/gears/gold.json
 c1826652666f897d2c7a304c576cfe1075867c75 data/forge/tags/items/gears/imperium.json
@@ -267,7 +279,7 @@ c6186e96e096b316fdcf32f69b637c0da6210d9f data/forge/tags/items/gears/vibranium.j
 ab61f63f08eb4742935f330fa8686e22d354b69c data/forge/tags/items/gears/vibranium_allthemodium_alloy.json
 d28b6f9229374490807fcad74562f138a19c35ec data/forge/tags/items/gears/vibranium_unobtainium_alloy.json
 b3fc0eaa1e485c1a3d5139c6f69c20333d8b6c00 data/forge/tags/items/gears/zinc.json
-e08abf5f5bdbf56a447bfdafef5eaf3aa5e17b24 data/forge/tags/items/plates.json
+af159285ea4049c854a889a3998d1b5265f04087 data/forge/tags/items/plates.json
 610b971e58fcbbd359935912614fefc9b56cdcf6 data/forge/tags/items/plates/allthemodium.json
 5f0a6032c7148bb288622e113636b07ec305e4f0 data/forge/tags/items/plates/aluminum.json
 931f388360043c306f0c85903f27123a2b18c7eb data/forge/tags/items/plates/amethyst.json
@@ -286,6 +298,9 @@ c08822672181089bc516fb9ba86aa82ad6c91206 data/forge/tags/items/plates/coal.json
 c4b631eb4a9840039fcfbdf969897d37e25cce20 data/forge/tags/items/plates/copper.json
 d1c762f5e5edd62b2b6f524896e350cba2a9c1a2 data/forge/tags/items/plates/crystaltine.json
 61cf52a3c85af2cc598b9fe92b497e8fcad4c0e4 data/forge/tags/items/plates/diamond.json
+f238d5c33b0d0bf543a77a3524f1b7cfaa2823d9 data/forge/tags/items/plates/dragonsteel_fire.json
+1f83535ba5c19b71f3ec44bd35256da495d664ce data/forge/tags/items/plates/dragonsteel_ice.json
+307cfe72846d5e8dcee153f94f387a78a46e0096 data/forge/tags/items/plates/dragonsteel_lightning.json
 9689a9e341f3d1c7f7e48445cf508143be754788 data/forge/tags/items/plates/ebony_psimetal.json
 bafcee776890a5496ce429f55835f562689d7748 data/forge/tags/items/plates/electrum.json
 95ceb58ee3acb6c781f5740b9f4d853f8724615f data/forge/tags/items/plates/elementium.json
@@ -297,6 +312,7 @@ ce186ba73dec485b77eb5ed8afbc20aae9f59d9b data/forge/tags/items/plates/enhanced_e
 89a46256190468a8d1adf0e3fde72204c0d7821d data/forge/tags/items/plates/flint.json
 0392ddf6ed6f2bb1b6d283fe7d1fdb756359b6d3 data/forge/tags/items/plates/fluix.json
 296581a27fb278a274c41278029f1956e10e5fce data/forge/tags/items/plates/gaia_spirit.json
+9cdbc04213fa41c30e7df1cf532ca665da5a6798 data/forge/tags/items/plates/ghost.json
 5179c31b26b534bcc43f0cc75b92c6498153129a data/forge/tags/items/plates/glowstone.json
 5ca14d06487de8857941a5d4ee3f7e8fbb3a4606 data/forge/tags/items/plates/gold.json
 c42ebce0ec972a25abfd3d8704aed149c53a5669 data/forge/tags/items/plates/imperium.json
@@ -496,6 +512,12 @@ d6bf91d39d27254f28d32e52890444e21240e816 data/moreplates/recipes/copper_plate.js
 bebc0eacfa267c1ddb86accf80514c92bc1e4a78 data/moreplates/recipes/crystaltine_plate.json
 7d99cdff65b715ff0b433704ce1ec3d9a965aaf6 data/moreplates/recipes/diamond_gear.json
 bbfd8aeb74563c353cf2ca4283c06e63a657889b data/moreplates/recipes/diamond_plate.json
+39ef76ea4d6f1b22ff5b71cce4c4398df873bdba data/moreplates/recipes/dragonsteel_fire_gear.json
+fabe69ad68046254ad8d07db3dd2550ea28f1277 data/moreplates/recipes/dragonsteel_fire_plate.json
+a40360990bde097897d46defae1ff11166c9671f data/moreplates/recipes/dragonsteel_ice_gear.json
+0adb6151a0c02ca070df851b111c319ed5b824cd data/moreplates/recipes/dragonsteel_ice_plate.json
+9941b0ba834dc1bf8bf7aab87bdb6c9ccfbdf6fa data/moreplates/recipes/dragonsteel_lightning_gear.json
+1006ffe37abac1eb4f0a8a601fbdec399b4e1a66 data/moreplates/recipes/dragonsteel_lightning_plate.json
 c4d51755c29c1225dd96b666f49bf76c066d3030 data/moreplates/recipes/ebony_psimetal_gear.json
 ef6d2ee024ad3832c3d2f66a2f426df215fb760b data/moreplates/recipes/ebony_psimetal_plate.json
 7afdda0f27f70363b3788bf995fb49a175819058 data/moreplates/recipes/electrum_gear.json
@@ -520,6 +542,8 @@ bfc4b1f0815236465863f71cc056abe5535c143f data/moreplates/recipes/fluix_gear.json
 5bfab0aa036d873f6754d3b8bcc9a2499d0495e1 data/moreplates/recipes/fluix_plate.json
 4de2f5443b2fea196453d0b4ad781aaba114ff95 data/moreplates/recipes/gaia_spirit_gear.json
 f9b34e856b25ebe2d9b4dbee5fa4e12f0d0e5543 data/moreplates/recipes/gaia_spirit_plate.json
+de605eb9269fd740e5dce0796931842a3f83b164 data/moreplates/recipes/ghost_gear.json
+55a39565705d8694056f38d453dc8245dd31f4bf data/moreplates/recipes/ghost_plate.json
 44217a7011b345464bec9d318adbe7b9d974a48a data/moreplates/recipes/glowstone_gear.json
 fd321cc72bd802e79af15bf40d13635903ad9861 data/moreplates/recipes/glowstone_plate.json
 da4f419667874f77e16d9607c595b4a607a71b54 data/moreplates/recipes/gold_gear.json
@@ -589,6 +613,12 @@ d4e5981bc26a4a69a4b539595fe9ed3995695d75 data/moreplates/recipes/metal_press/com
 8297eea2c53d324a9bbcab4745f3085bf4971a02 data/moreplates/recipes/metal_press/crystaltine_plate.json
 f5f991bd5f8ec924893a17fe680ef75fdbd3d111 data/moreplates/recipes/metal_press/diamond_gear.json
 0eed9f1aafca9039da2b560e5c1f67fb027245e4 data/moreplates/recipes/metal_press/diamond_plate.json
+8410d164a897477c21f470ef80ea2cb5bb2689ee data/moreplates/recipes/metal_press/dragonsteel_fire_gear.json
+e65f443a4df1040f81a0992600e8ff2ac6bfd916 data/moreplates/recipes/metal_press/dragonsteel_fire_plate.json
+b16d798d8b8e62c6340269bee5accdd307493274 data/moreplates/recipes/metal_press/dragonsteel_ice_gear.json
+4e8f0d894eeeb132184139905c6a493ab4ba0db1 data/moreplates/recipes/metal_press/dragonsteel_ice_plate.json
+2dc69fe377017464bdff01d17e96e185bea0e66e data/moreplates/recipes/metal_press/dragonsteel_lightning_gear.json
+ad65e11e10b166c4d297bdd078637c63270c3a61 data/moreplates/recipes/metal_press/dragonsteel_lightning_plate.json
 90480a8288d4cd884a97463ead58b8420569e964 data/moreplates/recipes/metal_press/ebony_psimetal_gear.json
 41d3bddb089960a6acdb0d06850fd33368d19807 data/moreplates/recipes/metal_press/ebony_psimetal_plate.json
 7031d085d27e02a2fc5ba3955f24b943aaf0f189 data/moreplates/recipes/metal_press/electrum_gear.json
@@ -613,6 +643,8 @@ cfb156d6f4a115fa43158d6936f02fb883bab504 data/moreplates/recipes/metal_press/flu
 258a5355ac7ef2e7ffc5027e1b74197885884423 data/moreplates/recipes/metal_press/fluix_plate.json
 7e181182b81ae92e1cf667d9919986eefa771a45 data/moreplates/recipes/metal_press/gaia_spirit_gear.json
 287d4bf652827a5d6a99ac5d8224f5192ceb3098 data/moreplates/recipes/metal_press/gaia_spirit_plate.json
+df05b99fb5757588d4d01f920bedbda8d1811136 data/moreplates/recipes/metal_press/ghost_gear.json
+1df6ac463b487a5634f76d66836b2e4470a8293a data/moreplates/recipes/metal_press/ghost_plate.json
 4d1b4d83c2052dbe6c64609342c7c99e6bf3a0e2 data/moreplates/recipes/metal_press/glowstone_gear.json
 597fc77bc888d6a8e818b80ffe6ce77b4117ac69 data/moreplates/recipes/metal_press/glowstone_plate.json
 eb4d7e1f249f3362df9c7b0c6266b51a027d7e2b data/moreplates/recipes/metal_press/gold_gear.json

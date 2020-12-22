@@ -10,7 +10,7 @@
               "config_setting": "enable_plate"
             },
             {
-              "item": "moreplates:tungsten_carbide_plate",
+              "item": "moreplates:dragonsteel_fire_plate",
               "type": "forge:item_exists"
             }
           ],
@@ -29,11 +29,11 @@
             "item": "moreplates:hammer"
           },
           "I": {
-            "item": "bluepower:tungsten_carbide"
+            "tag": "forge:ingots/dragonsteel_fire"
           }
         },
         "result": {
-          "item": "moreplates:tungsten_carbide_plate"
+          "item": "moreplates:dragonsteel_fire_plate"
         }
       }
     }

@@ -28,7 +28,7 @@ public class MorePlates {
 
 	public static final ItemGroup ITEMGROUP = new MorePlatesItemGroup();
 
-	public static final boolean DEBUG = false;
+	public static final boolean DEBUG = isDevEnv();
 
     public MorePlates() {
         MinecraftForge.EVENT_BUS.register(this);
@@ -47,6 +47,10 @@ public class MorePlates {
         RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(DataGenerators.class);
+    }
+
+    public static boolean isDevEnv() {
+        return "fmluserdevclient".equals(System.getenv("target"));
     }
 
     @SubscribeEvent

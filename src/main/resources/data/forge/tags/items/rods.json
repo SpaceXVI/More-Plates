@@ -21,18 +21,6 @@
       "id": "moreplates:copper_stick",
       "required": false
     },
-	{
-      "id": "moreplates:steel_stick",
-      "required": false
-    },
-	{
-      "id": "moreplates:uranium_stick",
-      "required": false
-    },
-	{
-      "id": "moreplates:aluminum_stick",
-      "required": false
-    },
     {
       "id": "moreplates:electrum_stick",
       "required": false

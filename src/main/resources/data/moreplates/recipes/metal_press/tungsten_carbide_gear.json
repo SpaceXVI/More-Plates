@@ -24,7 +24,7 @@
   "input": {
     "count": 4,
     "base_ingredient": {
-      "item": "bluepower:tungsten_carbide_ingot"
+      "item": "bluepower:tungsten_carbide"
     }
   },
   "energy": 2400

@@ -90,6 +90,12 @@ public enum EnumMaterials {
     REDSTONE_INGOT("Redstone Ingot", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "redstone_ingot")),
     THE_ULTIMATE("The Ultimate", new ResourceLocation(Mods.EXTENDED_CRAFTING.modid, "the_ultimate_ingot")),
 
+    // Ice and Fire
+    DRAGONSTEEL_FIRE("Fire Dragonsteel", new ResourceLocation("forge:ingots/dragonsteel_fire")),
+    DRAGONSTEEL_ICE("Ice Dragonsteel", new ResourceLocation("forge:ingots/dragonsteel_ice")),
+    DRAGONSTEEL_LIGHTNING("Lightning Dragonsteel", new ResourceLocation("forge:ingots/dragonsteel_lightning")),
+    GHOST("Phantasmal", new ResourceLocation(Mods.ICE_AND_FIRE.modid, "ghost_ingot")),
+
     // Mekanism
     OSMIUM("Osmium", new ResourceLocation("forge:ingots/osmium")),
     REFINED_GLOWSTONE("Refined Glowstone", new ResourceLocation("forge:ingots/refined_glowstone")),
@@ -159,11 +165,6 @@ public enum EnumMaterials {
             return Type.INGOT.toString();
         else
             return type.toString();
-    }
-
-    @Deprecated //Remove
-    public String getInput() {
-        return getType() + getTag();
     }
 
     public enum Type {

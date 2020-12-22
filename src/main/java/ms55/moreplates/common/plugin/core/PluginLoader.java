@@ -12,21 +12,6 @@ import net.minecraftforge.forgespi.language.ModFileScanData;
 import net.minecraftforge.forgespi.language.ModFileScanData.AnnotationData;
 
 public class PluginLoader {
-
-	/*public static void initializePlugins() throws Exception {
-		Set<Class<? extends PluginHelper>> plugins = Utils.getAllPlugins();
-
-		if (!plugins.isEmpty()) {
-			for (Class<? extends PluginHelper> cls : plugins) {
-				try {
-					cls.getDeclaredMethod("registry").invoke(null);
-				} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException | NoSuchMethodException | SecurityException e) {
-					throw e;
-				}
-			}
-		}
-	}*/
-
 	private static final Type ANNOTATION = Type.getType(Plugin.class);
 
 	public static void initializePlugins() throws Exception {
@@ -42,7 +27,7 @@ public class PluginLoader {
 	                boolean loaded, config;
 
 	                if (details.checkModid()) {
-	                    loaded = Utils.isModPresent(modid);
+	                    loaded = Utils.isModPresent(modid) || MorePlates.DEBUG;
 	                } else {
 	                    loaded = true;
 	                }
@@ -54,17 +39,8 @@ public class PluginLoader {
 	                }
 
 	                if (loaded && config) {
-	                	/*try {
-	    					cls.getDeclaredMethod("registry").invoke(null);
-    	                    MorePlates.LOGGER.debug("Plugin " + modname + " loaded, adding");
-	    				} catch (Exception e) {
-							MorePlates.LOGGER.error("Unable to initialise plugin " + modname + " due to the method \"registry\" not being found! The following error was thrown:");
-	                        MorePlates.LOGGER.catching(Level.ERROR, e);
-	    				}*/
 	                	for (Method method : cls.getMethods()) {
 	                        if (method.isAnnotationPresent(Plugin.registry.class)) {
-	                        	System.out.println(cls);
-	                        	System.out.println(cls.getName());
 	                            try {
 	                                method.invoke(cls.newInstance());
 	        	                    MorePlates.LOGGER.debug("Plugin " + modname + " loaded, adding");

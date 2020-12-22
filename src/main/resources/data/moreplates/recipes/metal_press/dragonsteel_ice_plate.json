@@ -4,7 +4,7 @@
     "item": "immersiveengineering:mold_plate"
   },
   "result": {
-    "item": "moreplates:tungsten_carbide_plate"
+    "item": "moreplates:dragonsteel_ice_plate"
   },
   "conditions": [
     {
@@ -14,7 +14,7 @@
           "config_setting": "enable_plate"
         },
         {
-          "item": "moreplates:tungsten_carbide_plate",
+          "item": "moreplates:dragonsteel_ice_plate",
           "type": "forge:item_exists"
         }
       ],
@@ -22,7 +22,7 @@
     }
   ],
   "input": {
-    "item": "bluepower:tungsten_carbide"
+    "tag": "forge:ingots/dragonsteel_ice"
   },
   "energy": 2400
 }

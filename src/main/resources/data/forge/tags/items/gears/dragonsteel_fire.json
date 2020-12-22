@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:dragonsteel_fire_gear",
+      "required": false
+    }
+  ]
+}

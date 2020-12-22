@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:ghost_gear",
+      "required": false
+    }
+  ]
+}

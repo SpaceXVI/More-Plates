@@ -58,6 +58,13 @@ public class Groups {
 		EnumMaterials.THE_ULTIMATE
 	};
 
+	public static EnumMaterials[] iceandfire = {
+		EnumMaterials.DRAGONSTEEL_FIRE,
+		EnumMaterials.DRAGONSTEEL_ICE,
+		EnumMaterials.DRAGONSTEEL_LIGHTNING,
+		EnumMaterials.GHOST
+	};
+
 	public static EnumMaterials[] mekanism = {
 		EnumMaterials.OSMIUM,
 		EnumMaterials.REFINED_GLOWSTONE,
@@ -146,6 +153,7 @@ public class Groups {
 		bluepower,
 		botania,
 		extendedcrafting,
+		iceandfire,
 		mekanism,
 		metals,
 		minecraft,
