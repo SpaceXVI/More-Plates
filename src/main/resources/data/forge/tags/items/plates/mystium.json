@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:mystium_plate",
+      "required": false
+    }
+  ]
+}

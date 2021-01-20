@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:inferium_stick",
+      "required": false
+    }
+  ]
+}

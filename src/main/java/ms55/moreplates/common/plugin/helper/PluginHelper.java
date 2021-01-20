@@ -6,8 +6,9 @@ import ms55.moreplates.common.enumeration.EnumMaterials;
 public class PluginHelper {
 
 	public static void reg(EnumMaterials info) {
-        regGear(info);
-        regPlate(info);
+		reg2(info);
+        //regGear(info);
+        //regPlate(info);
     }
 
 	protected static void reg2(EnumMaterials info) {

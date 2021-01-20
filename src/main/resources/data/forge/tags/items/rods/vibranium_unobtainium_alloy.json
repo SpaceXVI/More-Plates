@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:vibranium_unobtainium_alloy_stick",
+      "required": false
+    }
+  ]
+}

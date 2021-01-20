@@ -16,9 +16,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 // MCVER - UN/INTEGRATE . MINORCHANGES . PATCH
-version = '6.0.1'
+version = '7.1.0'
 group = 'ms55.moreplates'
-archivesBaseName = 'moreplates-1.16.4'
+archivesBaseName = 'moreplates-1.16.5'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -93,6 +93,10 @@ repositories {
     maven {
         url "https://maven.blamejared.com"
     }
+    maven {
+        name 'Curse maven'
+        url = "https://www.cursemaven.com"
+    }
 }
 
 //configurations {
@@ -101,7 +105,7 @@ repositories {
 //}
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.0.3'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.0.1'
 
     //moreLibs group: 'net.oneandone.reflections8', name: 'reflections8', version: '0.11.5'
     //moreLibs group: 'org.reflections', name: 'reflections', version: '0.9.11'
@@ -110,6 +114,10 @@ dependencies {
 
     compileOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:1.16.4-4.1.1-128")
     runtimeOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:1.16.4-4.1.1-128")
+
+    //compile fg.deobf("curse.maven:thermalexpansion-69163:3148031")
+    //compile fg.deobf("curse.maven:thermalfoundation-222880:3155830")
+    //compile fg.deobf("curse.maven:cofh-69162:3155824")
 }
 
 jar {

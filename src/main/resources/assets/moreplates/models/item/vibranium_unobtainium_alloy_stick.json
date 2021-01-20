@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moreplates:item/allthemodium/vibranium_unobtainium_alloy_stick"
+  }
+}

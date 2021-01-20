@@ -28,77 +28,11 @@ public class ItemModels extends ItemModelProvider {
 					}
 				}
 			}
-				/*if (i < Groups.allthemodium.length) {
-					if (Groups.allthemodium[i] == material) {
-						registry(material, PluginAllTheModium.modid);
-						break;
-					}
-				}
-				if (i < Groups.appliedenergistics2.length) {
-					if (Groups.appliedenergistics2[i] == material) {
-						registry(material, PluginAppliedEnergistics2.modid);
-						break;
-					}
-				}
-				if (i < Groups.astralsorcery.length) {
-					if (Groups.astralsorcery[i] == material) {
-						registry(material, PluginAstralSorcery.modid);
-						break;
-					}
-				}
-				if (i < Groups.blue_power.length) {
-					if (Groups.blue_power[i] == material) {
-						registry(material, PluginBluePower.modid);
-						break;
-					}
-				}
-				if (i < Groups.botania.length) {
-					if (Groups.botania[i] == material) {
-						registry(material, PluginBotania.modid);
-						break;
-					}
-				}
-				if (i < Groups.metals.length) {
-					if (Groups.metals[i] == material) {
-						registry(material, PluginMetals.modid);
-						break;
-					}
-				}
-				if (i < Groups.extendedcrafting.length) {
-					if (Groups.extendedcrafting[i] == material) {
-						registry(material, PluginExtendedCrafting.modid);
-						break;
-					}
-				}
-				if (i < Groups.mekanism.length) {
-					if (Groups.mekanism[i] == material) {
-						registry(material, PluginMekanism.modid);
-						break;
-					}
-				}
-				if (EnumMaterials.INSANIUM == material) {
-					registry(material, PluginMysticalAgradditions.modid);
-					break;
-				}
-				if (i < Groups.mysticalagriculture.length) {
-					if (Groups.mysticalagriculture[i] == material) {
-						registry(material, PluginMysticalAgriculture.modid);
-						break;
-					}
-				}
-				if (EnumMaterials.ENERGIZED_STEEL == material) {
-					registry(material, PluginPowah.modid);
-					break;
-				}
-				if (EnumMaterials.QUARTZ_ENRICHED_IRON == material) {
-					registry(material, PluginRefinedStorage.modid);
-					break;
-				}*/
 		}
 	}
 
 	public void registry(EnumMaterials material, String mod) {
-		for (int i = 0 ; i < (mod.equals("metals") || material.equals(EnumMaterials.GOLD) || material.equals(EnumMaterials.IRON) ? 3 : 2); i++) {
+		for (int i = 0 ; i < 3/*(mod.equals("metals") || material.equals(EnumMaterials.GOLD) || material.equals(EnumMaterials.IRON) ? 3 : 2)*/; i++) {
 			if (i == 0) {
 				getBuilder(material.toString() + "_plate")
 	              .parent(new UncheckedModelFile(new ResourceLocation("item/generated")))

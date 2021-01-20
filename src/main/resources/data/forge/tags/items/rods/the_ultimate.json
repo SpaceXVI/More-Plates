@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:the_ultimate_stick",
+      "required": false
+    }
+  ]
+}

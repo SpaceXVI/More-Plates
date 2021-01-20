@@ -40,6 +40,16 @@ public enum EnumMaterials {
     // Aquaculture 2
     NEPTUNIUM("Neptunium", new ResourceLocation("forge:ingots/neptunium")),
 
+    // Assembly Line Machines
+    ATTUNED_TITANIUM("Attuned Titanium", new ResourceLocation(Mods.ASSEMBLY_LINE_MACHINES.modid, "attuned_titanium_ingot")),
+    CHROMIUM("Chromium", new ResourceLocation("forge:ingots/chromium")),
+    ENERGIZED_GOLD("Energized Gold", new ResourceLocation("forge:ingots/energized_gold")),
+    MYSTIUM("Mystium", new ResourceLocation("forge:ingots/mystium")),
+    PURE_GOLD("Pure Gold", new ResourceLocation("forge:ingots/pure_gold")),
+    PURE_IRON("Pure Iron", new ResourceLocation("forge:ingots/pure_iron")),
+    PURE_TITANIUM("Pure Titanium", new ResourceLocation("forge:ingots/pure_titanium")),
+    TITANIUM("Titanium", new ResourceLocation("forge:ingots/titanium")),
+
     // Astral Sorcery
     AQUAMARINE("Aquamarine", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "aquamarine")),
     RESONATING_GEM("Resonating Gem", new ResourceLocation(Mods.ASTRAL_SORCERY.modid, "resonating_gem")),

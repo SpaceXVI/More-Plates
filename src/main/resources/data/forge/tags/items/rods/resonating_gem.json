@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:resonating_gem_stick",
+      "required": false
+    }
+  ]
+}

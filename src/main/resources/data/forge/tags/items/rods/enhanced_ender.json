@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:enhanced_ender_stick",
+      "required": false
+    }
+  ]
+}

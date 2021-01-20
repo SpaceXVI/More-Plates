@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:flint_stick",
+      "required": false
+    }
+  ]
+}

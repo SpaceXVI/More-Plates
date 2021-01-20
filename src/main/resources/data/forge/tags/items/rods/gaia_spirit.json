@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:gaia_spirit_stick",
+      "required": false
+    }
+  ]
+}

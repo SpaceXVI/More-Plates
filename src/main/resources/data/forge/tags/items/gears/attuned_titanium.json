@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:attuned_titanium_gear",
+      "required": false
+    }
+  ]
+}

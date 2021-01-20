@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:starmetal_stick",
+      "required": false
+    }
+  ]
+}

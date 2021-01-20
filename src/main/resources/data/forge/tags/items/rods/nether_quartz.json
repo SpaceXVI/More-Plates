@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:nether_quartz_stick",
+      "required": false
+    }
+  ]
+}

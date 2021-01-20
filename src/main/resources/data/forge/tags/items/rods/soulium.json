@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:soulium_stick",
+      "required": false
+    }
+  ]
+}

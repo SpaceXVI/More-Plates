@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:pure_gold_plate",
+      "required": false
+    }
+  ]
+}

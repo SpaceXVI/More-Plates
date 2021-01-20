@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:pure_iron_stick",
+      "required": false
+    }
+  ]
+}

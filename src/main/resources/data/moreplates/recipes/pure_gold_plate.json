@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_plate"
+            },
+            {
+              "item": "moreplates:pure_gold_plate",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "H",
+          "I",
+          "I"
+        ],
+        "key": {
+          "H": {
+            "item": "moreplates:hammer"
+          },
+          "I": {
+            "tag": "forge:ingots/pure_gold"
+          }
+        },
+        "result": {
+          "item": "moreplates:pure_gold_plate"
+        }
+      }
+    }
+  ]
+}

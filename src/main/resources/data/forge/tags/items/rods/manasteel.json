@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:manasteel_stick",
+      "required": false
+    }
+  ]
+}

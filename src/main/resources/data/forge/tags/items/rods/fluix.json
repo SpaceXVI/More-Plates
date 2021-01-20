@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:fluix_stick",
+      "required": false
+    }
+  ]
+}

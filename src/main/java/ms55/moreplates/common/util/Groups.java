@@ -22,6 +22,17 @@ public class Groups {
 		EnumMaterials.NEPTUNIUM
 	};
 
+	public static EnumMaterials[] assemblylinemachines = {
+		EnumMaterials.ATTUNED_TITANIUM,
+		EnumMaterials.CHROMIUM,
+		EnumMaterials.ENERGIZED_GOLD,
+		EnumMaterials.MYSTIUM,
+		EnumMaterials.PURE_GOLD,
+		EnumMaterials.PURE_IRON,
+		EnumMaterials.PURE_TITANIUM,
+		EnumMaterials.TITANIUM
+	};
+
 	public static EnumMaterials[] astralsorcery = {
 		EnumMaterials.AQUAMARINE,
 		EnumMaterials.RESONATING_GEM,
@@ -149,6 +160,7 @@ public class Groups {
 		allthemodium,
 		appliedenergistics2,
 		aquaculture,
+		assemblylinemachines,
 		astralsorcery,
 		bluepower,
 		botania,

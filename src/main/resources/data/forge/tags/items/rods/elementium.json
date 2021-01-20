@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:elementium_stick",
+      "required": false
+    }
+  ]
+}

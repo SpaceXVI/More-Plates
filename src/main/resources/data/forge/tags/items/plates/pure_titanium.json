@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:pure_titanium_plate",
+      "required": false
+    }
+  ]
+}

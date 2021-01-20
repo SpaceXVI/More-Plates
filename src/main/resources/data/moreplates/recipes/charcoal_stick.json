@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_stick"
+            },
+            {
+              "item": "moreplates:charcoal_stick",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "x",
+          "x"
+        ],
+        "key": {
+          "x": {
+            "item": "minecraft:charcoal"
+          }
+        },
+        "result": {
+          "item": "moreplates:charcoal_stick",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

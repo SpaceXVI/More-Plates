@@ -4,6 +4,7 @@ public enum Mods {
 	ALL_THE_MODIUM("allthemodium"),
 	APPLIED_ENERGISTICS2("appliedenergistics2"),
 	AQUACULTURE("aquaculture"),
+	ASSEMBLY_LINE_MACHINES("assemblylinemachines"),
 	ASTRAL_SORCERY("astralsorcery"),
 	BLUE_POWER("bluepower"),
 	BOTANIA("botania"),

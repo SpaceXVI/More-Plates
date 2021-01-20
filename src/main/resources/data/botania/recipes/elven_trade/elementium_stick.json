@@ -1,0 +1,16 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "moreplates:manasteel_stick"
+    },
+	{
+      "item": "moreplates:manasteel_stick"
+    }
+  ],
+  "output": [
+    {
+      "item": "moreplates:elementium_stick"
+    }
+  ]
+}

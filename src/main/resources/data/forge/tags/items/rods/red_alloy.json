@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:red_alloy_stick",
+      "required": false
+    }
+  ]
+}

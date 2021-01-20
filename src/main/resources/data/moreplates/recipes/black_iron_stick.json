@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_stick"
+            },
+            {
+              "item": "moreplates:black_iron_stick",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "x",
+          "x"
+        ],
+        "key": {
+          "x": {
+            "item": "extendedcrafting:black_iron_ingot"
+          }
+        },
+        "result": {
+          "item": "moreplates:black_iron_stick",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

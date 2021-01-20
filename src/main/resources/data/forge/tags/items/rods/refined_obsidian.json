@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:refined_obsidian_stick",
+      "required": false
+    }
+  ]
+}

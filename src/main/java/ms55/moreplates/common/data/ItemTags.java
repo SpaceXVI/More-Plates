@@ -3,7 +3,6 @@ package ms55.moreplates.common.data;
 import ms55.moreplates.MorePlates;
 import ms55.moreplates.common.data.MoreTags.Items;
 import ms55.moreplates.common.enumeration.EnumMaterials;
-import ms55.moreplates.common.util.Groups;
 import net.minecraft.data.BlockTagsProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.ItemTagsProvider;
@@ -21,9 +20,9 @@ public class ItemTags extends ItemTagsProvider {
 	@Override
 	protected void registerTags() {
 		for (EnumMaterials material : EnumMaterials.values()) {
-			int limit = 0;
+			int limit = 3;
 
-    		for (int i = 0; i < Groups.metals.length; i++) {
+    		/*for (int i = 0; i < Groups.metals.length; i++) {
     			if (material == Groups.metals[i]) {
     				limit = 3;
     				break;
@@ -38,7 +37,7 @@ public class ItemTags extends ItemTagsProvider {
     			} else {
     				limit = 2;
     			}
-    		}
+    		}*/
 
     		for (int i = 0; i < limit; i++) {
     			if (i == 0) {

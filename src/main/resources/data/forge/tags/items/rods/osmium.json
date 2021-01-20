@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:osmium_stick",
+      "required": false
+    }
+  ]
+}

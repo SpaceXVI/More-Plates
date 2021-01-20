@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:energized_gold_stick",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:quartz_enriched_iron_stick",
+      "required": false
+    }
+  ]
+}

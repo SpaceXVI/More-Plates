@@ -28,7 +28,7 @@ public class MorePlates {
 
 	public static final ItemGroup ITEMGROUP = new MorePlatesItemGroup();
 
-	public static final boolean DEBUG = isDevEnv();
+	public static final boolean DEBUG = false;
 
     public MorePlates() {
         MinecraftForge.EVENT_BUS.register(this);

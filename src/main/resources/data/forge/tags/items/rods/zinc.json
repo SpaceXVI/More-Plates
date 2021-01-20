@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:zinc_stick",
+      "required": false
+    }
+  ]
+}

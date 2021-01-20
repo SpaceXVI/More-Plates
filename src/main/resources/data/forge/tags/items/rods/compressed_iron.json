@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:compressed_iron_stick",
+      "required": false
+    }
+  ]
+}

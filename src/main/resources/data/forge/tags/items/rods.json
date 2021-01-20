@@ -2,11 +2,211 @@
   "replace": true,
   "values": [
     {
+      "id": "moreplates:brick_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:charcoal_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:coal_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:diamond_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:emerald_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:flint_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:glowstone_stick",
+      "required": false
+    },
+    {
       "id": "moreplates:gold_stick",
       "required": false
     },
     {
       "id": "moreplates:iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:lapis_lazuli_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:nether_brick_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:netherite_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:nether_quartz_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:paper_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:prismarine_crystals_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:redstone_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:allthemodium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:unobtainium_allthemodium_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:unobtainium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:vibranium_allthemodium_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:vibranium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:vibranium_unobtainium_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:certus_quartz_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:fluix_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:neptunium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:attuned_titanium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:chromium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:energized_gold_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:mystium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:pure_gold_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:pure_iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:pure_titanium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:titanium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:aquamarine_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:resonating_gem_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:starmetal_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:brass_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:blue_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:purple_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:red_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:tungsten_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:tungsten_carbide_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:zinc_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:amethyst_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:malachite_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:ruby_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:sapphire_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:elementium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:gaia_spirit_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:manasteel_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:terrasteel_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:aluminum_stick",
       "required": false
     },
     {
@@ -58,7 +258,127 @@
       "required": false
     },
     {
+      "id": "moreplates:steel_stick",
+      "required": false
+    },
+    {
       "id": "moreplates:tin_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:uranium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:black_iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:crystaltine_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:ender_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:enhanced_ender_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:redstone_ingot_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:the_ultimate_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:dragonsteel_fire_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:dragonsteel_ice_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:dragonsteel_lightning_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:ghost_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:osmium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:refined_glowstone_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:refined_obsidian_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:insanium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:compressed_iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:energized_steel_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:ebony_psimetal_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:ivory_psimetal_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:psimetal_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:imperium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:inferium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:prosperity_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:prudentium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:soulium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:supremium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:tertium_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:quartz_enriched_iron_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:bismuth_stick",
       "required": false
     }
   ]

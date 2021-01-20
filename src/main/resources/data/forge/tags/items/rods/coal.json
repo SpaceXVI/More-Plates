@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:coal_stick",
+      "required": false
+    }
+  ]
+}

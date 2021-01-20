@@ -102,6 +102,38 @@
       "required": false
     },
     {
+      "id": "moreplates:attuned_titanium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:chromium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:energized_gold_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:mystium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:pure_gold_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:pure_iron_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:pure_titanium_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:titanium_gear",
+      "required": false
+    },
+    {
       "id": "moreplates:aquamarine_gear",
       "required": false
     },

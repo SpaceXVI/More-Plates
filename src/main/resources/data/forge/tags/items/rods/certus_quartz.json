@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:certus_quartz_stick",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:unobtainium_stick",
+      "required": false
+    }
+  ]
+}

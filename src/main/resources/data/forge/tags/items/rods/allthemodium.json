@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:allthemodium_stick",
+      "required": false
+    }
+  ]
+}

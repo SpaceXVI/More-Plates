@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moreplates:item/mysticalagriculture/supremium_stick"
+  }
+}

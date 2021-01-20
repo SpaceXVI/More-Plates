@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:netherite_stick",
+      "required": false
+    }
+  ]
+}

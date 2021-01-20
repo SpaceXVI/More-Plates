@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:lapis_lazuli_stick",
+      "required": false
+    }
+  ]
+}

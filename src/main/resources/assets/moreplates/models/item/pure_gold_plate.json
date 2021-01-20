@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moreplates:item/assemblylinemachines/pure_gold_plate"
+  }
+}

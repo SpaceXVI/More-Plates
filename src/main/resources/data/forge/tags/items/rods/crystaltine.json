@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:crystaltine_stick",
+      "required": false
+    }
+  ]
+}

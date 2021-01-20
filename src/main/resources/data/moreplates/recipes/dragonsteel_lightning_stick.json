@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_stick"
+            },
+            {
+              "item": "moreplates:dragonsteel_lightning_stick",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "x",
+          "x"
+        ],
+        "key": {
+          "x": {
+            "tag": "forge:ingots/dragonsteel_lightning"
+          }
+        },
+        "result": {
+          "item": "moreplates:dragonsteel_lightning_stick",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

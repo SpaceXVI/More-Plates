@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "type": "moreplates:isconfigenabled",
+              "config_setting": "enable_stick"
+            },
+            {
+              "item": "moreplates:elementium_stick",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "x",
+          "x"
+        ],
+        "key": {
+          "x": {
+            "tag": "forge:ingots/elementium"
+          }
+        },
+        "result": {
+          "item": "moreplates:elementium_stick",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:insanium_stick",
+      "required": false
+    }
+  ]
+}

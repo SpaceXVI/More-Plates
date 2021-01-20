@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:brick_stick",
+      "required": false
+    }
+  ]
+}

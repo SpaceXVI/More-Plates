@@ -1,0 +1,31 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_rod"
+  },
+  "result": {
+    "item": "moreplates:insanium_stick"
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "type": "moreplates:isconfigenabled",
+          "config_setting": "enable_stick"
+        },
+        {
+          "item": "moreplates:insanium_stick",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "input": {
+    "count": 2,
+    "base_ingredient": {
+      "item": "mysticalagradditions:insanium_ingot"
+    }
+  },
+  "energy": 2400
+}

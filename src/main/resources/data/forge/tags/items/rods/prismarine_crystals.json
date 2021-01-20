@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:prismarine_crystals_stick",
+      "required": false
+    }
+  ]
+}
