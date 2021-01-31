@@ -29,6 +29,7 @@ public class Groups {
 		EnumMaterials.MYSTIUM,
 		EnumMaterials.PURE_GOLD,
 		EnumMaterials.PURE_IRON,
+		EnumMaterials.PURE_STEEL,
 		EnumMaterials.PURE_TITANIUM,
 		EnumMaterials.TITANIUM
 	};

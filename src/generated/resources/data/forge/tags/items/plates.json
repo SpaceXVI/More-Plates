@@ -126,6 +126,10 @@
       "required": false
     },
     {
+      "id": "moreplates:pure_steel_plate",
+      "required": false
+    },
+    {
       "id": "moreplates:pure_titanium_plate",
       "required": false
     },

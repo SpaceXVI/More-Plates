@@ -6,6 +6,7 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.ENERGIZED_GOLD;
 import static ms55.moreplates.common.enumeration.EnumMaterials.MYSTIUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_GOLD;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_IRON;
+import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_STEEL;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_TITANIUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.TITANIUM;
 
@@ -26,6 +27,7 @@ public class PluginAssemblyLineMachines extends PluginHelper {
 		reg(MYSTIUM);
 		reg(PURE_GOLD);
 		reg(PURE_IRON);
+		reg(PURE_STEEL);
 		reg(PURE_TITANIUM);
 		reg(TITANIUM);
     }

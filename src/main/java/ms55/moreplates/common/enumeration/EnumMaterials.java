@@ -31,7 +31,7 @@ public enum EnumMaterials {
     UNOBTAINIUM("Unobtainium", new ResourceLocation("forge:ingots/unobtainium")),
     VIBRANIUM_ALLTHEMODIUM_ALLOY("Vibranium All The Modium Alloy", new ResourceLocation("forge:ingots/vibranium_allthemodium_alloy")),
     VIBRANIUM("Vibranium", new ResourceLocation("forge:ingots/vibranium")),
-    VIBRANIUM_UNOBTAINIUM_ALLOY("Vibranium Unobtainium Alloy", new ResourceLocation("forge:ingots/vibranium_unobtainium_alloy")),
+    VIBRANIUM_UNOBTAINIUM_ALLOY("Vibranium Unobtainium Alloy", new ResourceLocation("forge:ingots/unobtainium_vibranium_alloy")),
 
     // Applied Energistics2
     CERTUS_QUARTZ("Certus Quartz", new ResourceLocation("forge:gems/certus_quartz"), Type.CRYSTAL),
@@ -47,6 +47,7 @@ public enum EnumMaterials {
     MYSTIUM("Mystium", new ResourceLocation("forge:ingots/mystium")),
     PURE_GOLD("Pure Gold", new ResourceLocation("forge:ingots/pure_gold")),
     PURE_IRON("Pure Iron", new ResourceLocation("forge:ingots/pure_iron")),
+    PURE_STEEL("Pure Steel", new ResourceLocation("forge:ingots/pure_steel")),
     PURE_TITANIUM("Pure Titanium", new ResourceLocation("forge:ingots/pure_titanium")),
     TITANIUM("Titanium", new ResourceLocation("forge:ingots/titanium")),
 

@@ -7,10 +7,10 @@
           "values": [
             {
               "type": "moreplates:isconfigenabled",
-              "config_setting": "enable_gear"
+              "config_setting": "enable_stick"
             },
             {
-              "item": "moreplates:vibranium_unobtainium_alloy_gear",
+              "item": "moreplates:pure_steel_stick",
               "type": "forge:item_exists"
             }
           ],
@@ -20,20 +20,17 @@
       "recipe": {
         "type": "minecraft:crafting_shaped",
         "pattern": [
-          " x ",
-          "x#x",
-          " x "
+          "x",
+          "x"
         ],
         "key": {
           "x": {
-            "tag": "forge:ingots/unobtainium_vibranium_alloy"
-          },
-          "#": {
-            "tag": "forge:ingots/iron"
+            "tag": "forge:ingots/pure_steel"
           }
         },
         "result": {
-          "item": "moreplates:vibranium_unobtainium_alloy_gear"
+          "item": "moreplates:pure_steel_stick",
+          "count": 2
         }
       }
     }

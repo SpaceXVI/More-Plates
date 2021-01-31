@@ -10,7 +10,7 @@
               "config_setting": "enable_gear"
             },
             {
-              "item": "moreplates:vibranium_unobtainium_alloy_gear",
+              "item": "moreplates:pure_steel_gear",
               "type": "forge:item_exists"
             }
           ],
@@ -26,14 +26,14 @@
         ],
         "key": {
           "x": {
-            "tag": "forge:ingots/unobtainium_vibranium_alloy"
+            "tag": "forge:ingots/pure_steel"
           },
           "#": {
             "tag": "forge:ingots/iron"
           }
         },
         "result": {
-          "item": "moreplates:vibranium_unobtainium_alloy_gear"
+          "item": "moreplates:pure_steel_gear"
         }
       }
     }

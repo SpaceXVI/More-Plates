@@ -126,6 +126,10 @@
       "required": false
     },
     {
+      "id": "moreplates:pure_steel_gear",
+      "required": false
+    },
+    {
       "id": "moreplates:pure_titanium_gear",
       "required": false
     },

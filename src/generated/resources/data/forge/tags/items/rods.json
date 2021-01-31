@@ -126,6 +126,10 @@
       "required": false
     },
     {
+      "id": "moreplates:pure_steel_stick",
+      "required": false
+    },
+    {
       "id": "moreplates:pure_titanium_stick",
       "required": false
     },

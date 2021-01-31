@@ -4,7 +4,7 @@
     "item": "immersiveengineering:mold_gear"
   },
   "result": {
-    "item": "moreplates:vibranium_unobtainium_alloy_gear"
+    "item": "moreplates:pure_steel_gear"
   },
   "conditions": [
     {
@@ -14,7 +14,7 @@
           "config_setting": "enable_gear"
         },
         {
-          "item": "moreplates:vibranium_unobtainium_alloy_gear",
+          "item": "moreplates:pure_steel_gear",
           "type": "forge:item_exists"
         }
       ],
@@ -24,7 +24,7 @@
   "input": {
     "count": 4,
     "base_ingredient": {
-      "tag": "forge:ingots/unobtainium_vibranium_alloy"
+      "tag": "forge:ingots/pure_steel"
     }
   },
   "energy": 2400
