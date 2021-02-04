@@ -5,10 +5,8 @@ import ms55.moreplates.common.enumeration.EnumMaterials;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.ForgeConfigSpec.BooleanValue;
 import net.minecraftforge.common.ForgeConfigSpec.IntValue;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
-import net.minecraftforge.fml.config.ModConfig;
 
 @Mod.EventBusSubscriber(modid = MorePlates.MODID, bus = Bus.MOD)
 public class Config {
@@ -27,12 +25,15 @@ public class Config {
 			DURABILITY_HAMMER = builder
 					.comment("Hammer Durability")
 	                .defineInRange("hammer_durability", 150, 1, Integer.MAX_VALUE);
+
 			GEAR_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Gears")
 	                .define("enable_gear", true);
+
 	        PLATE_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Plates")
 	                .define("enable_plate", true);
+
 	        ROD_RECIPES = builder
 	                .comment("Set this to false to disable all crafting recipes for Rods")
 	                .define("enable_rod", true);
@@ -40,6 +41,28 @@ public class Config {
 	        builder.pop();
 		}
 	}
+
+	/*public static class Modules {
+		public final BooleanValue FORCE_METALS;
+
+		public Modules(ForgeConfigSpec.Builder builder) {
+			builder.comment("Change anything here to allow/disallow integration of certain mods (DOESN'T WORK YET)")
+			       .push("Modules");
+
+			for (Mods mod : Mods.values()) {
+				String name = Utils.makeNameUpperCase(mod.name().toLowerCase());
+				mod.isAllowed = builder
+					.comment("Enable " + name + " integration")
+					.define("enable_" + mod.modid, true);
+			}
+
+			FORCE_METALS = builder
+			.comment("Enable Metals integration, this config force enables it")
+			.define("forceEnableMetals", false);
+
+	        builder.pop();
+		}
+	}*/
 
 	public static class Items {
 		public Items(ForgeConfigSpec.Builder builder) {
@@ -58,23 +81,15 @@ public class Config {
 
 	public static final ForgeConfigSpec COMMON_SPEC;
 	public static final General GENERAL;
+	//public static final Modules MODULES;
 	public static final Items ITEMS;
 
 	static {
 		ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
 		GENERAL = new General(builder);
+		//MODULES = new Modules(builder);
 		ITEMS = new Items(builder);
 
 		COMMON_SPEC = builder.build();
-	}
-
-	@SubscribeEvent
-	public static void onLoad(final ModConfig.Loading event) {
-
-	}
-
-	@SubscribeEvent
-	public static void onFileChange(final ModConfig.Reloading event) {
-
 	}
 }

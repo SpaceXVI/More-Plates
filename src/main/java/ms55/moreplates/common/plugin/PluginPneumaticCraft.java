@@ -8,8 +8,8 @@ import ms55.moreplates.common.plugin.helper.PluginHelper;
 @Plugin(modid = PluginPneumaticCraft.modid, modname = PluginPneumaticCraft.modname)
 public class PluginPneumaticCraft extends PluginHelper {
 
-	public static final String modid   = "pneumaticcraftrepressurized";
-	public static final String modname = "PneumaticCraft Repressurized";
+	public static final String modid   = "pneumaticcraft";
+	public static final String modname = "PneumaticCraft";
 
 	@Plugin.registry
 	public static void registry() {

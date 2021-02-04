@@ -1,5 +1,7 @@
 package ms55.moreplates.common.util;
 
+import net.minecraftforge.common.ForgeConfigSpec.BooleanValue;
+
 public enum Mods {
 	ALL_THE_MODIUM("allthemodium"),
 	APPLIED_ENERGISTICS2("appliedenergistics2"),
@@ -17,11 +19,12 @@ public enum Mods {
 	MYSTICAL_AGRICULTURE("mysticalagriculture"),
 	POWAH("powah"),
 	PSI("psi"),
-	PNEUMATIC_CRAFT_REPRESSURIZED("pneumaticcraftrepressurized"),
+	PNEUMATIC_CRAFT("pneumaticcraft"),
 	REFINED_STORAGE("refinedstorage"),
 	SILENTS_MECHANISMS("silents_mechanisms");
 
 	public String modid;
+	public BooleanValue isAllowed;
 
 	Mods(String modid) {
 		this.modid = modid;

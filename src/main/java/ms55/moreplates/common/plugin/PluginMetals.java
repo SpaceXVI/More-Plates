@@ -29,63 +29,82 @@ public class PluginMetals extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		boolean COFH = Mods.COFH.isModPresent();
-		boolean MEKANISM = Mods.MEKANISM.isModPresent();
-		boolean BLUE_POWER = Mods.BLUE_POWER.isModPresent();
-		boolean IMMERSIVE_ENGINEERING = Mods.IMMERSIVE_ENGINEERING.isModPresent();
-		boolean SILENT = Mods.SILENTS_MECHANISMS.isModPresent();
-		boolean ICE_AND_FIRE = Mods.ICE_AND_FIRE.isModPresent();
+		//if (!Config.MODULES.FORCE_METALS.get()) {
+			boolean COFH = Mods.COFH.isModPresent();
+			boolean MEKANISM = Mods.MEKANISM.isModPresent();
+			boolean BLUE_POWER = Mods.BLUE_POWER.isModPresent();
+			boolean IMMERSIVE_ENGINEERING = Mods.IMMERSIVE_ENGINEERING.isModPresent();
+			boolean SILENT = Mods.SILENTS_MECHANISMS.isModPresent();
+			boolean ICE_AND_FIRE = Mods.ICE_AND_FIRE.isModPresent();
 
-		if (IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+			if (IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(ALUMINUM);
+			}
+
+			if (COFH || MEKANISM || BLUE_POWER || IMMERSIVE_ENGINEERING || ICE_AND_FIRE || MorePlates.DEBUG) {
+				reg2(COPPER);
+			}
+
+			if (COFH || MEKANISM || MorePlates.DEBUG) {
+				reg2(TIN);
+			}
+
+			if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(LEAD);
+			}
+
+			if (COFH || BLUE_POWER || ICE_AND_FIRE || MorePlates.DEBUG) {
+				reg2(SILVER);
+			}
+
+			if (MEKANISM || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(STEEL);
+			}
+
+			if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(NICKEL);
+			}
+
+			if (COFH || MEKANISM || MorePlates.DEBUG) {
+				reg2(BRONZE);
+			}
+
+			if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(ELECTRUM);
+			}
+
+			if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(CONSTANTAN);
+			}
+
+			if (SILENT || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
+				reg2(URANIUM);
+			}
+
+			if (COFH || MorePlates.DEBUG) {
+				reg2(ENDERIUM);
+				reg2(INVAR);
+				reg2(LUMIUM);
+				reg2(PLATINUM);
+				reg2(SIGNALUM);
+			}
+		/*} else {
 			reg2(ALUMINUM);
-		}
-
-		if (COFH || MEKANISM || BLUE_POWER || IMMERSIVE_ENGINEERING || ICE_AND_FIRE || MorePlates.DEBUG) {
 			reg2(COPPER);
-		}
-
-		if (COFH || MEKANISM || MorePlates.DEBUG) {
 			reg2(TIN);
-		}
-
-		if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(LEAD);
-		}
-
-		if (COFH || BLUE_POWER || ICE_AND_FIRE || MorePlates.DEBUG) {
 			reg2(SILVER);
-		}
-
-		if (MEKANISM || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(STEEL);
-		}
-
-		if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(NICKEL);
-		}
-
-		if (COFH || MEKANISM || MorePlates.DEBUG) {
 			reg2(BRONZE);
-		}
-
-		if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(ELECTRUM);
-		}
-
-		if (COFH || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(CONSTANTAN);
-		}
-
-		if (SILENT || IMMERSIVE_ENGINEERING || MorePlates.DEBUG) {
 			reg2(URANIUM);
-		}
-
-		if (COFH || MorePlates.DEBUG) {
 			reg2(ENDERIUM);
 			reg2(INVAR);
 			reg2(LUMIUM);
 			reg2(PLATINUM);
 			reg2(SIGNALUM);
-		}		
+		}*/
     }
 }

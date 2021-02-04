@@ -60,6 +60,7 @@ public class PluginLoader {
 
 	private static boolean getB(String modid) {
 		return true;
+		//String fixedname = modid.contains(" ") ? modid.replaceAll(" ", "") : modid;
         //return Config.COMMON_SPEC.get("enable_" + modid);
     }
 }
