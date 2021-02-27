@@ -7,10 +7,10 @@
           "values": [
             {
               "type": "moreplates:isconfigenabled",
-              "config_setting": "enable_stick"
+              "config_setting": "enable_gear"
             },
             {
-              "item": "moreplates:malachite_stick",
+              "item": "moreplates:green_sapphire_gear",
               "type": "forge:item_exists"
             }
           ],
@@ -20,17 +20,20 @@
       "recipe": {
         "type": "minecraft:crafting_shaped",
         "pattern": [
-          "x",
-          "x"
+          " x ",
+          "x#x",
+          " x "
         ],
         "key": {
           "x": {
-            "tag": "forge:gems/malachite"
+            "tag": "forge:gems/green_sapphire"
+          },
+          "#": {
+            "tag": "forge:ingots/iron"
           }
         },
         "result": {
-          "item": "moreplates:malachite_stick",
-          "count": 2
+          "item": "moreplates:green_sapphire_gear"
         }
       }
     }

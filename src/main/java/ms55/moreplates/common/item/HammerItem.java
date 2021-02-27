@@ -28,7 +28,7 @@ public class HammerItem extends Item {
         return Config.GENERAL.DURABILITY_HAMMER.get();
     }*/
 
-    @Override
+	@Override
     public int getDamage(ItemStack stack) {
         return !stack.hasTag() ? getMaxDamage(stack) : stack.getOrCreateTag().getInt("Damage");
     }

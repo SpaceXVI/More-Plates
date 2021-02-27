@@ -7,10 +7,10 @@
           "values": [
             {
               "type": "moreplates:isconfigenabled",
-              "config_setting": "enable_plate"
+              "config_setting": "enable_stick"
             },
             {
-              "item": "moreplates:malachite_plate",
+              "item": "moreplates:green_sapphire_stick",
               "type": "forge:item_exists"
             }
           ],
@@ -20,20 +20,17 @@
       "recipe": {
         "type": "minecraft:crafting_shaped",
         "pattern": [
-          "H",
-          "I",
-          "I"
+          "x",
+          "x"
         ],
         "key": {
-          "H": {
-            "item": "moreplates:hammer"
-          },
-          "I": {
-            "tag": "forge:gems/malachite"
+          "x": {
+            "tag": "forge:gems/green_sapphire"
           }
         },
         "result": {
-          "item": "moreplates:malachite_plate"
+          "item": "moreplates:green_sapphire_stick",
+          "count": 2
         }
       }
     }

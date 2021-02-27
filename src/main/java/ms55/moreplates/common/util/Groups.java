@@ -49,7 +49,7 @@ public class Groups {
 		EnumMaterials.TUNGSTEN_CARBIDE,
 		EnumMaterials.ZINC,
 		EnumMaterials.AMETHYST,
-		EnumMaterials.MALACHITE,
+		EnumMaterials.GREEN_SAPPHIRE,
 		EnumMaterials.RUBY,
 		EnumMaterials.SAPPHIRE
 	};

@@ -3,7 +3,7 @@ package ms55.moreplates.common.plugin;
 import static ms55.moreplates.common.enumeration.EnumMaterials.AMETHYST;
 import static ms55.moreplates.common.enumeration.EnumMaterials.BLUE_ALLOY;
 import static ms55.moreplates.common.enumeration.EnumMaterials.BRASS;
-import static ms55.moreplates.common.enumeration.EnumMaterials.MALACHITE;
+import static ms55.moreplates.common.enumeration.EnumMaterials.GREEN_SAPPHIRE;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURPLE_ALLOY;
 import static ms55.moreplates.common.enumeration.EnumMaterials.RED_ALLOY;
 import static ms55.moreplates.common.enumeration.EnumMaterials.RUBY;
@@ -32,7 +32,7 @@ public class PluginBluePower extends PluginHelper {
 		reg(ZINC);
 
 		reg(AMETHYST);
-		reg(MALACHITE);
+		reg(GREEN_SAPPHIRE);
 		reg(RUBY);
 		reg(SAPPHIRE);
 	}

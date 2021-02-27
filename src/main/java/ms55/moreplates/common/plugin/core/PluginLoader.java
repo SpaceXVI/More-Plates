@@ -27,9 +27,13 @@ public class PluginLoader {
 	                boolean loaded, config;
 
 	                if (details.checkModid()) {
-	                    loaded = Utils.isModPresent(modid) || MorePlates.DEBUG;
+	                    loaded = Utils.isModPresent(modid);
 	                } else {
 	                    loaded = true;
+	                }
+
+	                if (MorePlates.DEBUG) {
+	                	loaded = true;
 	                }
 
 	                if (details.checkConfig()) {

@@ -65,7 +65,7 @@ public enum EnumMaterials {
     TUNGSTEN_CARBIDE("Tungsten Carbide", new ResourceLocation(Mods.BLUE_POWER.modid, "tungsten_carbide")),
     ZINC("Zinc", new ResourceLocation("forge:ingots/zinc")),
     AMETHYST("Amethyst", new ResourceLocation("forge:gems/amethyst"), Type.GEM),
-    MALACHITE("Malachite", new ResourceLocation("forge:gems/malachite"), Type.GEM),
+    GREEN_SAPPHIRE("Green Sapphire", new ResourceLocation("forge:gems/green_sapphire"), Type.GEM),
     RUBY("Ruby", new ResourceLocation("forge:gems/ruby"), Type.GEM),
     SAPPHIRE("Sapphire", new ResourceLocation("forge:gems/sapphire"), Type.GEM),
 

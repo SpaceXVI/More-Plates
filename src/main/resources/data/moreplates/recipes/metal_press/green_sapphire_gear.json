@@ -1,20 +1,20 @@
 {
   "type": "immersiveengineering:metal_press",
   "mold": {
-    "item": "immersiveengineering:mold_rod"
+    "item": "immersiveengineering:mold_gear"
   },
   "result": {
-    "item": "moreplates:malachite_stick"
+    "item": "moreplates:green_sapphire_gear"
   },
   "conditions": [
     {
       "values": [
         {
           "type": "moreplates:isconfigenabled",
-          "config_setting": "enable_stick"
+          "config_setting": "enable_gear"
         },
         {
-          "item": "moreplates:malachite_stick",
+          "item": "moreplates:green_sapphire_gear",
           "type": "forge:item_exists"
         }
       ],
@@ -22,9 +22,9 @@
     }
   ],
   "input": {
-    "count": 2,
+    "count": 4,
     "base_ingredient": {
-      "tag": "forge:gems/malachite"
+      "tag": "forge:gems/green_sapphire"
     }
   },
   "energy": 2400
