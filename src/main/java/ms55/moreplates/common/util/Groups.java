@@ -45,6 +45,7 @@ public class Groups {
 		EnumMaterials.BLUE_ALLOY,
 		EnumMaterials.PURPLE_ALLOY,
 		EnumMaterials.RED_ALLOY,
+		EnumMaterials.SILICON,
 		EnumMaterials.TUNGSTEN,
 		EnumMaterials.TUNGSTEN_CARBIDE,
 		EnumMaterials.ZINC,

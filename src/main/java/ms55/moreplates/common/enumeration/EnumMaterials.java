@@ -61,6 +61,7 @@ public enum EnumMaterials {
     BLUE_ALLOY("Blue Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "blue_alloy_ingot")),
     PURPLE_ALLOY("Purple Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "purple_alloy_ingot")),
     RED_ALLOY("Red Alloy", new ResourceLocation(Mods.BLUE_POWER.modid, "red_alloy_ingot")),
+    SILICON("Silicon", new ResourceLocation(Mods.BLUE_POWER.modid, "silicon_wafer")),
     TUNGSTEN("Tungsten", new ResourceLocation("forge:ingots/tungsten")),
     TUNGSTEN_CARBIDE("Tungsten Carbide", new ResourceLocation(Mods.BLUE_POWER.modid, "tungsten_carbide")),
     ZINC("Zinc", new ResourceLocation("forge:ingots/zinc")),

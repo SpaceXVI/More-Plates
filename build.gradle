@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 // MCVER - UN/INTEGRATE . MINORCHANGES . PATCH
-version = '7.2.3'
+version = '7.3.0'
 group = 'ms55.moreplates'
 archivesBaseName = 'moreplates-1.16.5'
 
@@ -64,7 +64,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'moreplates', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'moreplates', '--all', '--output', file('src/main/resources/'), '--existing', file('src/main/resources/')
 
             environment 'target', 'fmluserdevdata'
 
@@ -77,16 +77,8 @@ minecraft {
     }
 }
 
-sourceSets {
-    main {
-        resources {
-            srcDirs = [
-                    "$rootDir/src/main/resources",
-                    "$rootDir/src/generated/resources"
-            ]
-        }
-    }
-}
+sourceSets.main.resources { srcDir 'src/main/resources' }
+
 
 repositories {
     mavenCentral()

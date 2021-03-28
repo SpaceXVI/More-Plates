@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "moreplates:silicon_plate"
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "type": "moreplates:isconfigenabled",
+          "config_setting": "enable_plate"
+        },
+        {
+          "item": "moreplates:silicon_plate",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "input": {
+    "tag": "bluepower:silicon_wafer"
+  },
+  "energy": 2400
+}

@@ -1,4 +1,4 @@
-60fcf4f074039781576cf069fa06c6a117ed59a9 assets/moreplates/lang/en_us.json
+66b2f667b4fcac63072a83a411f43499bcbe2416 assets/moreplates/lang/en_us.json
 9578a6480bd1aea3df069f3ce80cca140062f05d assets/moreplates/models/item/allthemodium_gear.json
 765f184d8e65833b719c30ed7babe68d324b4fde assets/moreplates/models/item/allthemodium_plate.json
 08ecb05dc8afc60450ed8ba8d856376c9d35c473 assets/moreplates/models/item/allthemodium_stick.json
@@ -113,6 +113,9 @@ edb4abe2a05d9f1267425d77b4e9ea221ada8625 assets/moreplates/models/item/glowstone
 e1accf6265a88c1abfaca8cf8b0561c355e75fb7 assets/moreplates/models/item/gold_gear.json
 e5ba2cf66280a5f2a28dff50954c2070a173ed65 assets/moreplates/models/item/gold_plate.json
 e716979f8a5a661d7ebb7796cc609e51c72758e9 assets/moreplates/models/item/gold_stick.json
+d8c24913a7e8b9fa91f5862282b1c13d3d95ecd7 assets/moreplates/models/item/green_sapphire_gear.json
+90e7c5d69f768b1f3c85f087be1cce7183ffcab0 assets/moreplates/models/item/green_sapphire_plate.json
+fbaa311aed566793c513dd19973a8d74b33d2fa5 assets/moreplates/models/item/green_sapphire_stick.json
 9a3d6682766749fda018ef53d14e219f3084ddf4 assets/moreplates/models/item/imperium_gear.json
 e08e9a8edc1857f28273544f09ba83f13ced146b assets/moreplates/models/item/imperium_plate.json
 b771179b79619f4541c5bc9b8a06348db93c86ce assets/moreplates/models/item/imperium_stick.json
@@ -140,9 +143,6 @@ b3be9dcb8ed5d5cd808818e5b8d4a6aa9fada26a assets/moreplates/models/item/lead_gear
 3706d2ebeb56c1bc1c561dec25fbdc80b5e0fbea assets/moreplates/models/item/lumium_gear.json
 8675f90b5a878e7d856b7a029b121b7bcfbfb46b assets/moreplates/models/item/lumium_plate.json
 6b9d0d7c2f50820804af7bf48557c5cd67f627f7 assets/moreplates/models/item/lumium_stick.json
-aec580c383ae40191bb0f9a796ac47bfcaa7b39e assets/moreplates/models/item/malachite_gear.json
-5b516ddc30ace365b08c7a0e454fcc3451ecc2ec assets/moreplates/models/item/malachite_plate.json
-eee5211b5ff1a69eb684e0acabba841168658a93 assets/moreplates/models/item/malachite_stick.json
 0997625f8db12099d0bc1535c3f96e4580f64ee7 assets/moreplates/models/item/manasteel_gear.json
 50ee733a793ce82fcca160b1712060a6fcb463e3 assets/moreplates/models/item/manasteel_plate.json
 54e8141611bad82adb7c2e7349fab66aef4d8f41 assets/moreplates/models/item/manasteel_stick.json
@@ -230,6 +230,9 @@ adb2e5f9931f8b18b0ed9cbdfa6e6830f290e575 assets/moreplates/models/item/ruby_plat
 cc68d209f6abab651295bf167cd1a4667c710c85 assets/moreplates/models/item/signalum_gear.json
 65b59c09234e6ce6e787857c480aa5d38311411e assets/moreplates/models/item/signalum_plate.json
 98f8e271d08b06fc6da34462a7850f850c3631d4 assets/moreplates/models/item/signalum_stick.json
+580d7c07541730a6781816ba8b05ed8e952459fd assets/moreplates/models/item/silicon_gear.json
+3e6ec79ffede908e168f46db0d4e4a5c8bd93943 assets/moreplates/models/item/silicon_plate.json
+bcae271f0b111624a8050043654b43d9bf4968f1 assets/moreplates/models/item/silicon_stick.json
 e60c7e3dc3b796f176e82f5cf83c733a3804fb67 assets/moreplates/models/item/silver_gear.json
 76e5d181821ecd417eb64ecc4c47702a65779b9c assets/moreplates/models/item/silver_plate.json
 bf0c64ff5cba2441b637ed33e8738fe84c16f8ff assets/moreplates/models/item/silver_stick.json
@@ -287,7 +290,7 @@ f6be3076b182090c1942597d3c89d60f81d66613 assets/moreplates/models/item/vibranium
 f28be8b23f8251f78da4c04c5029669d58195df0 assets/moreplates/models/item/zinc_gear.json
 3c82e6682bac3d188d51b6fafa530fb20371afc1 assets/moreplates/models/item/zinc_plate.json
 b628dcea55ba546b0040807ceb3991b71c62f818 assets/moreplates/models/item/zinc_stick.json
-ffa5a3eda49672d68d3edad93cd3d7b0cf879c51 data/forge/tags/items/gears.json
+6e866e8036e34c19a874752deea8d98056ccb40c data/forge/tags/items/gears.json
 972af5d55a62f5fa361da9aeb18be31c1cb330c4 data/forge/tags/items/gears/allthemodium.json
 c358fb9f2da754d9da21eb8e02f32d6afec3abd9 data/forge/tags/items/gears/aluminum.json
 14a2d06adc8438b1bc9410d17e1e791d3c91bbf8 data/forge/tags/items/gears/amethyst.json
@@ -326,6 +329,7 @@ e1b4717c9eb78222982e5cb691d7ff5a0560bbba data/forge/tags/items/gears/enhanced_en
 9224f4451a88001479b1f2c919317745458caa67 data/forge/tags/items/gears/ghost.json
 d30b6273f24f37e08490dc3868504fe6608ecb9e data/forge/tags/items/gears/glowstone.json
 e7a503ccd3fd3c844aa3559b978f3d76c1cf2198 data/forge/tags/items/gears/gold.json
+0c95f3979c2c19b43c8a3f63628292846c84a32e data/forge/tags/items/gears/green_sapphire.json
 c1826652666f897d2c7a304c576cfe1075867c75 data/forge/tags/items/gears/imperium.json
 b113f865f9a3dfc86cd73f22dd4fd42c0ab53da1 data/forge/tags/items/gears/inferium.json
 617963f327917d962067dca0b7ed8eee8047bdbf data/forge/tags/items/gears/insanium.json
@@ -335,7 +339,6 @@ f1756f7a238483cd8804edb3bbad37d4a159bbbf data/forge/tags/items/gears/ivory_psime
 9531a9eb5a2b9ac34c1427da57f0effb24975b08 data/forge/tags/items/gears/lapis_lazuli.json
 2699709f194864a8ec952e401e87d6d46253b0b0 data/forge/tags/items/gears/lead.json
 afd645b4729e396651244ff648dca0f6377e4628 data/forge/tags/items/gears/lumium.json
-753d9e013b8914fb3c5a85cb7203d04809c7f404 data/forge/tags/items/gears/malachite.json
 03d7e886487059a7ee23932cc6681ac611a53dec data/forge/tags/items/gears/manasteel.json
 78ce7712dea32a1c18501418c4ae09bee2b221c0 data/forge/tags/items/gears/mystium.json
 8918aa6bb66312546cd7bb0d3ee2efcfe01a7769 data/forge/tags/items/gears/neptunium.json
@@ -365,6 +368,7 @@ c278c14c6f33ee5c18646b3cd16b1b0ed3aea808 data/forge/tags/items/gears/refined_obs
 8ff3eb1aa38c5d78359ce98ebc707c57f5875e13 data/forge/tags/items/gears/ruby.json
 cb2c6a86bb24e8c7c1cb036b5be4d36cb9372a50 data/forge/tags/items/gears/sapphire.json
 59a70ef889b4ab8dfc47172dae0187d95e415ca6 data/forge/tags/items/gears/signalum.json
+bbcad42643b1f61883c2b91e4f2e87341e331053 data/forge/tags/items/gears/silicon.json
 033316b73c2eb2b6d183f491ffaff186a4f1d2c7 data/forge/tags/items/gears/silver.json
 9640fd1e47682b206b06add93f9ce1a17fe1fd1e data/forge/tags/items/gears/soulium.json
 2fc315dda84a77890ec708ca37aebe7f557964d8 data/forge/tags/items/gears/starmetal.json
@@ -384,7 +388,7 @@ c6186e96e096b316fdcf32f69b637c0da6210d9f data/forge/tags/items/gears/vibranium.j
 ab61f63f08eb4742935f330fa8686e22d354b69c data/forge/tags/items/gears/vibranium_allthemodium_alloy.json
 d28b6f9229374490807fcad74562f138a19c35ec data/forge/tags/items/gears/vibranium_unobtainium_alloy.json
 b3fc0eaa1e485c1a3d5139c6f69c20333d8b6c00 data/forge/tags/items/gears/zinc.json
-3617e939bd13eb97804e4d16f59e14a42f955256 data/forge/tags/items/plates.json
+813eeb262e6be258c11cf0f2ad0a09fc77ea8ae4 data/forge/tags/items/plates.json
 610b971e58fcbbd359935912614fefc9b56cdcf6 data/forge/tags/items/plates/allthemodium.json
 5f0a6032c7148bb288622e113636b07ec305e4f0 data/forge/tags/items/plates/aluminum.json
 931f388360043c306f0c85903f27123a2b18c7eb data/forge/tags/items/plates/amethyst.json
@@ -423,6 +427,7 @@ ce186ba73dec485b77eb5ed8afbc20aae9f59d9b data/forge/tags/items/plates/enhanced_e
 9cdbc04213fa41c30e7df1cf532ca665da5a6798 data/forge/tags/items/plates/ghost.json
 5179c31b26b534bcc43f0cc75b92c6498153129a data/forge/tags/items/plates/glowstone.json
 5ca14d06487de8857941a5d4ee3f7e8fbb3a4606 data/forge/tags/items/plates/gold.json
+dd98fa2fd9aec45efb54d9e071e38e2d150ef2c1 data/forge/tags/items/plates/green_sapphire.json
 c42ebce0ec972a25abfd3d8704aed149c53a5669 data/forge/tags/items/plates/imperium.json
 9cdd659af117c37c33ff8aee28140aaa8440ad31 data/forge/tags/items/plates/inferium.json
 0c9ccabaa8ce8c3c6fda6e646bcc1b1d42ea99ca data/forge/tags/items/plates/insanium.json
@@ -432,7 +437,6 @@ d5df336e0e76fc73003d77c6b86413fd171700cc data/forge/tags/items/plates/ivory_psim
 b12b49a8ee1af81ad0f97e66cb9a4a14aed7f232 data/forge/tags/items/plates/lapis_lazuli.json
 1fd28816131267aca35a64c4e18b93e078addbde data/forge/tags/items/plates/lead.json
 3360bb040489b88ab949db5196290167de8f0ca6 data/forge/tags/items/plates/lumium.json
-940f8675fbb3843088fb3febd082faa2f776c5ec data/forge/tags/items/plates/malachite.json
 d485c98b66df1a65f354c2e111a0c6451e253393 data/forge/tags/items/plates/manasteel.json
 35cd353b797cfb25ac5afda9984be1d36b087745 data/forge/tags/items/plates/mystium.json
 e751f530d79c7d600c33ba3a35586b1f650b1d8e data/forge/tags/items/plates/neptunium.json
@@ -462,6 +466,7 @@ f49e052b2e4c4dbb8e29d31a277df7c128913939 data/forge/tags/items/plates/refined_ob
 53102c16bc3e25736faaf6a50fc3efa59bcfc471 data/forge/tags/items/plates/ruby.json
 eef494345877d91471f29addfe7f68f4c9d141d7 data/forge/tags/items/plates/sapphire.json
 a0b1ee03bad1b9cbd49ea1d12991f276f6c04552 data/forge/tags/items/plates/signalum.json
+41e436767dbf8273c38897665ff4a074477dae16 data/forge/tags/items/plates/silicon.json
 e8100af23a760d8d6e278676485d176b4ab131cf data/forge/tags/items/plates/silver.json
 65310b9e63c1ff25815648ab24efc977e70049b8 data/forge/tags/items/plates/soulium.json
 29474e79c0461b7bfe445a1c406e285aaf896b9d data/forge/tags/items/plates/starmetal.json
@@ -481,7 +486,7 @@ fb68d4a964587933175c4be2e8f59be4cda77953 data/forge/tags/items/plates/unobtainiu
 2a76def1b354ab19f26fd2c9c8917273c801d79e data/forge/tags/items/plates/vibranium_allthemodium_alloy.json
 d5d8cf79e024a1a7939e2e68b7190529790e8562 data/forge/tags/items/plates/vibranium_unobtainium_alloy.json
 28a1d992dad77703d7ffb730561cac33811833bd data/forge/tags/items/plates/zinc.json
-26f7dce320fb1aa4b0d200ee595057098fd47d17 data/forge/tags/items/rods.json
+4294311fb306d15cacf8d1594c835ad03ab34f3e data/forge/tags/items/rods.json
 9a2c818c5bf7de238856f9bf649de638c7b55fd8 data/forge/tags/items/rods/allthemodium.json
 b252c6e4fd63b36120f452eeb09f470632bbd3b7 data/forge/tags/items/rods/aluminum.json
 4811c0756f20a9f7823402c71a6922c7b827887e data/forge/tags/items/rods/amethyst.json
@@ -520,6 +525,7 @@ ab0d841d1c1a883d025eeaa0ec9ae6ebf8e91744 data/forge/tags/items/rods/gaia_spirit.
 144607919b0fd377c54081d896cbe48a9b701efc data/forge/tags/items/rods/ghost.json
 0fea7a6e88c9bda1d27dad60a7b12eb3496ffb87 data/forge/tags/items/rods/glowstone.json
 11857f2dc656b48457d9ab9171760bf218cc7cce data/forge/tags/items/rods/gold.json
+65b09c930ad926687b753785a68bfddd8564b0d0 data/forge/tags/items/rods/green_sapphire.json
 0c0ea773c7374523cd6a3876315ca730b2b1a6b7 data/forge/tags/items/rods/imperium.json
 4aae24b08fe95ac998484be761b7392414faac9e data/forge/tags/items/rods/inferium.json
 17af2f8ad930ecee89caf563c3f5d8fe5d23b306 data/forge/tags/items/rods/insanium.json
@@ -529,7 +535,6 @@ b60ca84b165ec6cff90bfca54d641aecbcd1d527 data/forge/tags/items/rods/ivory_psimet
 2708551d541a4ec82243f008a428f9b6f9413114 data/forge/tags/items/rods/lapis_lazuli.json
 0c208dacf5fe0ea044080aa3d027b13df22d2e80 data/forge/tags/items/rods/lead.json
 e208c631fb6de4b495f8be287b615768381189a9 data/forge/tags/items/rods/lumium.json
-021075e9e9c9f4c2a22d380c896984caf57e0b94 data/forge/tags/items/rods/malachite.json
 e04d9b063da89b75267dc2b802c6a2e23e781836 data/forge/tags/items/rods/manasteel.json
 854a61916022c90610a7be289ce6d1730ac9d85c data/forge/tags/items/rods/mystium.json
 4d2eb70ba6e44080a791e13b714385f21de09827 data/forge/tags/items/rods/neptunium.json
@@ -559,6 +564,7 @@ bc7e008549a4e35a67fe9b458756218f0f56de74 data/forge/tags/items/rods/resonating_g
 c630cc1e3881cd1964410ea89a64b33c0d56db5c data/forge/tags/items/rods/ruby.json
 77e172d81a1f27c88e68f5cb0f69b63b2fc21036 data/forge/tags/items/rods/sapphire.json
 944062a09ce545215dd0a3757d79f0f517c3255a data/forge/tags/items/rods/signalum.json
+a31a19a332fec4241b76d3920613543d828e9502 data/forge/tags/items/rods/silicon.json
 aac489e74b011de35bd4fb2917c5796a5fef4544 data/forge/tags/items/rods/silver.json
 1bbdc3ebd0081b510cd545ceb5d3e4a239d7fc89 data/forge/tags/items/rods/soulium.json
 96d1e28c43b1de2fa776467b2caaacfb8f5599ed data/forge/tags/items/rods/starmetal.json
@@ -778,6 +784,9 @@ fd321cc72bd802e79af15bf40d13635903ad9861 data/moreplates/recipes/glowstone_plate
 da4f419667874f77e16d9607c595b4a607a71b54 data/moreplates/recipes/gold_gear.json
 bdfbd74a033a8769cf507190f11c55974e5a8c4b data/moreplates/recipes/gold_plate.json
 7f851348519a6852a63bb35d38ace1441ac563d1 data/moreplates/recipes/gold_stick.json
+39feecd03c715c0af9658da8d65fede3ff6b5868 data/moreplates/recipes/green_sapphire_gear.json
+007c450c53918cf36ebd4f20a84948d3ee44d132 data/moreplates/recipes/green_sapphire_plate.json
+4c7cb4ce1603dca328f9e1355a15f6c7dd05e8d4 data/moreplates/recipes/green_sapphire_stick.json
 58a59e83cdd09e235685e81fff05065e6833d941 data/moreplates/recipes/imperium_gear.json
 49e509dd9f6eab9390de89ef5ece096d360fcec3 data/moreplates/recipes/imperium_plate.json
 18fbb946701259794bc3aa16226966394c690d8d data/moreplates/recipes/imperium_stick.json
@@ -805,9 +814,6 @@ bc4ccb63a896ffc4b7aef9ca71b881de7d44ab3d data/moreplates/recipes/lead_stick.json
 5166ca992bf84978a92f874de6b6c2767437ed45 data/moreplates/recipes/lumium_gear.json
 38e3117150ab0ec537ed5aa12f673c2ceb72ddd9 data/moreplates/recipes/lumium_plate.json
 56b531bb06eed95dc2bb3779509e27e0b9f32170 data/moreplates/recipes/lumium_stick.json
-43b9aaa71444a919edcbc6b4239a7aa45aec4e44 data/moreplates/recipes/malachite_gear.json
-8360601feea3183a89fa927326e668426a2dfed0 data/moreplates/recipes/malachite_plate.json
-8eac84c91702538dbdc9c75ea44404366471fbf3 data/moreplates/recipes/malachite_stick.json
 faa9ee9148b94a735f07b8b56c1dd6a8c3845437 data/moreplates/recipes/manasteel_gear.json
 38ec335c08132e6f46227d49448c30c605db7055 data/moreplates/recipes/manasteel_plate.json
 3b948f7c53c379e59339f87c3501dbe8b47191e2 data/moreplates/recipes/manasteel_stick.json
@@ -925,6 +931,9 @@ df05b99fb5757588d4d01f920bedbda8d1811136 data/moreplates/recipes/metal_press/gho
 eb4d7e1f249f3362df9c7b0c6266b51a027d7e2b data/moreplates/recipes/metal_press/gold_gear.json
 f472d9aa17bb119ca715167c74476ba1715256af data/moreplates/recipes/metal_press/gold_plate.json
 911bedf19af14ed8849e05d39df0d5127a85b774 data/moreplates/recipes/metal_press/gold_stick.json
+656115868a40f5ef51445d349b9da51019f88e7f data/moreplates/recipes/metal_press/green_sapphire_gear.json
+fd4c95bd0c11d63782c73e8bf1bac1a34dce5ed4 data/moreplates/recipes/metal_press/green_sapphire_plate.json
+10e972e16539e6841b1fc5dbfd116264a5356190 data/moreplates/recipes/metal_press/green_sapphire_stick.json
 32de1393e863d7cc066f393b61e81f79cfdc9167 data/moreplates/recipes/metal_press/imperium_gear.json
 ffbed664357db3c9273801950170c217d1118f23 data/moreplates/recipes/metal_press/imperium_plate.json
 23626659a9747ec742405fe3c883b1036ceb425c data/moreplates/recipes/metal_press/imperium_stick.json
@@ -952,9 +961,6 @@ d63a0fe4a24a522510f1bad28ba6a8f156f67815 data/moreplates/recipes/metal_press/ivo
 b53fda7c8dce9245b454ede61295421a51b7e750 data/moreplates/recipes/metal_press/lumium_gear.json
 e4df5309500994f7b6f59a59dc3e2e661f7525e3 data/moreplates/recipes/metal_press/lumium_plate.json
 0f774dc952e9d86cb7328159de190d25a9b308df data/moreplates/recipes/metal_press/lumium_stick.json
-c7fc413180570c25471611ae7339c97154386cd0 data/moreplates/recipes/metal_press/malachite_gear.json
-9a0b8cb6afd672244504443a790bdb22bfbb1e57 data/moreplates/recipes/metal_press/malachite_plate.json
-044cd08ea2cf304ef105de297589f197493c8c83 data/moreplates/recipes/metal_press/malachite_stick.json
 8f4a79455a19822dd2216b0acfb21bef97b79c67 data/moreplates/recipes/metal_press/manasteel_gear.json
 85fdb6927b1ba2b078d4f48295e2c7dadc4fe0a6 data/moreplates/recipes/metal_press/manasteel_plate.json
 99600237cf378688a566ad7f53680e752fa75677 data/moreplates/recipes/metal_press/manasteel_stick.json
@@ -1042,6 +1048,9 @@ b1513560ff669384c9d516b7486bd531fcfc163e data/moreplates/recipes/metal_press/sap
 a0fca89c8a792482618f7d96feb3c71e47d73c21 data/moreplates/recipes/metal_press/signalum_gear.json
 c02735aa8db251dedfc3b69442c34215a24bdade data/moreplates/recipes/metal_press/signalum_plate.json
 83decbf33e7e52971dfca2cc733caa678d7975b3 data/moreplates/recipes/metal_press/signalum_stick.json
+9e733f3baf164f9fcfeca0df33e8868fd8e9833e data/moreplates/recipes/metal_press/silicon_gear.json
+d9d76e7047a33706d5a4967a0cdc0ae72d9cbfbd data/moreplates/recipes/metal_press/silicon_plate.json
+414fef384bd62d3306ea7153b25b4597523b6c7b data/moreplates/recipes/metal_press/silicon_stick.json
 f39d15f6c86a8e88e9d8800c92c00bc1f823fafc data/moreplates/recipes/metal_press/silver_gear.json
 691004b47c7263aa012aa399a90a0ba9db7ac630 data/moreplates/recipes/metal_press/silver_plate.json
 526643cb82c787aee1aed1a44aaa2b20074efc6e data/moreplates/recipes/metal_press/silver_stick.json
@@ -1183,6 +1192,9 @@ d1c983937c47146725f5d9d0b0652451288437b4 data/moreplates/recipes/sapphire_gear.j
 1d413786c2add84a571f64578b61da00f915ccb2 data/moreplates/recipes/signalum_gear.json
 8775676190da15c68132001561a719ad7493342e data/moreplates/recipes/signalum_plate.json
 44bf1ac5da0406ae552094bfc1bb1bbd44ed13aa data/moreplates/recipes/signalum_stick.json
+7bc8a94cd0474ae8b329f3a5ce0a1c3fbf34b568 data/moreplates/recipes/silicon_gear.json
+caa4554e163caded49c39d957c9cb7d385d6c128 data/moreplates/recipes/silicon_plate.json
+d152ef7efdfb5c5467b8ce3ad2936e7220b0dae1 data/moreplates/recipes/silicon_stick.json
 1313f4eb4a9814c1708f9910f5a218f6ecf1eeaa data/moreplates/recipes/silver_gear.json
 ab9e1ef482eb20d8b40098bd04df2b2ab4fdfc73 data/moreplates/recipes/silver_plate.json
 9879fcd9521f7608734b516bc10445fc5d849262 data/moreplates/recipes/silver_stick.json

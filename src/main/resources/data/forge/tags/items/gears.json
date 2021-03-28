@@ -166,6 +166,10 @@
       "required": false
     },
     {
+      "id": "moreplates:silicon_gear",
+      "required": false
+    },
+    {
       "id": "moreplates:tungsten_gear",
       "required": false
     },

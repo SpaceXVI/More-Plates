@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:silicon_stick",
+      "required": false
+    }
+  ]
+}

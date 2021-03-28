@@ -166,6 +166,10 @@
       "required": false
     },
     {
+      "id": "moreplates:silicon_stick",
+      "required": false
+    },
+    {
       "id": "moreplates:tungsten_stick",
       "required": false
     },

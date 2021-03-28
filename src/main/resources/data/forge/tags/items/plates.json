@@ -166,6 +166,10 @@
       "required": false
     },
     {
+      "id": "moreplates:silicon_plate",
+      "required": false
+    },
+    {
       "id": "moreplates:tungsten_plate",
       "required": false
     },
