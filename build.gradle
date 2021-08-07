@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 // MCVER - UN/INTEGRATE . MINORCHANGES . PATCH
-version = '7.3.0'
+version = '7.4.0'
 group = 'ms55.moreplates'
 archivesBaseName = 'moreplates-1.16.5'
 
@@ -24,7 +24,7 @@ sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = co
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    mappings channel: 'snapshot', version: '20210309-1.16.5'
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -97,7 +97,7 @@ repositories {
 //}
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.0.1'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.1.32'
 
     //moreLibs group: 'net.oneandone.reflections8', name: 'reflections8', version: '0.11.5'
     //moreLibs group: 'org.reflections', name: 'reflections', version: '0.9.11'

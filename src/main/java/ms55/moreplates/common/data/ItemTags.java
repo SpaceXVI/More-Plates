@@ -22,6 +22,10 @@ public class ItemTags extends ItemTagsProvider {
 		for (EnumMaterials material : EnumMaterials.values()) {
 			int limit = 3;
 
+			if (material.equals(EnumMaterials.WOOD)) {
+    			limit = 2;
+    		}
+
     		/*for (int i = 0; i < Groups.metals.length; i++) {
     			if (material == Groups.metals[i]) {
     				limit = 3;

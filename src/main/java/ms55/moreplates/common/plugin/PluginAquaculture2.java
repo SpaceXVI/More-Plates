@@ -13,6 +13,6 @@ public class PluginAquaculture2 extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(NEPTUNIUM);
+		reg2(NEPTUNIUM);
     }
 }

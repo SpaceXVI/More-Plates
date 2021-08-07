@@ -4,9 +4,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import ms55.moreplates.client.config.Config;
-import ms55.moreplates.common.RegistryHandler;
 import ms55.moreplates.common.advancements.BooleanCondition;
 import ms55.moreplates.common.data.DataGenerators;
+import ms55.moreplates.common.item.ModItems;
 import ms55.moreplates.common.plugin.core.PluginLoader;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.crafting.IRecipeSerializer;
@@ -28,7 +28,7 @@ public class MorePlates {
 
 	public static final ItemGroup ITEMGROUP = new MorePlatesItemGroup();
 
-	public static final boolean DEBUG = false;
+	public static final boolean DEBUG = false; //SET TO FALSE PLEASE
 
     public MorePlates() {
         MinecraftForge.EVENT_BUS.register(this);
@@ -44,7 +44,7 @@ public class MorePlates {
 			e.printStackTrace();
 		}
 
-        RegistryHandler.init();
+		ModItems.init();
 
         MinecraftForge.EVENT_BUS.register(DataGenerators.class);
     }

@@ -13,6 +13,6 @@ public class PluginPneumaticCraft extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(COMPRESSED_IRON);
+		reg2(COMPRESSED_IRON);
 	}
 }

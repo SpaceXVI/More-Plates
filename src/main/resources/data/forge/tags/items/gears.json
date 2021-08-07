@@ -66,6 +66,10 @@
       "required": false
     },
     {
+      "id": "moreplates:wood_gear",
+      "required": false
+    },
+    {
       "id": "moreplates:allthemodium_gear",
       "required": false
     },
@@ -339,6 +343,18 @@
     },
     {
       "id": "moreplates:energized_steel_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:electrotine_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:red_ingot_gear",
+      "required": false
+    },
+    {
+      "id": "moreplates:silicon2_gear",
       "required": false
     },
     {

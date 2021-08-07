@@ -13,6 +13,6 @@ public class PluginMysticalAgradditions extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(INSANIUM);
+		reg2(INSANIUM);
     }
 }

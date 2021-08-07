@@ -15,8 +15,8 @@ public class PluginAstralSorcery extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(AQUAMARINE);
-		reg(RESONATING_GEM);
-	    reg(STARMETAL);
+		reg2(AQUAMARINE);
+		reg2(RESONATING_GEM);
+	    reg2(STARMETAL);
 	}
 }

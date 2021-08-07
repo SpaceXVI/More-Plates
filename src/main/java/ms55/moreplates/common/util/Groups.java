@@ -24,14 +24,12 @@ public class Groups {
 
 	public static EnumMaterials[] assemblylinemachines = {
 		EnumMaterials.ATTUNED_TITANIUM,
-		EnumMaterials.CHROMIUM,
 		EnumMaterials.ENERGIZED_GOLD,
 		EnumMaterials.MYSTIUM,
 		EnumMaterials.PURE_GOLD,
 		EnumMaterials.PURE_IRON,
 		EnumMaterials.PURE_STEEL,
-		EnumMaterials.PURE_TITANIUM,
-		EnumMaterials.TITANIUM
+		EnumMaterials.PURE_TITANIUM
 	};
 
 	public static EnumMaterials[] astralsorcery = {
@@ -41,18 +39,11 @@ public class Groups {
 	};
 
 	public static EnumMaterials[] bluepower = {
-		EnumMaterials.BRASS,
 		EnumMaterials.BLUE_ALLOY,
 		EnumMaterials.PURPLE_ALLOY,
 		EnumMaterials.RED_ALLOY,
 		EnumMaterials.SILICON,
-		EnumMaterials.TUNGSTEN,
-		EnumMaterials.TUNGSTEN_CARBIDE,
-		EnumMaterials.ZINC,
-		EnumMaterials.AMETHYST,
-		EnumMaterials.GREEN_SAPPHIRE,
-		EnumMaterials.RUBY,
-		EnumMaterials.SAPPHIRE
+		EnumMaterials.TUNGSTEN_CARBIDE
 	};
 
 	public static EnumMaterials[] botania = {
@@ -79,28 +70,38 @@ public class Groups {
 	};
 
 	public static EnumMaterials[] mekanism = {
-		EnumMaterials.OSMIUM,
 		EnumMaterials.REFINED_GLOWSTONE,
 		EnumMaterials.REFINED_OBSIDIAN
 	};
 
 	public static EnumMaterials[] metals = {
 		EnumMaterials.ALUMINUM,
+		EnumMaterials.AMETHYST,
+		EnumMaterials.BISMUTH,
+		EnumMaterials.BRASS,
 		EnumMaterials.BRONZE,
+		EnumMaterials.CHROMIUM,
 		EnumMaterials.CONSTANTAN,
 		EnumMaterials.COPPER,
 		EnumMaterials.ELECTRUM,
 		EnumMaterials.ENDERIUM,
+		EnumMaterials.GREEN_SAPPHIRE,
 		EnumMaterials.INVAR,
 		EnumMaterials.LEAD,
 		EnumMaterials.LUMIUM,
 		EnumMaterials.NICKEL,
+		EnumMaterials.OSMIUM,
 		EnumMaterials.PLATINUM,
+		EnumMaterials.RUBY,
+		EnumMaterials.SAPPHIRE,
 		EnumMaterials.SIGNALUM,
 		EnumMaterials.SILVER,
 		EnumMaterials.STEEL,
 		EnumMaterials.TIN,
-		EnumMaterials.URANIUM
+		EnumMaterials.TITANIUM,
+		EnumMaterials.TUNGSTEN,
+		EnumMaterials.URANIUM,
+		EnumMaterials.ZINC
 	};
 
 	public static EnumMaterials[] minecraft = {
@@ -119,7 +120,8 @@ public class Groups {
 		EnumMaterials.NETHER_QUARTZ,
 		EnumMaterials.PAPER,
 		EnumMaterials.PRISMARINE_CRYSTALS,
-		EnumMaterials.REDSTONE
+		EnumMaterials.REDSTONE,
+		EnumMaterials.WOOD
 	};
 
 	public static EnumMaterials[] mysticalagradditions = {
@@ -144,6 +146,12 @@ public class Groups {
 		EnumMaterials.ENERGIZED_STEEL
 	};
 
+	public static EnumMaterials[] projectred = {
+		EnumMaterials.ELECTROTINE_ALLOY,
+		EnumMaterials.RED_INGOT,
+		EnumMaterials.SILICON2
+	};
+
 	public static EnumMaterials[] psi = {
 		EnumMaterials.EBONY_PSIMETAL,
 		EnumMaterials.IVORY_PSIMETAL,
@@ -155,7 +163,6 @@ public class Groups {
 	};
 
 	public static EnumMaterials[] silents_mechanisms = {
-		EnumMaterials.BISMUTH
 	};
 
 	public static EnumMaterials[][] materials = {
@@ -175,6 +182,7 @@ public class Groups {
 		mysticalagriculture,
 		pneumaticcraft,
 		powah,
+		projectred,
 		psi,
 		refinedstorage,
 		silents_mechanisms

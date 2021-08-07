@@ -342,6 +342,18 @@
       "required": false
     },
     {
+      "id": "moreplates:electrotine_alloy_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:red_ingot_stick",
+      "required": false
+    },
+    {
+      "id": "moreplates:silicon2_stick",
+      "required": false
+    },
+    {
       "id": "moreplates:ebony_psimetal_stick",
       "required": false
     },

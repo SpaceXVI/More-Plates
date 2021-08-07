@@ -16,6 +16,7 @@ import static ms55.moreplates.common.enumeration.EnumMaterials.NETHER_QUARTZ;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PAPER;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PRISMARINE_CRYSTALS;
 import static ms55.moreplates.common.enumeration.EnumMaterials.REDSTONE;
+import static ms55.moreplates.common.enumeration.EnumMaterials.WOOD;
 
 import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
@@ -28,21 +29,22 @@ public class PluginMinecraft extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(BRICK);
-		reg(CHARCOAL);
-		reg(COAL);
-		reg(DIAMOND);
-		reg(EMERALD);
-		reg(FLINT);
-		reg(GLOWSTONE);
+		reg2(BRICK);
+		reg2(CHARCOAL);
+		reg2(COAL);
+		reg2(DIAMOND);
+		reg2(EMERALD);
+		reg2(FLINT);
+		reg2(GLOWSTONE);
 		reg2(GOLD);
         reg2(IRON);
-        reg(LAPIS_LAZULI);
-        reg(NETHER_BRICK);
-        reg(NETHERITE);
-        reg(NETHER_QUARTZ);
-        reg(PAPER);
-        reg(PRISMARINE_CRYSTALS);
-        reg(REDSTONE);
+        reg2(LAPIS_LAZULI);
+        reg2(NETHER_BRICK);
+        reg2(NETHERITE);
+        reg2(NETHER_QUARTZ);
+        reg2(PAPER);
+        reg2(PRISMARINE_CRYSTALS);
+        reg2(REDSTONE);
+        reg(WOOD);
     }
 }

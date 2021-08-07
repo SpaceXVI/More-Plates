@@ -66,6 +66,10 @@
       "required": false
     },
     {
+      "id": "moreplates:wood_plate",
+      "required": false
+    },
+    {
       "id": "moreplates:allthemodium_plate",
       "required": false
     },
@@ -339,6 +343,18 @@
     },
     {
       "id": "moreplates:energized_steel_plate",
+      "required": false
+    },
+    {
+      "id": "moreplates:electrotine_alloy_plate",
+      "required": false
+    },
+    {
+      "id": "moreplates:red_ingot_plate",
+      "required": false
+    },
+    {
+      "id": "moreplates:silicon2_plate",
       "required": false
     },
     {

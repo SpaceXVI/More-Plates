@@ -1,6 +1,5 @@
 package ms55.moreplates.common.plugin;
 
-import static ms55.moreplates.common.enumeration.EnumMaterials.OSMIUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.REFINED_GLOWSTONE;
 import static ms55.moreplates.common.enumeration.EnumMaterials.REFINED_OBSIDIAN;
 
@@ -15,8 +14,7 @@ public class PluginMekanism extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(OSMIUM);
-		reg(REFINED_GLOWSTONE);
-		reg(REFINED_OBSIDIAN);
+		reg2(REFINED_GLOWSTONE);
+		reg2(REFINED_OBSIDIAN);
     }
 }

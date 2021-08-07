@@ -32,7 +32,13 @@ public class ItemModels extends ItemModelProvider {
 	}
 
 	public void registry(EnumMaterials material, String mod) {
-		for (int i = 0 ; i < 3/*(mod.equals("metals") || material.equals(EnumMaterials.GOLD) || material.equals(EnumMaterials.IRON) ? 3 : 2)*/; i++) {
+		int limit = 3;
+
+		if (material.equals(EnumMaterials.WOOD)) {
+			limit = 2;
+		}
+
+		for (int i = 0 ; i < limit/*(mod.equals("metals") || material.equals(EnumMaterials.GOLD) || material.equals(EnumMaterials.IRON) ? 3 : 2)*/; i++) {
 			if (i == 0) {
 				getBuilder(material.toString() + "_plate")
 	              .parent(new UncheckedModelFile(new ResourceLocation("item/generated")))

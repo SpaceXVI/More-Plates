@@ -20,6 +20,7 @@ public enum Mods {
 	POWAH("powah"),
 	PSI("psi"),
 	PNEUMATIC_CRAFT("pneumaticcraft"),
+	PROJECT_RED("projectred-core"),
 	REFINED_STORAGE("refinedstorage"),
 	SILENTS_MECHANISMS("silents_mechanisms");
 

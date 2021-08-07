@@ -18,11 +18,11 @@ public class PluginAllTheModium extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(ALLTHEMODIUM);
-		reg(UNOBTAINIUM_ALLTHEMODIUM_ALLOY);
-		reg(UNOBTAINIUM);
-		reg(VIBRANIUM_ALLTHEMODIUM_ALLOY);
-		reg(VIBRANIUM);
-		reg(VIBRANIUM_UNOBTAINIUM_ALLOY);
+		reg2(ALLTHEMODIUM);
+		reg2(UNOBTAINIUM_ALLTHEMODIUM_ALLOY);
+		reg2(UNOBTAINIUM);
+		reg2(VIBRANIUM_ALLTHEMODIUM_ALLOY);
+		reg2(VIBRANIUM);
+		reg2(VIBRANIUM_UNOBTAINIUM_ALLOY);
     }
 }

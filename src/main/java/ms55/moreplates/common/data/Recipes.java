@@ -36,6 +36,12 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     	for (EnumMaterials material : EnumMaterials.values()) {
     		int limit = 3;
 
+    		if (material.equals(EnumMaterials.WOOD)) {
+    			limit = 2;
+    		}
+
+    		System.out.println(material.getName());
+
     		for (int i = 0; i < limit; i++) {
     			if (i == 0) {
     				Item PLATE = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));

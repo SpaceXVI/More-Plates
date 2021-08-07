@@ -14,7 +14,7 @@ public class PluginAppliedEnergistics2 extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(CERTUS_QUARTZ);
-		reg(FLUIX);
+		reg2(CERTUS_QUARTZ);
+		reg2(FLUIX);
     }
 }

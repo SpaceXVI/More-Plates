@@ -16,9 +16,9 @@ public class PluginIceAndFire extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(DRAGONSTEEL_FIRE);
-		reg(DRAGONSTEEL_ICE);
-		reg(DRAGONSTEEL_LIGHTNING);
-		reg(GHOST);
+		reg2(DRAGONSTEEL_FIRE);
+		reg2(DRAGONSTEEL_ICE);
+		reg2(DRAGONSTEEL_LIGHTNING);
+		reg2(GHOST);
     }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "moreplates:item/bluepower/green_sapphire_plate"
+    "layer0": "moreplates:item/metals/green_sapphire_plate"
   }
 }

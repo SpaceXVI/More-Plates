@@ -19,12 +19,12 @@ public class PluginMysticalAgriculture extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(IMPERIUM);
-		reg(INFERIUM);
-		reg(PROSPERITY);
-		reg(PRUDENTIUM);
-		reg(SOULIUM);
-		reg(SUPREMIUM);
-		reg(TERTIUM);
+		reg2(IMPERIUM);
+		reg2(INFERIUM);
+		reg2(PROSPERITY);
+		reg2(PRUDENTIUM);
+		reg2(SOULIUM);
+		reg2(SUPREMIUM);
+		reg2(TERTIUM);
     }
 }

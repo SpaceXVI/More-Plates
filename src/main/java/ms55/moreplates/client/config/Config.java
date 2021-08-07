@@ -23,7 +23,7 @@ public class Config {
 			       .push("General");
 
 			DURABILITY_HAMMER = builder
-					.comment("Hammer Durability")
+					.comment("Hammer Durability (Doesn't work currently)")
 	                .defineInRange("hammer_durability", 150, 1, Integer.MAX_VALUE);
 
 			GEAR_RECIPES = builder

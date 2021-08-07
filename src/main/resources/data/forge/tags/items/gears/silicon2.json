@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:silicon2_gear",
+      "required": false
+    }
+  ]
+}

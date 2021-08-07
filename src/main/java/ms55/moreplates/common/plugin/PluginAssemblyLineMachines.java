@@ -1,14 +1,12 @@
 package ms55.moreplates.common.plugin;
 
 import static ms55.moreplates.common.enumeration.EnumMaterials.ATTUNED_TITANIUM;
-import static ms55.moreplates.common.enumeration.EnumMaterials.CHROMIUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.ENERGIZED_GOLD;
 import static ms55.moreplates.common.enumeration.EnumMaterials.MYSTIUM;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_GOLD;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_IRON;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_STEEL;
 import static ms55.moreplates.common.enumeration.EnumMaterials.PURE_TITANIUM;
-import static ms55.moreplates.common.enumeration.EnumMaterials.TITANIUM;
 
 import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
@@ -21,14 +19,12 @@ public class PluginAssemblyLineMachines extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {	
-		reg(ATTUNED_TITANIUM);
-		reg(CHROMIUM);
-		reg(ENERGIZED_GOLD);
-		reg(MYSTIUM);
-		reg(PURE_GOLD);
-		reg(PURE_IRON);
-		reg(PURE_STEEL);
-		reg(PURE_TITANIUM);
-		reg(TITANIUM);
+		reg2(ATTUNED_TITANIUM);
+		reg2(ENERGIZED_GOLD);
+		reg2(MYSTIUM);
+		reg2(PURE_GOLD);
+		reg2(PURE_IRON);
+		reg2(PURE_STEEL);
+		reg2(PURE_TITANIUM);
     }
 }

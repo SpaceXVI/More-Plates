@@ -18,11 +18,11 @@ public class PluginExtendedCrafting extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(BLACK_IRON);
-		reg(CRYSTALTINE);
-		reg(ENDER);
-		reg(ENHANCED_ENDER);
-		reg(REDSTONE_INGOT);
-		reg(THE_ULTIMATE);
+		reg2(BLACK_IRON);
+		reg2(CRYSTALTINE);
+		reg2(ENDER);
+		reg2(ENHANCED_ENDER);
+		reg2(REDSTONE_INGOT);
+		reg2(THE_ULTIMATE);
     }
 }

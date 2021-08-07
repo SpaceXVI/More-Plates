@@ -1,7 +1,5 @@
 package ms55.moreplates.common.plugin;
 
-import static ms55.moreplates.common.enumeration.EnumMaterials.BISMUTH;
-
 import ms55.moreplates.common.plugin.core.Plugin;
 import ms55.moreplates.common.plugin.helper.PluginHelper;
 
@@ -13,6 +11,6 @@ public class PluginSilentMechanism extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(BISMUTH);
+		//?
     }
 }

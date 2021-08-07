@@ -13,6 +13,6 @@ public class PluginRefinedStorage extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(QUARTZ_ENRICHED_IRON);
+		reg2(QUARTZ_ENRICHED_IRON);
     }
 }

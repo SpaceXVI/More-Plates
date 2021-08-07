@@ -15,8 +15,8 @@ public class PluginPsi extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(EBONY_PSIMETAL);
-		reg(IVORY_PSIMETAL);
-		reg(PSIMETAL);
+		reg2(EBONY_PSIMETAL);
+		reg2(IVORY_PSIMETAL);
+		reg2(PSIMETAL);
     }
 }

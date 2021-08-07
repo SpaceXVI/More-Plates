@@ -16,9 +16,9 @@ public class PluginBotania extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(ELEMENTIUM);
-		reg(GAIA_SPIRIT);
-		reg(MANASTEEL);
-		reg(TERRASTEEL);
+		reg2(ELEMENTIUM);
+		reg2(GAIA_SPIRIT);
+		reg2(MANASTEEL);
+		reg2(TERRASTEEL);
     }
 }

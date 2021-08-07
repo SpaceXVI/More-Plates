@@ -5,7 +5,6 @@ import java.util.Random;
 import javax.annotation.Nonnull;
 
 import ms55.moreplates.MorePlates;
-import ms55.moreplates.client.config.Config;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
@@ -19,19 +18,19 @@ public class HammerItem extends Item {
 		super(new Item.Properties()
 				.group(MorePlates.ITEMGROUP)
                 .maxStackSize(1)
-                .maxDamage(Config.GENERAL.DURABILITY_HAMMER.get())
+                .maxDamage(150) //Should use config
                 .setNoRepair());
 	}
 
-    /*@Override
+    @Override
     public int getMaxDamage(ItemStack stack) {
-        return Config.GENERAL.DURABILITY_HAMMER.get();
-    }*/
+        return 150;
+    }
 
-	@Override
+	/*@Override
     public int getDamage(ItemStack stack) {
         return !stack.hasTag() ? getMaxDamage(stack) : stack.getOrCreateTag().getInt("Damage");
-    }
+    }*/
 
     @Override
     public boolean hasContainerItem(ItemStack stack) {

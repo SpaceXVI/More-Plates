@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "moreplates:red_ingot_gear",
+      "required": false
+    }
+  ]
+}

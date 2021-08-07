@@ -13,6 +13,6 @@ public class PluginPowah extends PluginHelper {
 
 	@Plugin.registry
 	public static void registry() {
-		reg(ENERGIZED_STEEL);
+		reg2(ENERGIZED_STEEL);
 	}
 }

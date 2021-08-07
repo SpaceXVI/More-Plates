@@ -24,7 +24,7 @@
   "input": {
     "count": 4,
     "base_ingredient": {
-      "tag": "bluepower:silicon_wafer"
+      "item": "bluepower:silicon_wafer"
     }
   },
   "energy": 2400

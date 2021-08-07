@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "moreplates:item/bluepower/tungsten_plate"
+    "layer0": "moreplates:item/metals/tungsten_plate"
   }
 }
