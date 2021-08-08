@@ -20,10 +20,11 @@ public class PluginBluePower extends PluginHelper {
 	public static void registry() {
 		if (!Mods.PROJECT_RED.isModPresent()) {
 			reg2(BLUE_ALLOY);
-			reg2(PURPLE_ALLOY);
 			reg2(RED_ALLOY);
-			reg2(TUNGSTEN_CARBIDE);
 			reg2(SILICON);
 		}
+
+		reg2(PURPLE_ALLOY);
+		reg2(TUNGSTEN_CARBIDE);
 	}
 }
