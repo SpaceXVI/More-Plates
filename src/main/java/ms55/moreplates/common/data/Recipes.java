@@ -10,11 +10,13 @@ import ms55.moreplates.client.config.Config;
 import ms55.moreplates.common.advancements.BooleanCondition;
 import ms55.moreplates.common.enumeration.EnumMaterials;
 import ms55.moreplates.common.util.Mods;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.data.RecipeProvider;
 import net.minecraft.data.ShapedRecipeBuilder;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.tags.ITag;
@@ -33,6 +35,28 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
 
     @Override
     protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
+		Item HAMMER = ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, "hammer"));
+
+    	ConditionalRecipe.builder()
+        .addCondition(
+        	and(
+                itemExists(MorePlates.MODID, "hammer")
+            )
+        )
+        .addRecipe(
+        	ShapedRecipeBuilder.shapedRecipe(HAMMER)
+                .patternLine("IGI")
+                .patternLine(" S ")
+                .patternLine(" S ")
+                .key('I', Items.IRON_INGOT)
+                .key('G', Items.GOLD_INGOT)
+                .key('S', MoreTags.Items.createTag("rods", "wooden"))
+                .setGroup("")
+                .addCriterion("has_item", hasItem(Items.IRON_INGOT))
+                ::build
+        )
+        .build(consumer, new ResourceLocation(MorePlates.MODID, "hammer"));
+
     	for (EnumMaterials material : EnumMaterials.values()) {
     		int limit = 3;
 
@@ -60,10 +84,10 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
                             .patternLine("H")
                             .patternLine("I")
                             .patternLine("I")
-                            .key('H', ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, "hammer")))
+                            .key('H', HAMMER)
                             .key('I', INGOT)
                             .setGroup("")
-        	                .addCriterion("has_item", hasItem(ForgeRegistries.ITEMS.getValue(new ResourceLocation(MorePlates.MODID, "hammer"))))
+        	                .addCriterion("has_item", hasItem(HAMMER))
                             ::build
                     )
                     .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_plate"));
@@ -85,25 +109,47 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
     				ITag<Item> TAG = ItemTags.createOptional(material.getTag());
     				Ingredient INGOT = Ingredient.fromTag(TAG);
 
-    				ConditionalRecipe.builder()
-                    .addCondition(
-                    	and(
-                    		new BooleanCondition(() -> Config.GENERAL.GEAR_RECIPES.get(), BooleanCondition.Type.ENABLE_GEAR.get()),
-                            itemExists(MorePlates.MODID, material.toString() + "_gear")
-                    	)
-                    )
-                    .addRecipe(
-                    	ShapedRecipeBuilder.shapedRecipe(GEAR)
-                        	.patternLine(" x ")
-                        	.patternLine("x#x")
-                        	.patternLine(" x ")
-                        	.key('x', INGOT)
-                        	.key('#', Tags.Items.INGOTS_IRON)
-        	                .setGroup("")
-        	                .addCriterion("has_item", hasItem(Items.IRON_INGOT))
-        	                ::build
-                    )
-                    .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
+    				if (material.toString().equalsIgnoreCase("wood")) {
+    					System.out.println("woodengear");
+        				ConditionalRecipe.builder()
+                        .addCondition(
+                        	and(
+                        		new BooleanCondition(() -> Config.GENERAL.GEAR_RECIPES.get(), BooleanCondition.Type.ENABLE_GEAR.get()),
+                                itemExists(MorePlates.MODID, material.toString() + "_gear")
+                        	)
+                        )
+                        .addRecipe(
+                        	ShapedRecipeBuilder.shapedRecipe(GEAR)
+                            	.patternLine(" x ")
+                            	.patternLine("x x")
+                            	.patternLine(" x ")
+                            	.key('x', INGOT)
+            	                .setGroup("")
+            	                .addCriterion("has_item", hasItem(Blocks.OAK_WOOD))
+            	                ::build
+                        )
+                        .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
+    				} else {
+        				ConditionalRecipe.builder()
+                        .addCondition(
+                        	and(
+                        		new BooleanCondition(() -> Config.GENERAL.GEAR_RECIPES.get(), BooleanCondition.Type.ENABLE_GEAR.get()),
+                                itemExists(MorePlates.MODID, material.toString() + "_gear")
+                        	)
+                        )
+                        .addRecipe(
+                        	ShapedRecipeBuilder.shapedRecipe(GEAR)
+                            	.patternLine(" x ")
+                            	.patternLine("x#x")
+                            	.patternLine(" x ")
+                            	.key('x', INGOT)
+                            	.key('#', Tags.Items.INGOTS_IRON)
+            	                .setGroup("")
+            	                .addCriterion("has_item", hasItem(Items.IRON_INGOT))
+            	                ::build
+                        )
+                        .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_gear"));
+    				}
 
     				if (Mods.IMMERSIVE_ENGINEERING.isModPresent()) {
     					MetalPressRecipeBuilder.builder(IEItems.Molds.moldGear, GEAR)
@@ -130,7 +176,7 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
                     	)
                     )
                     .addRecipe(
-                    	ShapedRecipeBuilder.shapedRecipe(STICK, 2)
+                    	ShapedRecipeBuilder.shapedRecipe(STICK, 1)
                         	.patternLine("x")
                         	.patternLine("x")
                         	.key('x', INGOT)
@@ -141,14 +187,14 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
                     .build(consumer, new ResourceLocation(MorePlates.MODID, material.toString() + "_stick"));
 
     				if (Mods.IMMERSIVE_ENGINEERING.isModPresent()) {
-    					MetalPressRecipeBuilder.builder(IEItems.Molds.moldRod, STICK)
+    					MetalPressRecipeBuilder.builder(IEItems.Molds.moldRod, new ItemStack(STICK, 2))
     						.addCondition(
     	                    	and(
     	                    		new BooleanCondition(() -> Config.GENERAL.ROD_RECIPES.get(), BooleanCondition.Type.ENABLE_STICK.get()),
     	                            itemExists(MorePlates.MODID, material.toString() + "_stick")
     	                    	)
     	                    )
-							.addInput(new IngredientWithSize(TAG, 2))
+							.addInput(new IngredientWithSize(TAG, 1))
 							.setEnergy(2400)
 						.build(consumer, new ResourceLocation(MorePlates.MODID, "metal_press/" + material.toString() + "_stick"));
     				}

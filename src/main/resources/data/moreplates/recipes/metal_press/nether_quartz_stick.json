@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:nether_quartz_stick"
+    "item": "moreplates:nether_quartz_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:gems/quartz"
-    }
+    "tag": "forge:gems/quartz"
   },
   "energy": 2400
 }

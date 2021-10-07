@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:redstone_ingot_stick"
+    "item": "moreplates:redstone_ingot_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "extendedcrafting:redstone_ingot"
-    }
+    "tag": "extendedcrafting:redstone_ingot"
   },
   "energy": 2400
 }

@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagradditions:insanium_ingot"
+            "tag": "mysticalagradditions:insanium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:insanium_stick",
-          "count": 2
+          "item": "moreplates:insanium_stick"
         }
       }
     }

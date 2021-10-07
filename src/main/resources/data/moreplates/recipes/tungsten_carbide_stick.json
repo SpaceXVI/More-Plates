@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "bluepower:tungsten_carbide"
+            "tag": "bluepower:tungsten_carbide"
           }
         },
         "result": {
-          "item": "moreplates:tungsten_carbide_stick",
-          "count": 2
+          "item": "moreplates:tungsten_carbide_stick"
         }
       }
     }

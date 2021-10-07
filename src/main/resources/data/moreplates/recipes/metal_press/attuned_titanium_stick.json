@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:attuned_titanium_stick"
+    "item": "moreplates:attuned_titanium_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "assemblylinemachines:attuned_titanium_ingot"
-    }
+    "tag": "assemblylinemachines:attuned_titanium_ingot"
   },
   "energy": 2400
 }

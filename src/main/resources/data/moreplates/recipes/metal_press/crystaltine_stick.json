@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:crystaltine_stick"
+    "item": "moreplates:crystaltine_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "extendedcrafting:crystaltine_ingot"
-    }
+    "tag": "extendedcrafting:crystaltine_ingot"
   },
   "energy": 2400
 }

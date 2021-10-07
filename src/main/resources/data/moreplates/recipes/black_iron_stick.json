@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "extendedcrafting:black_iron_ingot"
+            "tag": "extendedcrafting:black_iron_ingot"
           }
         },
         "result": {
-          "item": "moreplates:black_iron_stick",
-          "count": 2
+          "item": "moreplates:black_iron_stick"
         }
       }
     }

@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:gaia_spirit_stick"
+    "item": "moreplates:gaia_spirit_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "botania:gaia_ingot"
-    }
+    "tag": "botania:gaia_ingot"
   },
   "energy": 2400
 }

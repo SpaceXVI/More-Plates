@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:prosperity_ingot"
+            "tag": "mysticalagriculture:prosperity_ingot"
           }
         },
         "result": {
-          "item": "moreplates:prosperity_stick",
-          "count": 2
+          "item": "moreplates:prosperity_stick"
         }
       }
     }

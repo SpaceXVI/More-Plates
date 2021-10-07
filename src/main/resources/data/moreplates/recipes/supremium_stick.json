@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:supremium_ingot"
+            "tag": "mysticalagriculture:supremium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:supremium_stick",
-          "count": 2
+          "item": "moreplates:supremium_stick"
         }
       }
     }

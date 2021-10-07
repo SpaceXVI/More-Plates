@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "astralsorcery:aquamarine"
+            "tag": "astralsorcery:aquamarine"
           }
         },
         "result": {
-          "item": "moreplates:aquamarine_stick",
-          "count": 2
+          "item": "moreplates:aquamarine_stick"
         }
       }
     }

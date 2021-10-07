@@ -29,7 +29,7 @@
             "item": "moreplates:hammer"
           },
           "I": {
-            "item": "projectred-core:silicon_chip"
+            "tag": "projectred-core:silicon"
           }
         },
         "result": {

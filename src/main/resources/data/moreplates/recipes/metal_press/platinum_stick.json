@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:platinum_stick"
+    "item": "moreplates:platinum_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/platinum"
-    }
+    "tag": "forge:ingots/platinum"
   },
   "energy": 2400
 }

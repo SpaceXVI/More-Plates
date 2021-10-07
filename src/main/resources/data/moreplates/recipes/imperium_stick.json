@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:imperium_ingot"
+            "tag": "mysticalagriculture:imperium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:imperium_stick",
-          "count": 2
+          "item": "moreplates:imperium_stick"
         }
       }
     }

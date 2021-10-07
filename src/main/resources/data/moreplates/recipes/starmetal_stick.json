@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "astralsorcery:starmetal_ingot"
+            "tag": "astralsorcery:starmetal_ingot"
           }
         },
         "result": {
-          "item": "moreplates:starmetal_stick",
-          "count": 2
+          "item": "moreplates:starmetal_stick"
         }
       }
     }

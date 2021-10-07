@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:tertium_ingot"
+            "tag": "mysticalagriculture:tertium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:tertium_stick",
-          "count": 2
+          "item": "moreplates:tertium_stick"
         }
       }
     }

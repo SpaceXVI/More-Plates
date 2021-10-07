@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "projectred-core:electrotine_ingot"
+            "tag": "projectred-core:electrotine_ingot"
           }
         },
         "result": {
-          "item": "moreplates:electrotine_alloy_stick",
-          "count": 2
+          "item": "moreplates:electrotine_alloy_stick"
         }
       }
     }

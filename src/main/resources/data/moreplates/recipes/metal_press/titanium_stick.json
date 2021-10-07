@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:titanium_stick"
+    "item": "moreplates:titanium_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/titanium"
-    }
+    "tag": "forge:ingots/titanium"
   },
   "energy": 2400
 }

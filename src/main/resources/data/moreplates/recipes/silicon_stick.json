@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "bluepower:silicon_wafer"
+            "tag": "bluepower:silicon_wafer"
           }
         },
         "result": {
-          "item": "moreplates:silicon_stick",
-          "count": 2
+          "item": "moreplates:silicon_stick"
         }
       }
     }

@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "iceandfire:ghost_ingot"
+            "tag": "iceandfire:ghost_ingot"
           }
         },
         "result": {
-          "item": "moreplates:ghost_stick",
-          "count": 2
+          "item": "moreplates:ghost_stick"
         }
       }
     }

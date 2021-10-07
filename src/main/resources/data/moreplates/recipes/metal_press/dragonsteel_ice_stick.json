@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:dragonsteel_ice_stick"
+    "item": "moreplates:dragonsteel_ice_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/dragonsteel_ice"
-    }
+    "tag": "forge:ingots/dragonsteel_ice"
   },
   "energy": 2400
 }

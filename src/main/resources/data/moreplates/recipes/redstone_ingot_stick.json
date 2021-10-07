@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "extendedcrafting:redstone_ingot"
+            "tag": "extendedcrafting:redstone_ingot"
           }
         },
         "result": {
-          "item": "moreplates:redstone_ingot_stick",
-          "count": 2
+          "item": "moreplates:redstone_ingot_stick"
         }
       }
     }

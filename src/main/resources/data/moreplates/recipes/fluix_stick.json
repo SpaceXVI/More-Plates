@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "appliedenergistics2:crystals/fluix"
+            "tag": "appliedenergistics2:crystals/fluix"
           }
         },
         "result": {
-          "item": "moreplates:fluix_stick",
-          "count": 2
+          "item": "moreplates:fluix_stick"
         }
       }
     }

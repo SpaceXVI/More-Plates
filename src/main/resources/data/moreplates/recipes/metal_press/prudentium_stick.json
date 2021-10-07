@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:prudentium_stick"
+    "item": "moreplates:prudentium_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "mysticalagriculture:prudentium_ingot"
-    }
+    "tag": "mysticalagriculture:prudentium_ingot"
   },
   "energy": 2400
 }

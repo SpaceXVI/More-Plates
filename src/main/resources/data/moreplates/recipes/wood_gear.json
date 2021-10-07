@@ -21,15 +21,12 @@
         "type": "minecraft:crafting_shaped",
         "pattern": [
           " x ",
-          "x#x",
+          "x x",
           " x "
         ],
         "key": {
           "x": {
-            "tag": "forge:planks"
-          },
-          "#": {
-            "tag": "forge:ingots/iron"
+            "tag": "minecraft:planks"
           }
         },
         "result": {

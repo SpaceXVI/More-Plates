@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "minecraft:paper"
+            "tag": "minecraft:paper"
           }
         },
         "result": {
-          "item": "moreplates:paper_stick",
-          "count": 2
+          "item": "moreplates:paper_stick"
         }
       }
     }

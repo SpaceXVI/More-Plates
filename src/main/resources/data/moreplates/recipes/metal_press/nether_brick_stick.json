@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:nether_brick_stick"
+    "item": "moreplates:nether_brick_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/nether_brick"
-    }
+    "tag": "forge:ingots/nether_brick"
   },
   "energy": 2400
 }

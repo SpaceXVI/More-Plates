@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:refined_obsidian_stick"
+    "item": "moreplates:refined_obsidian_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/refined_obsidian"
-    }
+    "tag": "forge:ingots/refined_obsidian"
   },
   "energy": 2400
 }

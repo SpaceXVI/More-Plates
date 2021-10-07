@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "refinedstorage:quartz_enriched_iron"
+            "tag": "refinedstorage:quartz_enriched_iron"
           }
         },
         "result": {
-          "item": "moreplates:quartz_enriched_iron_stick",
-          "count": 2
+          "item": "moreplates:quartz_enriched_iron_stick"
         }
       }
     }

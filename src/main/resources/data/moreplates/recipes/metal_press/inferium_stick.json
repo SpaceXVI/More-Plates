@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:inferium_stick"
+    "item": "moreplates:inferium_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "mysticalagriculture:inferium_ingot"
-    }
+    "tag": "mysticalagriculture:inferium_ingot"
   },
   "energy": 2400
 }

@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "powah:steel_energized"
+            "tag": "powah:steel_energized"
           }
         },
         "result": {
-          "item": "moreplates:energized_steel_stick",
-          "count": 2
+          "item": "moreplates:energized_steel_stick"
         }
       }
     }

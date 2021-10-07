@@ -29,8 +29,7 @@
           }
         },
         "result": {
-          "item": "moreplates:nether_brick_stick",
-          "count": 2
+          "item": "moreplates:nether_brick_stick"
         }
       }
     }

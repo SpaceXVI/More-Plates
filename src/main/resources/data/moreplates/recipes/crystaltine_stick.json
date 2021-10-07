@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "extendedcrafting:crystaltine_ingot"
+            "tag": "extendedcrafting:crystaltine_ingot"
           }
         },
         "result": {
-          "item": "moreplates:crystaltine_stick",
-          "count": 2
+          "item": "moreplates:crystaltine_stick"
         }
       }
     }

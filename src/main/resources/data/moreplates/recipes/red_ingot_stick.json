@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "projectred-core:red_ingot"
+            "tag": "projectred-core:red_ingot"
           }
         },
         "result": {
-          "item": "moreplates:red_ingot_stick",
-          "count": 2
+          "item": "moreplates:red_ingot_stick"
         }
       }
     }

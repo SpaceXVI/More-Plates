@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "projectred-core:silicon_chip"
+            "tag": "projectred-core:silicon"
           }
         },
         "result": {
-          "item": "moreplates:silicon2_stick",
-          "count": 2
+          "item": "moreplates:silicon2_stick"
         }
       }
     }

@@ -29,7 +29,7 @@
             "item": "moreplates:hammer"
           },
           "I": {
-            "tag": "forge:planks"
+            "tag": "minecraft:planks"
           }
         },
         "result": {

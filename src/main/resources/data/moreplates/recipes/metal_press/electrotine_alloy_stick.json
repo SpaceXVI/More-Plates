@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:electrotine_alloy_stick"
+    "item": "moreplates:electrotine_alloy_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "projectred-core:electrotine_ingot"
-    }
+    "tag": "projectred-core:electrotine_ingot"
   },
   "energy": 2400
 }

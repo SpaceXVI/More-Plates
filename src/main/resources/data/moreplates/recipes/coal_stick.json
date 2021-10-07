@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "minecraft:coal"
+            "tag": "minecraft:coal"
           }
         },
         "result": {
-          "item": "moreplates:coal_stick",
-          "count": 2
+          "item": "moreplates:coal_stick"
         }
       }
     }

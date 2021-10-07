@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "minecraft:flint"
+            "tag": "minecraft:flint"
           }
         },
         "result": {
-          "item": "moreplates:flint_stick",
-          "count": 2
+          "item": "moreplates:flint_stick"
         }
       }
     }

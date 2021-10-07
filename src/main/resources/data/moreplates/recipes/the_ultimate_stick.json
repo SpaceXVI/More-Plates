@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "extendedcrafting:the_ultimate_ingot"
+            "tag": "extendedcrafting:the_ultimate_ingot"
           }
         },
         "result": {
-          "item": "moreplates:the_ultimate_stick",
-          "count": 2
+          "item": "moreplates:the_ultimate_stick"
         }
       }
     }

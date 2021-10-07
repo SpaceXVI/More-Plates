@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:inferium_ingot"
+            "tag": "mysticalagriculture:inferium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:inferium_stick",
-          "count": 2
+          "item": "moreplates:inferium_stick"
         }
       }
     }

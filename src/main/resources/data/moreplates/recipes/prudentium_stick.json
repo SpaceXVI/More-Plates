@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:prudentium_ingot"
+            "tag": "mysticalagriculture:prudentium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:prudentium_stick",
-          "count": 2
+          "item": "moreplates:prudentium_stick"
         }
       }
     }

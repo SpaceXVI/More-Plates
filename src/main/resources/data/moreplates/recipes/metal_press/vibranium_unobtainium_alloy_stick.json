@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:vibranium_unobtainium_alloy_stick"
+    "item": "moreplates:vibranium_unobtainium_alloy_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/unobtainium_vibranium_alloy"
-    }
+    "tag": "forge:ingots/unobtainium_vibranium_alloy"
   },
   "energy": 2400
 }

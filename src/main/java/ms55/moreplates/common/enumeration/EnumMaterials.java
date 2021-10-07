@@ -24,7 +24,7 @@ public enum EnumMaterials {
     PAPER("Paper", new ResourceLocation("paper"), false),
     PRISMARINE_CRYSTALS("Prismarine", new ResourceLocation("forge:gems/prismarine")),
     REDSTONE("Redstone", new ResourceLocation("forge:dusts/redstone")),
-    WOOD("Wooden", new ResourceLocation("forge:planks")),
+    WOOD("Wooden", new ResourceLocation("planks")),
 
     // Allthemodium
     ALLTHEMODIUM("All The Modium", new ResourceLocation("forge:ingots/allthemodium")),
@@ -126,7 +126,7 @@ public enum EnumMaterials {
     // Project Red
     ELECTROTINE_ALLOY("Electrotine", new ResourceLocation(Mods.PROJECT_RED.modid, "electrotine_ingot"), false),
     RED_INGOT("Red Alloy", new ResourceLocation(Mods.PROJECT_RED.modid, "red_ingot"), false),
-    SILICON2("Silicon", new ResourceLocation(Mods.PROJECT_RED.modid, "silicon_chip"), false),
+    SILICON2("Silicon", new ResourceLocation(Mods.PROJECT_RED.modid, "silicon"), false),
 
     // Psi
     EBONY_PSIMETAL("Ebony Psimetal", new ResourceLocation("forge:ingots/ebony_psimetal")),

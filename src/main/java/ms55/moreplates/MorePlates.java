@@ -28,7 +28,7 @@ public class MorePlates {
 
 	public static final ItemGroup ITEMGROUP = new MorePlatesItemGroup();
 
-	public static final boolean DEBUG = false; //SET TO FALSE PLEASE
+	public static final boolean DEBUG = false; //Remember to set this to false before publishing lol
 
     public MorePlates() {
         MinecraftForge.EVENT_BUS.register(this);

@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "minecraft:brick"
+            "tag": "minecraft:brick"
           }
         },
         "result": {
-          "item": "moreplates:brick_stick",
-          "count": 2
+          "item": "moreplates:brick_stick"
         }
       }
     }

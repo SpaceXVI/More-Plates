@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "astralsorcery:resonating_gem"
+            "tag": "astralsorcery:resonating_gem"
           }
         },
         "result": {
-          "item": "moreplates:resonating_gem_stick",
-          "count": 2
+          "item": "moreplates:resonating_gem_stick"
         }
       }
     }

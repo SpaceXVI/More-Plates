@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "extendedcrafting:ender_ingot"
+            "tag": "extendedcrafting:ender_ingot"
           }
         },
         "result": {
-          "item": "moreplates:ender_stick",
-          "count": 2
+          "item": "moreplates:ender_stick"
         }
       }
     }

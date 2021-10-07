@@ -29,8 +29,7 @@
           }
         },
         "result": {
-          "item": "moreplates:compressed_iron_stick",
-          "count": 2
+          "item": "moreplates:compressed_iron_stick"
         }
       }
     }

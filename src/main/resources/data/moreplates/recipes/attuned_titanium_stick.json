@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "assemblylinemachines:attuned_titanium_ingot"
+            "tag": "assemblylinemachines:attuned_titanium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:attuned_titanium_stick",
-          "count": 2
+          "item": "moreplates:attuned_titanium_stick"
         }
       }
     }

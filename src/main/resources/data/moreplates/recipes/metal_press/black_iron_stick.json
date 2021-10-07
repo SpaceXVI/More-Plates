@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:black_iron_stick"
+    "item": "moreplates:black_iron_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "item": "extendedcrafting:black_iron_ingot"
-    }
+    "tag": "extendedcrafting:black_iron_ingot"
   },
   "energy": 2400
 }

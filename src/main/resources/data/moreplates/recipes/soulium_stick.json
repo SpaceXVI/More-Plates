@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "mysticalagriculture:soulium_ingot"
+            "tag": "mysticalagriculture:soulium_ingot"
           }
         },
         "result": {
-          "item": "moreplates:soulium_stick",
-          "count": 2
+          "item": "moreplates:soulium_stick"
         }
       }
     }

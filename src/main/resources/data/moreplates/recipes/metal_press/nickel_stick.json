@@ -4,7 +4,8 @@
     "item": "immersiveengineering:mold_rod"
   },
   "result": {
-    "item": "moreplates:nickel_stick"
+    "item": "moreplates:nickel_stick",
+    "count": 2
   },
   "conditions": [
     {
@@ -22,10 +23,7 @@
     }
   ],
   "input": {
-    "count": 2,
-    "base_ingredient": {
-      "tag": "forge:ingots/nickel"
-    }
+    "tag": "forge:ingots/nickel"
   },
   "energy": 2400
 }

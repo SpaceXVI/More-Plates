@@ -25,12 +25,11 @@
         ],
         "key": {
           "x": {
-            "item": "bluepower:purple_alloy_ingot"
+            "tag": "bluepower:purple_alloy_ingot"
           }
         },
         "result": {
-          "item": "moreplates:purple_alloy_stick",
-          "count": 2
+          "item": "moreplates:purple_alloy_stick"
         }
       }
     }
