@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "extendedcrafting:the_ultimate_ingot"
+    "item": "extendedcrafting:the_ultimate_ingot"
   },
   "energy": 2400
 }

@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "iceandfire:ghost_ingot"
+    "item": "iceandfire:ghost_ingot"
   },
   "energy": 2400
 }

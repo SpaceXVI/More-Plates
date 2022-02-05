@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "extendedcrafting:crystaltine_ingot"
+    "item": "extendedcrafting:crystaltine_ingot"
   },
   "energy": 2400
 }

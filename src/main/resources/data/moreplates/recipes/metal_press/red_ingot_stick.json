@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "projectred-core:red_ingot"
+    "item": "projectred-core:red_ingot"
   },
   "energy": 2400
 }

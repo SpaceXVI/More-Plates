@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:imperium_ingot"
+    "item": "mysticalagriculture:imperium_ingot"
   },
   "energy": 2400
 }

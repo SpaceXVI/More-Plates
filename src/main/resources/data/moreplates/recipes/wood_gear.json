@@ -26,7 +26,7 @@
         ],
         "key": {
           "x": {
-            "tag": "minecraft:planks"
+            "item": "minecraft:planks"
           }
         },
         "result": {

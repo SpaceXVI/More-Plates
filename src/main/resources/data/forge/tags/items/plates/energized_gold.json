@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
     {
       "id": "moreplates:energized_gold_plate",

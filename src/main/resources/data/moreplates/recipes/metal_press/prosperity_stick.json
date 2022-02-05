@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:prosperity_ingot"
+    "item": "mysticalagriculture:prosperity_ingot"
   },
   "energy": 2400
 }

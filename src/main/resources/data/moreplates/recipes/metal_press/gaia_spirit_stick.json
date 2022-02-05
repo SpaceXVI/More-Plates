@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "botania:gaia_ingot"
+    "item": "botania:gaia_ingot"
   },
   "energy": 2400
 }

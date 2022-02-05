@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "minecraft:charcoal"
+    "item": "minecraft:charcoal"
   },
   "energy": 2400
 }

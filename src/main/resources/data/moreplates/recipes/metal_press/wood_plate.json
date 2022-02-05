@@ -22,7 +22,7 @@
     }
   ],
   "input": {
-    "tag": "minecraft:planks"
+    "item": "minecraft:planks"
   },
   "energy": 2400
 }

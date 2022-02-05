@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:supremium_ingot"
+    "item": "mysticalagriculture:supremium_ingot"
   },
   "energy": 2400
 }

@@ -22,7 +22,7 @@
     }
   ],
   "input": {
-    "tag": "projectred-core:silicon"
+    "item": "projectred-core:silicon"
   },
   "energy": 2400
 }

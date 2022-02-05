@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "extendedcrafting:enhanced_ender_ingot"
+    "item": "extendedcrafting:enhanced_ender_ingot"
   },
   "energy": 2400
 }

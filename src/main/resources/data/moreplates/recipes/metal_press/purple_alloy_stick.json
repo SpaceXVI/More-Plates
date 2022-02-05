@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "bluepower:purple_alloy_ingot"
+    "item": "bluepower:purple_alloy_ingot"
   },
   "energy": 2400
 }

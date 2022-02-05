@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 // MCVER - UN/INTEGRATE . MINORCHANGES . PATCH
-version = '7.4.2'
+version = '7.4.4'
 group = 'ms55.moreplates'
 archivesBaseName = 'moreplates-1.16.5'
 

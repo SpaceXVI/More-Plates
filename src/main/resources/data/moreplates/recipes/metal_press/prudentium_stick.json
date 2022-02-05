@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:prudentium_ingot"
+    "item": "mysticalagriculture:prudentium_ingot"
   },
   "energy": 2400
 }

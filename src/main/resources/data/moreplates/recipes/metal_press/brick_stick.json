@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "minecraft:brick"
+    "item": "minecraft:brick"
   },
   "energy": 2400
 }

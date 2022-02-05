@@ -25,7 +25,7 @@
         ],
         "key": {
           "x": {
-            "tag": "minecraft:brick"
+            "item": "minecraft:brick"
           }
         },
         "result": {

@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:inferium_ingot"
+    "item": "mysticalagriculture:inferium_ingot"
   },
   "energy": 2400
 }

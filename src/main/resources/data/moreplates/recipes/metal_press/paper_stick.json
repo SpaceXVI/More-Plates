@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "minecraft:paper"
+    "item": "minecraft:paper"
   },
   "energy": 2400
 }

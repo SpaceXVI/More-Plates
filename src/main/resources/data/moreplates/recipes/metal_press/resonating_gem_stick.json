@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "astralsorcery:resonating_gem"
+    "item": "astralsorcery:resonating_gem"
   },
   "energy": 2400
 }

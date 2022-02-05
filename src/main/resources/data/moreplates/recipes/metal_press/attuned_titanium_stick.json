@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "assemblylinemachines:attuned_titanium_ingot"
+    "item": "assemblylinemachines:attuned_titanium_ingot"
   },
   "energy": 2400
 }

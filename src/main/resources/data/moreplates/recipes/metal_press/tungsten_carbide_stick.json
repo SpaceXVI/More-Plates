@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "bluepower:tungsten_carbide"
+    "item": "bluepower:tungsten_carbide"
   },
   "energy": 2400
 }

@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "projectred-core:electrotine_ingot"
+    "item": "projectred-core:electrotine_ingot"
   },
   "energy": 2400
 }

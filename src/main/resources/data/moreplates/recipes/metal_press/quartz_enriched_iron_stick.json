@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "refinedstorage:quartz_enriched_iron"
+    "item": "refinedstorage:quartz_enriched_iron"
   },
   "energy": 2400
 }

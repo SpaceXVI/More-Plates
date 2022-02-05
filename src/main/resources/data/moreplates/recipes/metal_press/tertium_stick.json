@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:tertium_ingot"
+    "item": "mysticalagriculture:tertium_ingot"
   },
   "energy": 2400
 }

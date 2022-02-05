@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "extendedcrafting:redstone_ingot"
+    "item": "extendedcrafting:redstone_ingot"
   },
   "energy": 2400
 }

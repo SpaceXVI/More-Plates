@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "extendedcrafting:black_iron_ingot"
+    "item": "extendedcrafting:black_iron_ingot"
   },
   "energy": 2400
 }

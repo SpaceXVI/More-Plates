@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
     {
       "id": "moreplates:refined_obsidian_gear",

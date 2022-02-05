@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "minecraft:flint"
+    "item": "minecraft:flint"
   },
   "energy": 2400
 }

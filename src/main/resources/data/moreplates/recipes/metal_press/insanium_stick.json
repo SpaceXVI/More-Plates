@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagradditions:insanium_ingot"
+    "item": "mysticalagradditions:insanium_ingot"
   },
   "energy": 2400
 }

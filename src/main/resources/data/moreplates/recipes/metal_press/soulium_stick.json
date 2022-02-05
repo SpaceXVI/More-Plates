@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "mysticalagriculture:soulium_ingot"
+    "item": "mysticalagriculture:soulium_ingot"
   },
   "energy": 2400
 }

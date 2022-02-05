@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "minecraft:coal"
+    "item": "minecraft:coal"
   },
   "energy": 2400
 }

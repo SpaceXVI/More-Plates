@@ -23,7 +23,7 @@
     }
   ],
   "input": {
-    "tag": "astralsorcery:starmetal_ingot"
+    "item": "astralsorcery:starmetal_ingot"
   },
   "energy": 2400
 }

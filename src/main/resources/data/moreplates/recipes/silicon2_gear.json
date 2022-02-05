@@ -26,7 +26,7 @@
         ],
         "key": {
           "x": {
-            "tag": "projectred-core:silicon"
+            "item": "projectred-core:silicon"
           },
           "#": {
             "tag": "forge:ingots/iron"

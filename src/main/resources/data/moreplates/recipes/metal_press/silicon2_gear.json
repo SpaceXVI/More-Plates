@@ -24,7 +24,7 @@
   "input": {
     "count": 4,
     "base_ingredient": {
-      "tag": "projectred-core:silicon"
+      "item": "projectred-core:silicon"
     }
   },
   "energy": 2400
